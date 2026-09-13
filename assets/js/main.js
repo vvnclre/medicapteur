@@ -192,7 +192,7 @@
       else cell.style.opacity = "0";
     });
 
-    const palette = ["#0F62FE22", "#26E0C955", "#26E0C9AA", "#FFB020CC", "#FF6B81E0"];
+    const palette = ["#4A3B2E55", "#FFC24D55", "#FF7A29AA", "#FF4D1FCC", "#C2410CE0"];
 
     function tick() {
       let max = 0;
