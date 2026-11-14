@@ -8,6 +8,7 @@ eleventyComputed:
   title: "{{ copy.home.title | t(lang) }}"
   description: "{{ copy.home.description | t(lang) }}"
 ---
+{%- import "macros.njk" as m -%}
 {%- set C = copy.home -%}
 <section class="hero mc-on-inverse">
   <div class="hero__matrix" aria-hidden="true"></div>
@@ -100,9 +101,4 @@ eleventyComputed:
     {% for n in pages.news.items %}{% if loop.index <= 3 %}<a class="news-card" href="{{ 'news' | url(lang) }}"><time datetime="{{ n.d }}">{{ n.d | date(lang) }}</time><b>{{ n.t | t(lang) }}</b><span>{{ n.x | t(lang) | truncate(110) }}</span></a>{% endif %}{% endfor %}
   </div>
 </section>
-<section class="wrap" style="padding-top:56px;padding-bottom:64px">
-  <div class="cta-band reveal">
-    <div style="max-width:640px"><h2 class="cta-band__t">{{ C.ctaTitle | t(lang) }}</h2><p>{{ C.ctaText | t(lang) }}</p></div>
-    <a class="mc-btn mc-btn--ink mc-btn--lg" href="{{ 'request' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.cta | t(lang) }}</a>
-  </div>
-</section>
+{{ m.cta(ui, copy, lang) }}

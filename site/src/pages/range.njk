@@ -7,6 +7,7 @@ eleventyComputed:
   title: "{{ copy.range.title | t(lang) }}"
   description: "{{ copy.range.description | t(lang) }}"
 ---
+{%- import "macros.njk" as m -%}
 {%- set C = copy.range -%}
 {%- set Q = copy.request -%}
 <section class="wrap page-head">
@@ -72,12 +73,7 @@ eleventyComputed:
   </div>
 </section>
 
-<section class="wrap" style="padding-top:56px;padding-bottom:64px">
-  <div class="cta-band">
-    <div style="max-width:640px"><h2 class="cta-band__t">{{ ui.mega.helpTitle | t(lang) }}</h2><p>{{ ui.mega.helpText | t(lang) }}</p></div>
-    <a class="mc-btn mc-btn--ink mc-btn--lg" href="{{ 'request' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.cta | t(lang) }}</a>
-  </div>
-</section>
+{{ m.cta(ui, copy, lang, ui.mega.helpTitle | t(lang), ui.mega.helpText | t(lang)) }}
 
 {% include "partials/products-json.njk" %}
 <script src="/assets/js/reco.js"></script>

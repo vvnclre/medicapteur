@@ -6,11 +6,20 @@
 </section>
 {% endmacro %}
 
-{% macro cta(ui, copy, lang) %}
+{% macro cta(ui, copy, lang, title=null, text=null, site=null) %}
 <section class="wrap" style="padding-top:48px;padding-bottom:64px">
   <div class="cta-band">
-    <div style="max-width:640px"><h2 class="cta-band__t">{{ copy.home.ctaTitle | t(lang) }}</h2><p>{{ copy.home.ctaText | t(lang) }}</p></div>
-    <a class="mc-btn mc-btn--ink mc-btn--lg" href="{{ 'request' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.cta | t(lang) }}</a>
+    <div class="cta-band__main">
+      <h2 class="cta-band__t">{{ title or (copy.home.ctaTitle | t(lang)) }}</h2>
+      <p>{{ text or (copy.home.ctaText | t(lang)) }}</p>
+      <ul class="cta-band__list">{% for it in copy.home.ctaItems %}<li><b>{{ it.b | t(lang) }}</b><span>{{ it.s | t(lang) }}</span></li>{% endfor %}</ul>
+    </div>
+    <div class="cta-band__side">
+      <a class="mc-btn mc-btn--ink mc-btn--lg" href="{{ 'request' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.cta | t(lang) }}<span class="mc-cells" aria-hidden="true"><i></i><i></i><i></i></span></a>
+      <span class="cta-band__or">{{ copy.home.ctaCall | t(lang) }}</span>
+      <a class="cta-band__tel" href="tel:+33562571571">+33 5 62 571 571</a>
+    </div>
+    <div class="cta-band__print" aria-hidden="true"><div class="step" data-step="0"></div><div class="step step--r" data-step="0"></div></div>
   </div>
 </section>
 {% endmacro %}

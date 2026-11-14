@@ -47,6 +47,12 @@ export default {
     soulAlt: fr("Un pied posé sur une plateforme Medicapteurs", "A foot on a Medicapteurs platform"),
     ctaTitle: fr("Essayez-la avec vos patients.", "Try it with your own patients."),
     ctaText: fr("Démonstration de 30 minutes en visio, ou à votre cabinet selon votre région.", "A 30-minute video demo, or at your practice depending on your region."),
+    ctaItems: [
+      { b: fr("30 min", "30 min"), s: fr("de démonstration, en visio ou à votre cabinet", "of demo, by video or at your practice") },
+      { b: fr("Clé en main", "Turnkey"), s: fr("livraison, installation et formation en ligne", "delivery, installation and online training") },
+      { b: fr("Reprise", "Trade-in"), s: fr("de votre ancienne plateforme Medicapteurs", "of your old Medicapteurs platform") },
+    ],
+    ctaCall: fr("ou appelez-nous", "or call us"),
   },
 
   range: {
