@@ -1,0 +1,46 @@
+---
+pagination: { data: langs, size: 1, alias: lang }
+permalink: "{{ 'diabetes' | url(lang) }}"
+layout: layouts/base.njk
+routeKey: diabetes
+eleventyComputed:
+  title: "{{ pages.diabetes.title | t(lang) }}"
+  description: "{{ pages.diabetes.description | t(lang) }}"
+---
+{%- import "macros.njk" as m -%}
+{%- set D = pages.diabetes -%}
+<section class="wrap page-head sol-head">
+  <div class="stack" style="gap:20px">
+    <span class="mc-eyebrow">{{ D.eyebrow | t(lang) }}</span>
+    <h1 class="h1 statement page-head__statement">{{ D.h1 | t(lang) }}</h1>
+    <p class="lead">{{ D.lead | t(lang) }}</p>
+  </div>
+  <figure class="sol-head__img sol-head__img--dark"><img src="/assets/img/logiciel-diabete.jpg" alt="{{ copy.product.softwareAlt | t(lang) }}" width="1600" height="821"></figure>
+</section>
+<section class="sec sec--alt">
+  <div class="wrap benefits">{% for f in D.facts %}<div class="benefit"><b>{{ f.t | t(lang) }}</b><p>{{ f.d | t(lang) }}</p></div>{% endfor %}</div>
+</section>
+<section class="wrap sec">
+  <div class="split">
+    <div class="stack">
+      <span class="mc-eyebrow">{{ copy.solution.report | t(lang) }}</span>
+      <h2 class="h2">{{ D.report.title | t(lang) }}</h2>
+      <ul class="ticks">{% for it in D.report.items %}<li>{{ it | t(lang) }}</li>{% endfor %}</ul>
+      <p class="note">{{ D.report.since | t(lang) }}</p>
+      <div class="thresholds">{% for th in D.thresholds %}<div class="threshold"><i style="background:var(--pressure-{{ th.c }})"></i><b>{{ th.v }}</b><span>{{ th.l | t(lang) }}</span></div>{% endfor %}</div>
+      <p class="note">{{ D.thresholdNote | t(lang) }}</p>
+    </div>
+    <figure class="risk-img"><img src="/assets/img/risk-zones.jpg" alt="{{ copy.solution.riskAlt | t(lang) }}" width="573" height="1311" loading="lazy"></figure>
+  </div>
+</section>
+<section class="sec sec--alt">
+  <div class="wrap">
+    <div class="sec-h"><div><span class="mc-eyebrow">{{ ui.nav.studies | t(lang) }}</span><h2 class="h2">{{ D.studiesTitle | t(lang) }}</h2></div><a class="mc-btn mc-btn--secondary" href="{{ D.pdf.url }}" target="_blank" rel="noopener"><span class="mc-sensor"></span>{{ D.pdf.label | t(lang) }}</a></div>
+    <div class="refs">{% for r in D.studies %}<div class="ref"><span class="mc-eyebrow">{{ r.p }}</span><b>{{ r.t }}</b><span>{{ r.a }}</span></div>{% endfor %}</div>
+  </div>
+</section>
+<section class="wrap sec">
+  <span class="mc-eyebrow" style="margin-bottom:16px">{{ copy.solution.products | t(lang) }}</span>
+  {{ m.chips(D.products, products, lang) }}
+</section>
+{{ m.cta(ui, copy, lang) }}

@@ -7,32 +7,35 @@ eleventyComputed:
   title: "{{ copy.contact.title | t(lang) }}"
   description: "{{ copy.contact.description | t(lang) }}"
 ---
+{%- import "macros.njk" as m -%}
 {%- set C = copy.contact -%}
-<section class="wrap page-head">
-  <span class="mc-eyebrow">{{ C.eyebrow | t(lang) }}</span>
-  <h1 class="h1">{{ C.h1 | t(lang) }}</h1>
-  <p class="lead">{{ C.lead | t(lang) }}</p>
-  <div class="tiles">
-    {% for tl in C.tiles %}<div class="tile"><b>{{ tl.b | t(lang) }}</b><a class="tel" href="tel:{{ site[tl.tel] | replace(' ', '') }}">{{ site[tl.tel] }}</a>{% if tl.check %}<span><span class="check">{{ ui.toConfirm | t(lang) }}</span></span>{% endif %}<span>{{ tl.s | t(lang) }}</span></div>{% endfor %}
-  </div>
-</section>
-<section class="wrap" style="padding-bottom:48px">
+{{ m.head(C.eyebrow | t(lang), C.h1 | t(lang), C.lead | t(lang)) }}
+<section class="wrap" style="padding-bottom:40px">
   <div class="quote">
     <div class="quote__t"><strong>{{ C.reqTitle | t(lang) }}</strong><span>{{ C.reqText | t(lang) }}</span></div>
     <a class="mc-btn mc-btn--primary" href="{{ 'request' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.cta | t(lang) }}</a>
   </div>
 </section>
-<section id="support" class="sec sec--alt">
+<section class="wrap" style="padding-bottom:48px">
+  <span class="mc-eyebrow" style="margin-bottom:14px">{{ 'Par service' if lang == 'fr' else 'By department' }}</span>
+  <div class="tiles">
+    {% for s in C.services %}<div class="tile"><b>{{ s.b | t(lang) }}</b><a class="tel" href="tel:{{ s.tel | replace(' ', '') }}">{{ s.tel }}</a><span class="mail">{{ s.mail }}</span>{% if s.check %}<span><span class="check">{{ ui.toConfirm | t(lang) }}</span></span>{% endif %}{% if s.s %}<span>{{ s.s | t(lang) }}</span>{% endif %}</div>{% endfor %}
+  </div>
+</section>
+<section class="sec sec--alt">
   <div class="wrap">
-    <div class="sec-h"><div><span class="mc-eyebrow">Support</span><h2 class="h2">{{ C.supportTitle | t(lang) }}</h2></div><a class="mc-btn mc-btn--secondary" href="mailto:{{ site.emailSupport }}"><span class="mc-sensor"></span>{{ site.emailSupport }}</a></div>
-    <div class="tiles">{% for s in C.support %}<div class="tile" style="background:var(--surface)"><b>{{ s.b | t(lang) }}</b><span>{{ s.s | t(lang) }}</span></div>{% endfor %}</div>
+    <div class="sec-h"><div><span class="mc-eyebrow">{{ C.where | t(lang) }}</span><h2 class="h2">Balma · Sophia Antipolis</h2></div></div>
+    <div class="tiles">
+      <div class="tile" style="background:var(--surface)"><b>Medicapteurs France SAS</b><span>{{ C.hq | t(lang) }}</span><span>18 avenue Prat Gimont, 31130 Balma, France <span class="check">{{ ui.toConfirm | t(lang) }}</span></span><a class="tel" href="tel:{{ site.phoneHref }}">{{ site.phone }}</a></div>
+      <div class="tile" style="background:var(--surface)"><b>Medicapteurs Nice</b><span>{{ C.agencyName | t(lang) }}</span><span>Centre d'affaires BSS, 120 route des Macarons, 06560 Sophia Antipolis Valbonne</span><a class="tel" href="tel:+33492946823">{{ site.phonePosturo }}</a></div>
+      <div class="tile" style="background:var(--surface)"><b>Export</b><span>{{ C.abroad | t(lang) }}</span><span class="mail">{{ site.emailExport }}</span></div>
+    </div>
   </div>
 </section>
 <section class="wrap sec">
-  <div class="sec-h"><div><span class="mc-eyebrow">{{ C.where | t(lang) }}</span></div></div>
   <div class="tiles">
-    <div class="tile"><b>{{ C.hq | t(lang) }}</b><span>Medicapteurs · {{ site.address }}</span><a href="mailto:{{ site.emailSales }}">{{ site.emailSales }}</a></div>
-    <div class="tile"><b>{{ C.agencyName | t(lang) }}</b><span>{{ site.agency }}</span><a class="tel" href="tel:{{ site.phonePosturo | replace(' ', '') }}">{{ site.phonePosturo }}</a></div>
-    <div class="tile"><b>Export</b><span>{{ C.abroad | t(lang) }}</span><a href="mailto:{{ site.emailExport }}">{{ site.emailExport }}</a></div>
+    <a class="tile tile--link" href="{{ 'support' | url(lang) }}"><b>{{ C.supportTitle | t(lang) }}</b><span>{{ 'Hotline, code licence, FAQ, configuration PC' if lang == 'fr' else 'Hotline, licence code, FAQ, PC requirements' }}</span></a>
+    <a class="tile tile--link" href="{{ 'distribution' | url(lang) }}"><b>{{ ui.nav.distribution | t(lang) }}</b><span>{{ pages.distribution.abroadText | t(lang) }}</span></a>
+    <a class="tile tile--link" href="{{ 'downloads' | url(lang) }}"><b>{{ ui.nav.downloads | t(lang) }}</b><span>{{ pages.downloads.lead | t(lang) }}</span></a>
   </div>
 </section>

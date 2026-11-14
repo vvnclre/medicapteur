@@ -1,0 +1,28 @@
+---
+pagination: { data: langs, size: 1, alias: lang }
+permalink: "{{ 'downloads' | url(lang) }}"
+layout: layouts/base.njk
+routeKey: downloads
+eleventyComputed:
+  title: "{{ pages.downloads.title | t(lang) }}"
+  description: "{{ pages.downloads.description | t(lang) }}"
+---
+{%- import "macros.njk" as m -%}
+{%- set D = pages.downloads -%}
+{%- set PDF = "https://www.medicapteurs.com/wp-content/uploads/sites/1772/2023/01/" -%}
+{{ m.head(D.eyebrow | t(lang), D.h1 | t(lang), D.lead | t(lang), true) }}
+<section class="wrap" style="padding-bottom:64px">
+  {% for g in D.groups %}
+  <div class="dl-group">
+    <h2 class="h3">{{ g.t | t(lang) }}</h2>
+    <div class="docs">
+      {% if g.studies %}{% for r in pages.studies.table %}
+        <a class="doc" href="{{ PDF }}{{ r.files[0] }}" target="_blank" rel="noopener"><span class="doc__ic" aria-hidden="true">PDF</span><span>{{ r.p | t(lang) }} · {{ 'travaux publiés' if lang == 'fr' else 'published works' }}</span></a>
+        <a class="doc" href="{{ PDF }}{{ r.files[1] }}" target="_blank" rel="noopener"><span class="doc__ic" aria-hidden="true">PDF</span><span>{{ r.p | t(lang) }} · {{ 'mémoires et thèses' if lang == 'fr' else 'theses' }}</span></a>
+      {% endfor %}{% else %}{% for it in g.items %}
+        <a class="doc" href="{{ it[1] }}" target="_blank" rel="noopener"><span class="doc__ic" aria-hidden="true">PDF</span><span>{{ it[0] | t(lang) }}</span></a>
+      {% endfor %}{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</section>

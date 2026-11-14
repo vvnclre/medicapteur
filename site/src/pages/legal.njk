@@ -1,0 +1,15 @@
+---
+pagination: { data: langs, size: 1, alias: lang }
+permalink: "{{ 'legal' | url(lang) }}"
+layout: layouts/base.njk
+routeKey: legal
+eleventyComputed:
+  title: "{{ pages.legal.title | t(lang) }}"
+  description: "{{ pages.legal.description | t(lang) }}"
+---
+{%- import "macros.njk" as m -%}
+{%- set L = pages.legal -%}
+{{ m.head(L.eyebrow | t(lang), L.h1 | t(lang), null, true) }}
+<section class="wrap" style="padding-bottom:64px">
+  <div class="prose">{% for s in L.sections %}<h2{% if s.id %} id="{{ s.id }}"{% endif %}>{{ s.t | t(lang) }}</h2><p>{{ s.d | t(lang) }}</p>{% endfor %}</div>
+</section>

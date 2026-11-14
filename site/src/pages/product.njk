@@ -9,10 +9,10 @@ eleventyComputed:
   title: "{{ item.product.name }} · {{ item.product.tagline | t(item.lang) | replace(r/\\.$/, '') }}"
   description: "{{ item.product.summary | t(item.lang) }}"
 ---
+{%- import "macros.njk" as m -%}
 {%- set p = item.product -%}
 {%- set C = copy.product -%}
 {%- set F = ui.families[p.family] -%}
-{%- set withSoftware = p.slug in ['t-plate', 't-plate-40', 't-plate-30th', 'xt-plate', 'win-pod-wifi', 'fusyo', 'win-track', 'powertrack'] -%}
 <section class="wrap p-hero">
   <div class="p-hero__copy">
     <nav class="crumbs" aria-label="{{ 'Fil d’Ariane' if lang == 'fr' else 'Breadcrumb' }}"><a href="{{ 'range' | url(lang) }}">{{ ui.nav.products | t(lang) }}</a><span aria-hidden="true">/</span><a href="{{ 'range' | url(lang) }}#{{ p.family }}">{{ F.eyebrow | t(lang) }}</a><span aria-hidden="true">/</span><span aria-current="page">{{ p.name }}</span></nav>
@@ -34,49 +34,85 @@ eleventyComputed:
 
 <nav class="subnav" aria-label="{{ 'Sections de la fiche' if lang == 'fr' else 'Page sections' }}">
   <div class="wrap">
-    {% if p.features.length %}<a href="#points-forts">{{ C.why | t(lang) }}</a>{% endif %}
-    {% if withSoftware %}<a href="#logiciel">{{ C.software | t(lang) }}</a>{% endif %}
+    <a href="#description">{{ C.overview | t(lang) }}</a>
+    {% if p.software %}<a href="#logiciel">{{ C.software | t(lang) }}</a>{% endif %}
     <a href="#fiche">{{ C.specs | t(lang) }}</a>
+    {% if p.docs.length %}<a href="#documents">{{ C.docs | t(lang) }}</a>{% endif %}
     {% if p.studies %}<a href="#etudes">{{ C.studies | t(lang) }}</a>{% endif %}
     <a href="#devis">{{ C.quote | t(lang) }}</a>
   </div>
 </nav>
 
-{% if p.features.length %}
-<section id="points-forts" class="wrap sec">
-  <div class="sec-h"><div><span class="mc-eyebrow">{{ p.name }}</span><h2 class="h2">{{ C.why | t(lang) }}</h2></div></div>
-  <div class="feats">
-    {% for f in p.features %}<div class="li dots"><span class="mc-sensor" aria-hidden="true"></span><span>{{ f | t(lang) }}</span></div>{% endfor %}
+<section id="description" class="wrap sec">
+  <div class="p-desc">
+    <div class="prose">
+      <span class="mc-eyebrow">{{ C.overview | t(lang) }}</span>
+      {% for para in p.intro %}<p>{{ para | t(lang) }}</p>{% endfor %}
+    </div>
+    {% if p.gallery and p.gallery.length %}<figure class="p-desc__img"><img src="/assets/img/{{ p.gallery[0] }}" alt="{{ p.name }}" loading="lazy"></figure>{% endif %}
   </div>
+  {% if p.highlights.length %}
+  <div class="hl-grid">
+    {% for g in p.highlights %}
+    <div class="hl">
+      <h2 class="h3">{{ g.title | t(lang) }}</h2>
+      <ul class="ticks">{% for it in g.items %}<li>{{ it | t(lang) }}</li>{% endfor %}</ul>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
 </section>
-{% endif %}
 
-{% if withSoftware %}
+{% if p.software %}
 <section id="logiciel" class="dark-sec mc-on-inverse sec">
-  <div class="wrap" style="display:grid;gap:32px">
-    <div class="sec-h" style="margin:0"><div><span class="mc-eyebrow">{{ C.softwareEyebrow | t(lang) }}</span><h2 class="h2">{{ C.softwareTitle | t(lang) }}</h2></div><p style="max-width:46ch;font-size:15px;line-height:22px;opacity:.8">{{ C.softwareNote | t(lang) }}</p></div>
-    <img class="shot" src="/assets/img/logiciel-diabete.jpg" alt="{{ C.softwareAlt | t(lang) }}" width="1600" height="821" loading="lazy">
+  <div class="wrap soft">
+    <div class="soft__head">
+      <span class="mc-eyebrow">{{ C.softwareEyebrow | t(lang) }}</span>
+      <h2 class="h2">{{ p.software.name | t(lang) }}</h2>
+      {% for para in p.software.intro %}<p class="soft__intro">{{ para | t(lang) }}</p>{% endfor %}
+      <p class="soft__note">{{ C.softwareNote | t(lang) }}</p>
+    </div>
+    {% if p.software.groups.length %}
+    <div class="soft__groups">
+      {% for g in p.software.groups %}
+      <div><span class="mc-product soft__k"><span class="mc-sensor"></span>{{ g.title | t(lang) }}</span><ul class="ticks ticks--dark">{% for it in g.items %}<li>{{ it | t(lang) }}</li>{% endfor %}</ul></div>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if p.family != 'mobile' and p.slug not in ['w-inshoe', 'w-inshoe-easy', 'win-posturo'] %}<img class="shot" src="/assets/img/soft-dynamiq.jpg" alt="{{ C.softwareAlt | t(lang) }}" width="1400" height="788" loading="lazy">{% endif %}
   </div>
 </section>
 {% endif %}
 
 <section id="fiche" class="wrap sec">
-  <div class="specs">
-    <div class="stack">
-      <span class="mc-eyebrow">{{ C.specs | t(lang) }}</span>
-      <h2 class="h2">{{ C.specTitle | t(lang) }}</h2>
-      {% if p.specs.length %}<p class="muted" style="font-size:15px;line-height:22px">{{ C.specIntro | t(lang) }}</p>{% endif %}
-    </div>
-    {% if p.specs.length %}
+  <div class="sec-h"><div><span class="mc-eyebrow">{{ C.specs | t(lang) }}</span><h2 class="h2">{{ C.specTitle | t(lang) }} {{ p.name }}</h2></div></div>
+  {% if p.specs.length %}
+  <div class="spec-grid">
+    {% for g in p.specs %}
     <table class="mc-spec">
-      <caption class="sr">{{ C.specTitle | t(lang) }} {{ p.name }}</caption>
-      {% for s in p.specs %}<tr><th scope="row">{{ s.label | t(lang) }}</th><td>{{ s.value | t(lang) | loc(lang) }}{% if s.check %} <span class="check">{{ ui.toConfirm | t(lang) }}</span>{% endif %}</td></tr>{% endfor %}
+      <caption>{{ g.title | t(lang) }}</caption>
+      {% for s in g.rows %}<tr><th scope="row">{{ s.label | t(lang) }}</th><td>{{ s.value | t(lang) | loc(lang) }}{% if s.check %} <span class="check">{{ ui.toConfirm | t(lang) }}</span>{% endif %}</td></tr>{% endfor %}
     </table>
-    {% else %}
-    <div class="missing"><strong>{{ C.missingTitle | t(lang) }}</strong><span class="muted" style="font-size:15px;line-height:22px">{{ C.missingText | t(lang) }}</span></div>
+    {% endfor %}
+    {% if p.options.length %}
+    <div class="opts-box">
+      <span class="mc-eyebrow">{{ C.options | t(lang) }}</span>
+      <ul class="ticks">{% for o in p.options %}<li>{{ o | t(lang) }}</li>{% endfor %}</ul>
+    </div>
     {% endif %}
   </div>
+  <p class="note" style="margin-top:16px">{{ C.specIntro | t(lang) }}</p>
+  {% else %}
+  <div class="missing"><strong>{{ C.missingTitle | t(lang) }}</strong><span>{{ C.missingText | t(lang) }}</span></div>
+  {% endif %}
 </section>
+
+{% if p.docs.length %}
+<section id="documents" class="wrap" style="padding-bottom:48px">
+  <span class="mc-eyebrow" style="margin-bottom:14px">{{ C.docs | t(lang) }}</span>
+  <div class="docs">{% for d in p.docs %}<a class="doc" href="{{ d.url }}" target="_blank" rel="noopener"><span class="doc__ic" aria-hidden="true">PDF</span><span>{{ d.label | t(lang) }}</span></a>{% endfor %}</div>
+</section>
+{% endif %}
 
 <section id="devis" class="wrap" style="padding-bottom:56px">
   <div class="quote">
@@ -92,7 +128,7 @@ eleventyComputed:
 {% if p.studies %}
 <section id="etudes" class="sec sec--alt">
   <div class="wrap"><div class="sec-h" style="margin:0;align-items:center">
-    <div><span class="mc-eyebrow">{{ C.studies | t(lang) }}</span><p class="h2"><span style="font-family:var(--font-mono);font-weight:500">{{ p.studies }}</span> {{ C.studiesText | t(lang) }}</p></div>
+    <div><span class="mc-eyebrow">{{ C.studies | t(lang) }}</span><p class="h2"><span class="num">{{ p.studies }}</span> {{ C.studiesText | t(lang) }}</p></div>
     <a class="mc-btn mc-btn--secondary" href="{{ 'studies' | url(lang) }}"><span class="mc-sensor"></span>{{ C.studiesLink | t(lang) }}</a>
   </div></div>
 </section>
@@ -101,10 +137,6 @@ eleventyComputed:
 {% if p.related.length %}
 <section class="wrap sec">
   <span class="mc-eyebrow" style="margin-bottom:16px">{{ C.related | t(lang) }}</span>
-  <div class="related">
-    {% for s in p.related %}{% set r = products | bySlug(s) %}
-    <a class="mc-plate" href="{{ 'product' | url(lang, r.slug) }}"><img src="/assets/img/{{ r.image }}" alt="" width="72" height="54" loading="lazy"><span><span class="mc-product" style="font-size:13px">{{ r.name }}</span><small>{{ r.short | t(lang) }}</small></span></a>
-    {% endfor %}
-  </div>
+  {{ m.chips(p.related, products, lang) }}
 </section>
 {% endif %}

@@ -1,0 +1,46 @@
+---
+pagination: { data: langs, size: 1, alias: lang }
+permalink: "{{ 'guide' | url(lang) }}"
+layout: layouts/base.njk
+routeKey: guide
+eleventyComputed:
+  title: "{{ pages.guide.title | t(lang) }}"
+  description: "{{ pages.guide.description | t(lang) }}"
+---
+{%- import "macros.njk" as m -%}
+{%- set G = pages.guide -%}
+{{ m.head(G.eyebrow | t(lang), G.h1 | t(lang), G.lead | t(lang), true) }}
+<nav class="wrap toc" aria-label="{{ 'Sommaire' if lang == 'fr' else 'Contents' }}">{% for t in G.toc %}<a href="#g{{ loop.index }}"><span class="num">{{ loop.index }}</span>{{ t | t(lang) }}</a>{% endfor %}</nav>
+
+<section id="g1" class="sec sec--alt">
+  <div class="wrap">
+    <div class="sec-h"><div><span class="mc-eyebrow">1</span><h2 class="h2">{{ G.toc[0] | t(lang) }}</h2></div></div>
+    <div class="exams">{% for e in G.exams %}<article class="exam"><img src="/assets/img/{{ e.img }}" alt="" loading="lazy"><h3 class="h3">{{ e.t | t(lang) }}</h3><p>{{ e.d | t(lang) }}</p></article>{% endfor %}</div>
+  </div>
+</section>
+
+<section id="g2" class="wrap sec">
+  <div class="sec-h"><div><span class="mc-eyebrow">2</span><h2 class="h2">{{ G.toc[1] | t(lang) }}</h2></div></div>
+  <div class="defs">{% for d in G.datasheet %}<div class="def"><b>{{ d.t | t(lang) }}</b><p>{{ d.d | t(lang) }}</p></div>{% endfor %}</div>
+  <div class="scale-demo" aria-hidden="true"><div class="mc-pressure__bar"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="scale-demo__lbl"><span>{{ 'faible pression' if lang == 'fr' else 'low pressure' }}</span><span>{{ 'forte pression' if lang == 'fr' else 'high pressure' }}</span></div></div>
+</section>
+
+<section id="g3" class="dark-sec mc-on-inverse sec">
+  <div class="wrap">
+    <div class="sec-h"><div><span class="mc-eyebrow">3</span><h2 class="h2">{{ G.toc[2] | t(lang) }}</h2></div></div>
+    <div class="indices">{% for i in G.indices %}<div class="index"><span class="mc-product soft__k"><span class="mc-sensor"></span>{{ i.t | t(lang) }}</span><small>{{ i.src | t(lang) }}</small><p>{{ i.d | t(lang) }}</p>{% if i.scale %}<div class="fpi">{% for s in i.scale %}<span style="--c:var(--pressure-{{ s[1] }})">{{ s[0] }}</span>{% endfor %}</div>{% endif %}</div>{% endfor %}</div>
+  </div>
+</section>
+
+<section id="g4" class="wrap sec">
+  <div class="sec-h"><div><span class="mc-eyebrow">4</span><h2 class="h2">{{ G.toc[3] | t(lang) }}</h2></div></div>
+  <div class="split">
+    <div class="stack"><p class="body-text">{{ G.budget | t(lang) }}</p><p class="note">{{ G.warranty | t(lang) }}</p></div>
+    <table class="mc-spec">
+      <caption>{{ 'Prix catalogue indicatifs (2024-2026)' if lang == 'fr' else 'Indicative list prices (2024-2026)' }}</caption>
+      {% for pr in G.prices %}{% set pp = products | bySlug(pr[0]) %}<tr><th scope="row"><a href="{{ 'product' | url(lang, pp.slug) }}">{{ pp.name }}</a></th><td>{{ pr[1] if lang == 'fr' else pr[2] }}</td></tr>{% endfor %}
+      <tr><th scope="row">T-Plate, T-Plate 30th, Fusyo, Win-Posturo, PowerTrack</th><td>{{ copy.product.onRequest | t(lang) }}</td></tr>
+    </table>
+  </div>
+</section>
+{{ m.cta(ui, copy, lang) }}

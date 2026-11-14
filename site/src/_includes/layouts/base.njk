@@ -1,6 +1,10 @@
 {%- set other = "en" if lang == "fr" else "fr" -%}
-{%- set selfUrl = routeKey | url(lang, slug) -%}
-{%- set otherUrl = routeKey | url(other, slug) -%}
+{%- set slugFr = slugs.fr if slugs else slug -%}
+{%- set slugEn = slugs.en if slugs else slug -%}
+{%- set frUrl = routeKey | url("fr", slugFr) -%}
+{%- set enUrl = routeKey | url("en", slugEn) -%}
+{%- set selfUrl = frUrl if lang == "fr" else enUrl -%}
+{%- set otherUrl = enUrl if lang == "fr" else frUrl -%}
 <!doctype html>
 <html lang="{{ lang }}">
 <head>
@@ -11,7 +15,7 @@
 <link rel="canonical" href="{{ site.url }}{{ selfUrl }}">
 <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ selfUrl }}">
 <link rel="alternate" hreflang="{{ other }}" href="{{ site.url }}{{ otherUrl }}">
-<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ routeKey | url('fr', slug) }}">
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ frUrl }}">
 <meta property="og:title" content="{{ title | t(lang) | safe }}">
 <meta property="og:description" content="{{ description | t(lang) | safe }}">
 <meta property="og:locale" content="{{ 'fr_FR' if lang == 'fr' else 'en_GB' }}">

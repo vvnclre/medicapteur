@@ -30,33 +30,43 @@
     window.addEventListener("scroll", onScroll, { passive: true });
   }
 
-  /* Menu Produits */
-  var megaBtn = document.querySelector("[data-mega-btn]");
-  var mega = document.querySelector("[data-mega]");
-  function setMega(open) {
-    if (!mega) return;
-    mega.hidden = !open;
-    megaBtn.setAttribute("aria-expanded", open ? "true" : "false");
-    hdr.classList.toggle("is-open", open);
+  /* Menus déroulants : Produits (grand menu), Solutions, Entreprise */
+  var btns = Array.prototype.slice.call(document.querySelectorAll("[data-menu-btn]"));
+  var canHover = window.matchMedia("(hover: hover)").matches;
+  var closeTimer;
+  function panelOf(btn) { return document.getElementById(btn.getAttribute("aria-controls")); }
+  function setMenu(btn, open) {
+    var panel = panelOf(btn);
+    if (!panel) return;
+    panel.hidden = !open;
+    btn.setAttribute("aria-expanded", open ? "true" : "false");
   }
-  if (megaBtn && mega) {
-    megaBtn.addEventListener("click", function () { setMega(mega.hidden); });
-    var closeTimer;
-    var canHover = window.matchMedia("(hover: hover)").matches;
-    if (canHover) {
-      megaBtn.addEventListener("mouseenter", function () { clearTimeout(closeTimer); setMega(true); });
-      [megaBtn, mega].forEach(function (el) {
-        el.addEventListener("mouseleave", function () { closeTimer = setTimeout(function () { setMega(false); }, 220); });
+  function closeAll(except) {
+    btns.forEach(function (b) { if (b !== except) setMenu(b, false); });
+    if (hdr) hdr.classList.toggle("is-open", btns.some(function (b) { return b.getAttribute("aria-expanded") === "true"; }));
+  }
+  btns.forEach(function (btn) {
+    var panel = panelOf(btn);
+    btn.addEventListener("click", function () {
+      var open = btn.getAttribute("aria-expanded") !== "true";
+      closeAll(btn); setMenu(btn, open); closeAll(btn);
+    });
+    if (canHover && panel) {
+      btn.addEventListener("mouseenter", function () { clearTimeout(closeTimer); closeAll(btn); setMenu(btn, true); closeAll(btn); });
+      [btn, panel].forEach(function (el) {
+        el.addEventListener("mouseleave", function () { closeTimer = setTimeout(function () { setMenu(btn, false); closeAll(null); }, 220); });
         el.addEventListener("mouseenter", function () { clearTimeout(closeTimer); });
       });
     }
-    document.addEventListener("click", function (e) {
-      if (!mega.hidden && !mega.contains(e.target) && !megaBtn.contains(e.target)) setMega(false);
-    });
-    document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape" && !mega.hidden) { setMega(false); megaBtn.focus(); }
-    });
-  }
+  });
+  document.addEventListener("click", function (e) {
+    if (!e.target.closest("[data-menu-btn], [data-menu]")) closeAll(null);
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "Escape") return;
+    var openBtn = btns.filter(function (b) { return b.getAttribute("aria-expanded") === "true"; })[0];
+    if (openBtn) { closeAll(null); setMenu(openBtn, false); closeAll(null); openBtn.focus(); }
+  });
 
   /* Menu mobile */
   var drawerBtn = document.querySelector("[data-drawer-btn]");

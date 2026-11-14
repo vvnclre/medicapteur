@@ -1,0 +1,37 @@
+---
+pagination: { data: solutionPages, size: 1, alias: item }
+permalink: "{{ 'solution' | url(item.lang, item.s.slug[item.lang]) }}"
+layout: layouts/base.njk
+routeKey: solution
+eleventyComputed:
+  lang: "{{ item.lang }}"
+  title: "{{ item.s.title | t(item.lang) }}"
+  description: "{{ item.s.description | t(item.lang) }}"
+---
+{%- import "macros.njk" as m -%}
+{%- set S = item.s -%}
+<section class="wrap page-head sol-head">
+  <div class="stack" style="gap:20px">
+    <span class="mc-eyebrow">{{ ui.nav.solutions | t(lang) }}</span>
+    <h1 class="h1">{{ S.name | t(lang) }}</h1>
+    <p class="lead">{{ S.lead | t(lang) }}</p>
+    {% for para in S.body %}<p class="body-text">{{ para | t(lang) }}</p>{% endfor %}
+    {% if S.contact %}<p class="body-text">{{ S.contact | t(lang) }}</p>{% endif %}
+  </div>
+  <figure class="sol-head__img"><img src="/assets/img/{{ S.image }}" alt="" width="1400" height="760"></figure>
+</section>
+<section class="sec sec--alt">
+  <div class="wrap">
+    <div class="sec-h"><div><span class="mc-eyebrow">{{ copy.solution.what | t(lang) }}</span><h2 class="h2">{{ copy.solution.benefits | t(lang) }}</h2></div></div>
+    <div class="benefits">{% for b in S.benefits %}<div class="benefit"><b>{{ b.t | t(lang) }}</b><p>{{ b.d | t(lang) }}</p></div>{% endfor %}</div>
+    <p class="audience"><strong>{{ copy.solution.for | t(lang) }}</strong> {{ S.audience | t(lang) }}</p>
+  </div>
+</section>
+{% if S.gallery %}
+<section class="wrap" style="padding-top:40px"><div class="gal">{% for g in S.gallery %}<img src="/assets/img/{{ g }}" alt="" loading="lazy">{% endfor %}</div></section>
+{% endif %}
+<section class="wrap sec">
+  <span class="mc-eyebrow" style="margin-bottom:16px">{{ copy.solution.products | t(lang) }}</span>
+  {{ m.chips(S.products, products, lang) }}
+</section>
+{{ m.cta(ui, copy, lang) }}

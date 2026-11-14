@@ -72,6 +72,14 @@ eleventyComputed:
   </div>
 </section>
 
+<section class="wrap reveal" style="padding-bottom:64px">
+  <div class="sec-h"><h2 class="h2">{{ ui.nav.solutions | t(lang) }}</h2><a class="mc-btn mc-btn--link" href="{{ 'guide' | url(lang) }}">{{ ui.nav.guide | t(lang) }}</a></div>
+  <div class="sol-row">
+    {% for s in pages.solutions %}<a class="mc-plate mc-plate--white sol-card" href="{{ 'solution' | url(lang, s.slug | t(lang)) }}"><img src="/assets/img/{{ s.image }}" alt="" loading="lazy"><span class="mc-product"><span class="mc-sensor"></span>{{ s.name | t(lang) }}</span><p>{{ s.lead | t(lang) }}</p></a>{% endfor %}
+    <a class="mc-plate mc-plate--white sol-card" href="{{ 'diabetes' | url(lang) }}"><img src="/assets/img/logiciel-diabete.jpg" alt="" loading="lazy"><span class="mc-product"><span class="mc-sensor"></span>{{ ui.nav.diabetes | t(lang) }}</span><p>{{ pages.diabetes.lead | t(lang) | truncate(130) }}</p></a>
+  </div>
+</section>
+
 <section style="background:var(--surface)" class="sec">
   <div class="wrap soul reveal">
     <div class="stack" style="gap:22px">
@@ -85,6 +93,13 @@ eleventyComputed:
   </div>
 </section>
 
+
+<section class="wrap reveal" style="padding-top:56px">
+  <div class="sec-h"><h2 class="h2">{{ ui.nav.news | t(lang) }}</h2><a class="mc-btn mc-btn--link" href="{{ 'news' | url(lang) }}">{{ 'Toutes les actualités' if lang == 'fr' else 'All news' }}</a></div>
+  <div class="news-row">
+    {% for n in pages.news.items %}{% if loop.index <= 3 %}<a class="news-card" href="{{ 'news' | url(lang) }}"><time datetime="{{ n.d }}">{{ n.d | date(lang) }}</time><b>{{ n.t | t(lang) }}</b><span>{{ n.x | t(lang) | truncate(110) }}</span></a>{% endif %}{% endfor %}
+  </div>
+</section>
 <section class="wrap" style="padding-top:56px;padding-bottom:64px">
   <div class="cta-band reveal">
     <div style="max-width:640px"><h2 class="cta-band__t">{{ C.ctaTitle | t(lang) }}</h2><p>{{ C.ctaText | t(lang) }}</p></div>

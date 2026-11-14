@@ -1,0 +1,18 @@
+---
+pagination: { data: langs, size: 1, alias: lang }
+permalink: "{{ 'engineering' | url(lang) }}"
+layout: layouts/base.njk
+routeKey: engineering
+eleventyComputed:
+  title: "{{ pages.engineering.title | t(lang) }}"
+  description: "{{ pages.engineering.description | t(lang) }}"
+---
+{%- import "macros.njk" as m -%}
+{%- set E = pages.engineering -%}
+{{ m.head(E.eyebrow | t(lang), E.h1 | t(lang), E.lead | t(lang), true) }}
+<section class="wrap" style="padding-bottom:40px">
+  <div class="cases">{% for c in E.cases %}<article class="case"><img src="/assets/img/{{ c.img }}" alt="" loading="lazy"><div><h2 class="h3">{{ c.t | t(lang) }}</h2><p>{{ c.d | t(lang) }}</p></div></article>{% endfor %}</div>
+</section>
+<section class="wrap" style="padding-bottom:64px">
+  <div class="quote"><div class="quote__t"><strong>{{ E.outro | t(lang) }}</strong></div><a class="mc-btn mc-btn--primary" href="{{ 'contact' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.nav.contact | t(lang) }}</a></div>
+</section>

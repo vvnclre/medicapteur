@@ -19,12 +19,12 @@ export default {
     tickScroll: fr("Faites défiler", "Scroll down"),
     tickB: fr("Né au <b>LAAS-CNRS</b> · fabriqué à <b>Balma</b>", "Born at <b>LAAS-CNRS</b> · made in <b>Balma</b>"),
     doors: [
-      { k: fr("Produits", "Products"), t: fr("Je cherche une plateforme", "I am looking for a platform"), p: fr("Onze produits, de la plateforme de poche à la piste de laboratoire, comparés côte à côte.", "Eleven products, from the pocket platform to the laboratory walkway, compared side by side."), go: fr("Comparer la gamme", "Compare the range"), route: "range" },
+      { k: fr("Produits", "Products"), t: fr("Je cherche une plateforme", "I am looking for a platform"), p: fr("Treize produits, de la plateforme de poche à la piste de laboratoire, comparés côte à côte.", "Thirteen products, from the pocket platform to the laboratory walkway, compared side by side."), go: fr("Comparer la gamme", "Compare the range"), route: "range" },
       { k: fr("Guide", "Guide"), t: fr("Je découvre la baropodométrie", "I am new to baropodometry"), p: fr("Ce que mesure une plateforme, les mots des fiches techniques, le budget à prévoir.", "What a platform measures, the words used in data sheets, the budget to plan."), go: fr("Lire le guide · 5 min", "Read the guide · 5 min"), route: "guide" },
       { k: fr("Devis", "Quote"), t: fr("Je veux un devis ou une démo", "I want a quote or a demo"), p: fr("Quatre questions, et votre demande arrive complète chez le bon interlocuteur.", "Four questions, and your request reaches the right person, complete."), go: fr("Préparer ma demande · 2 min", "Prepare my request · 2 min"), route: "request" },
     ],
     rangeTitle: fr("La gamme", "The range"),
-    rangeAll: fr("Voir les 11 produits", "See all 11 products"),
+    rangeAll: fr("Voir les 13 produits", "See all 13 products"),
     rangePick: [
       { slug: "minipod", d: fr("Mobile, sur smartphone", "Mobile, on a smartphone") },
       { slug: "t-plate-40", d: fr("Le cabinet au quotidien", "Everyday clinical use") },
@@ -82,6 +82,9 @@ export default {
 
   product: {
     why: fr("Points forts", "Highlights"),
+    overview: fr("Présentation", "Overview"),
+    options: fr("Options", "Options"),
+    docs: fr("Documentations", "Documentation"),
     software: fr("Logiciel", "Software"),
     specs: fr("Caractéristiques", "Specifications"),
     studies: fr("Études", "Studies"),
@@ -90,10 +93,10 @@ export default {
     seeSpecs: fr("Voir la fiche technique", "See the specifications"),
     softwareEyebrow: fr("Logiciel Medicapteurs", "Medicapteurs software"),
     softwareTitle: fr("Ce que vous voyez à l'écran.", "What you see on screen."),
-    softwareNote: fr("Logiciel installé sur votre PC Windows : les données patients restent chez vous. Application Podocapture pour tablette et smartphone.", "Software installed on your Windows PC: patient data stays with you. Podocapture app for tablet and smartphone."),
+    softwareNote: fr("Les logiciels Medicapteurs fonctionnent hors ligne : les données patients restent chez vous, sans serveur cloud.", "Medicapteurs software works offline: patient data stays with you, with no cloud server."),
     softwareAlt: fr("Logiciel Medicapteurs : rapport pied diabétique avec niveau de risque et zones à décharger", "Medicapteurs software: diabetic foot report with risk level and areas to offload"),
     specTitle: fr("Fiche technique", "Data sheet"),
-    specIntro: fr("Les valeurs signalées « à confirmer » diffèrent entre deux documents Medicapteurs et sont en cours de validation.", "Values marked “to be confirmed” differ between two Medicapteurs documents and are being validated."),
+    specIntro: fr("Caractéristiques issues des fiches et brochures Medicapteurs. Les valeurs signalées « à confirmer » diffèrent entre deux documents et sont en cours de validation.", "Specifications from Medicapteurs data sheets and brochures. Values marked “to be confirmed” differ between two documents and are being validated."),
     missingTitle: fr("Fiche technique en préparation", "Data sheet in preparation"),
     missingText: fr("Les caractéristiques détaillées de ce produit seront publiées prochainement. Demandez la fiche : nous vous l'envoyons dès sa sortie.", "Detailed specifications for this product will be published soon. Ask for the data sheet and we will send it as soon as it is out."),
     quoteTitle: fr("Demander un devis pour", "Request a quote for"),
@@ -102,6 +105,15 @@ export default {
     studiesText: fr("travaux scientifiques publiés avec ce produit", "scientific papers published with this product"),
     studiesLink: fr("Voir les études", "See the studies"),
     related: fr("Souvent comparé avec", "Often compared with"),
+  },
+
+  solution: {
+    what: fr("Ce que vous en faites", "What it does for you"),
+    benefits: fr("Ce que la mesure vous apporte", "What measurement brings you"),
+    for: fr("Pour qui :", "Who it is for:"),
+    products: fr("Les plateformes adaptées", "Suitable platforms"),
+    report: fr("Logiciel", "Software"),
+    riskAlt: fr("Empreinte avec les zones à risque d'ulcération signalées par le logiciel", "Footprint with the ulceration risk zones flagged by the software"),
   },
 
   request: {
@@ -160,6 +172,14 @@ export default {
       { b: fr("Commercial et export", "Sales and export"), tel: "phoneSales", s: fr("Devis, démonstrations, distribution", "Quotes, demos, distribution"), check: true },
       { b: fr("Posturologie et rééducation", "Posturology and rehabilitation"), tel: "phonePosturo", s: fr("Agence de Sophia Antipolis", "Sophia Antipolis office") },
       { b: fr("Service après-vente", "After-sales service"), tel: "phoneSupport", s: "sav@medicapteurs.fr" },
+    ],
+    services: [
+      { b: fr("Standard, administratif et comptable", "Switchboard, administration and accounts"), tel: "+33 5 62 571 571", mail: "compta@medicapteurs.fr" },
+      { b: fr("Service commercial", "Sales department"), tel: "+33 5 62 577 460", mail: "commercial@medicapteurs.fr", check: true, s: fr("Devis, démonstrations", "Quotes, demos") },
+      { b: fr("Export et distribution", "Export and distribution"), tel: "+33 5 62 577 460", mail: "export@medicapteurs.fr", check: true },
+      { b: fr("Posturologie et rééducation", "Posturology and rehabilitation"), tel: "+33 4 92 946 823", mail: "commercialposturo@medicapteurs.fr", s: fr("Agence de Sophia Antipolis", "Sophia Antipolis office") },
+      { b: fr("Service après-vente, hotline", "After-sales, hotline"), tel: "+33 5 62 577 459", mail: "sav@medicapteurs.fr", s: fr("Lundi au vendredi, 9 h – 12 h, 14 h – 17 h", "Monday to Friday, 9 am – 12 pm, 2 pm – 5 pm") },
+      { b: fr("Production", "Production"), tel: "+33 5 62 577 454", mail: "production@medicapteurs.fr" },
     ],
     reqTitle: fr("Un devis ou une démonstration ?", "A quote or a demo?"),
     reqText: fr("Quatre questions et votre demande arrive complète chez le bon interlocuteur.", "Four questions and your request reaches the right person, complete."),

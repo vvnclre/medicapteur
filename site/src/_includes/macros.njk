@@ -1,0 +1,24 @@
+{% macro head(eyebrow, h1, lead, statement=false) %}
+<section class="wrap page-head">
+  <span class="mc-eyebrow">{{ eyebrow }}</span>
+  <h1 class="h1{% if statement %} statement page-head__statement{% endif %}">{{ h1 }}</h1>
+  {% if lead %}<p class="lead">{{ lead }}</p>{% endif %}
+</section>
+{% endmacro %}
+
+{% macro cta(ui, copy, lang) %}
+<section class="wrap" style="padding-top:48px;padding-bottom:64px">
+  <div class="cta-band">
+    <div style="max-width:640px"><h2 class="cta-band__t">{{ copy.home.ctaTitle | t(lang) }}</h2><p>{{ copy.home.ctaText | t(lang) }}</p></div>
+    <a class="mc-btn mc-btn--ink mc-btn--lg" href="{{ 'request' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.cta | t(lang) }}</a>
+  </div>
+</section>
+{% endmacro %}
+
+{% macro chips(slugs, products, lang) %}
+<div class="related">
+  {% for s in slugs %}{% set r = products | bySlug(s) %}
+  <a class="mc-plate" href="{{ 'product' | url(lang, r.slug) }}"><img src="/assets/img/{{ r.image }}" alt="" width="72" height="54" loading="lazy"><span><span class="mc-product" style="font-size:13px">{{ r.name }}</span><small>{{ r.short | t(lang) }}</small></span></a>
+  {% endfor %}
+</div>
+{% endmacro %}

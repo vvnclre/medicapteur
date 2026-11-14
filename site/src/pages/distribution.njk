@@ -1,0 +1,24 @@
+---
+pagination: { data: langs, size: 1, alias: lang }
+permalink: "{{ 'distribution' | url(lang) }}"
+layout: layouts/base.njk
+routeKey: distribution
+eleventyComputed:
+  title: "{{ pages.distribution.title | t(lang) }}"
+  description: "{{ pages.distribution.description | t(lang) }}"
+---
+{%- import "macros.njk" as m -%}
+{%- set D = pages.distribution -%}
+{{ m.head(D.eyebrow | t(lang), D.h1 | t(lang), D.lead | t(lang), true) }}
+<section class="wrap" style="padding-bottom:40px"><figure class="map map--wide"><img src="/assets/img/distri-carte.jpg" alt="{{ 'Carte des pays où Medicapteurs est présent' if lang == 'fr' else 'Map of the countries where Medicapteurs is present' }}" width="1400" height="738"></figure></section>
+<section class="wrap" style="padding-bottom:56px">
+  <div class="tiles">
+    <div class="tile"><b>{{ D.france | t(lang) }}</b><span>{{ 'Service commercial, Balma' if lang == 'fr' else 'Sales department, Balma' }}</span><a class="tel" href="tel:+33562577460">{{ site.phoneSales }}</a><span>{{ site.emailSales }}</span></div>
+    <div class="tile"><b>{{ 'Posturologie, Sophia Antipolis' if lang == 'fr' else 'Posturology, Sophia Antipolis' }}</b><a class="tel" href="tel:+33492946823">{{ site.phonePosturo }}</a><span>commercial-nice@medicapteurs.fr</span></div>
+    <div class="tile"><b>{{ D.abroad | t(lang) }}</b><span>{{ D.abroadText | t(lang) }}</span><span>{{ site.emailExport }}</span></div>
+  </div>
+  <p class="note" style="margin-top:16px">{{ D.known | t(lang) }}</p>
+</section>
+<section class="wrap" style="padding-bottom:64px">
+  <div class="quote"><div class="quote__t"><strong>{{ D.become | t(lang) }}</strong><span>{{ site.phoneSales }} · {{ site.emailExport }}</span></div><a class="mc-btn mc-btn--primary" href="{{ 'contact' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.nav.contact | t(lang) }}</a></div>
+</section>

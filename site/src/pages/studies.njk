@@ -1,0 +1,41 @@
+---
+pagination: { data: langs, size: 1, alias: lang }
+permalink: "{{ 'studies' | url(lang) }}"
+layout: layouts/base.njk
+routeKey: studies
+eleventyComputed:
+  title: "{{ pages.studies.title | t(lang) }}"
+  description: "{{ pages.studies.description | t(lang) }}"
+---
+{%- import "macros.njk" as m -%}
+{%- set S = pages.studies -%}
+{%- set PDF = "https://www.medicapteurs.com/wp-content/uploads/sites/1772/2023/01/" -%}
+{{ m.head(S.eyebrow | t(lang), S.h1 | t(lang), S.lead | t(lang), true) }}
+<section class="wrap" style="padding-bottom:48px">
+  <div class="cmp-wrap">
+    <table class="cmp cmp--studies">
+      <thead><tr><th scope="col">{{ 'Plateforme' if lang == 'fr' else 'Platform' }}</th><th scope="col">{{ 'Travaux publiés' if lang == 'fr' else 'Published works' }}</th><th scope="col">{{ 'Période' if lang == 'fr' else 'Period' }}</th><th scope="col">{{ 'Mémoires et travaux non publiés' if lang == 'fr' else 'Theses and unpublished works' }}</th><th scope="col">{{ 'Listes complètes' if lang == 'fr' else 'Full lists' }}</th></tr></thead>
+      <tbody>
+        {% for r in S.table %}<tr>
+          <th scope="row">{% if r.slug %}<a class="mc-product" href="{{ 'product' | url(lang, r.slug) }}"><span class="mc-sensor"></span>{{ r.p | t(lang) }}</a>{% else %}<span class="mc-product"><span class="mc-sensor"></span>{{ r.p | t(lang) }}</span>{% endif %}</th>
+          <td><span class="bar" style="--w:{{ (r.pub / 96 * 100) | round }}%"></span>{{ r.pub }}</td><td>{{ r.years }}</td><td>{{ r.other }}</td>
+          <td class="txt"><a href="{{ PDF }}{{ r.files[0] }}" target="_blank" rel="noopener">{{ 'Publiés' if lang == 'fr' else 'Published' }}</a> · <a href="{{ PDF }}{{ r.files[1] }}" target="_blank" rel="noopener">{{ 'Mémoires' if lang == 'fr' else 'Theses' }}</a></td>
+        </tr>{% endfor %}
+        <tr class="total"><th scope="row">Total</th><td>≈ {{ S.totals.pub }}</td><td>1983 – 2022</td><td>≈ {{ S.totals.other }}</td><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="genres">{% for g in S.genres %}<div class="mc-measure"><b>{{ g[1] }}</b><em>{{ g[0] | t(lang) }}</em></div>{% endfor %}</div>
+  <p class="note">{{ S.note | t(lang) }} {{ S.langs | t(lang) }}</p>
+</section>
+<section class="sec sec--alt">
+  <div class="wrap">
+    <div class="sec-h"><div><span class="mc-eyebrow">{{ 'Sélection' if lang == 'fr' else 'Selection' }}</span><h2 class="h2">{{ 'Quelques travaux' if lang == 'fr' else 'Selected works' }}</h2></div><a class="mc-btn mc-btn--secondary" href="{{ 'diabetes' | url(lang) }}"><span class="mc-sensor"></span>{{ 'Études pied diabétique' if lang == 'fr' else 'Diabetic foot studies' }}</a></div>
+    <div class="refs">{% for r in S.selection %}<div class="ref"><span class="mc-eyebrow">{{ r.p }}</span><b>{{ r.t }}</b><span>{{ r.a }}</span></div>{% endfor %}</div>
+  </div>
+</section>
+<section class="wrap sec">
+  <span class="mc-eyebrow" style="margin-bottom:16px">{{ 'Ils travaillent avec Medicapteurs' if lang == 'fr' else 'They work with Medicapteurs' }}</span>
+  <div class="tiles">{% for p in S.people %}<div class="tile"><b>{{ p.n }}</b><span>{{ p.r | t(lang) }}</span></div>{% endfor %}</div>
+</section>
+{{ m.cta(ui, copy, lang) }}

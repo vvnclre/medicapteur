@@ -1,0 +1,22 @@
+---
+pagination: { data: langs, size: 1, alias: lang }
+permalink: "{{ 'news' | url(lang) }}"
+layout: layouts/base.njk
+routeKey: news
+eleventyComputed:
+  title: "{{ pages.news.title | t(lang) }}"
+  description: "{{ pages.news.description | t(lang) }}"
+---
+{%- import "macros.njk" as m -%}
+{%- set N = pages.news -%}
+{{ m.head(N.eyebrow | t(lang), N.h1 | t(lang), N.lead | t(lang), true) }}
+<section class="wrap" style="padding-bottom:56px">
+  <ol class="news">{% for n in N.items %}
+    <li class="news__it">
+      <time datetime="{{ n.d }}">{{ n.d | date(lang) }}</time>
+      <div class="news__body"><span class="mc-eyebrow">{{ n.k | t(lang) }}</span><h2 class="h3">{{ n.t | t(lang) }}</h2><p>{{ n.x | t(lang) }}</p>{% if n.p %}<a class="mc-btn mc-btn--link" href="{{ 'product' | url(lang, n.p) }}">{{ (products | bySlug(n.p)).name }}</a>{% endif %}</div>
+      {% if n.img %}<img class="news__img" src="/assets/img/{{ n.img }}" alt="" loading="lazy">{% endif %}
+    </li>{% endfor %}
+  </ol>
+</section>
+{{ m.cta(ui, copy, lang) }}

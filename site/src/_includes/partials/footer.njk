@@ -12,24 +12,27 @@
         <a href="{{ 'range' | url(lang) }}#labo">{{ ui.footer.walkways | t(lang) }}</a>
         <a href="{{ 'range' | url(lang) }}#posture">{{ ui.footer.posturology | t(lang) }}</a>
         <a href="{{ 'product' | url(lang, 'w-inshoe') }}">{{ ui.footer.inshoe | t(lang) }}</a>
+        <a href="{{ 'software' | url(lang) }}">{{ ui.nav.software | t(lang) }}</a>
         <a href="{{ 'range' | url(lang) }}#comparateur">{{ ui.footer.comparator | t(lang) }}</a>
       </div>
       <div class="ftr__col">
         <span class="ftr__k">{{ ui.footer.solutions | t(lang) }}</span>
+        {% for s in pages.solutions %}<a href="{{ 'solution' | url(lang, s.slug | t(lang)) }}">{{ s.name | t(lang) }}</a>{% endfor %}
         <a href="{{ 'diabetes' | url(lang) }}">{{ ui.nav.diabetes | t(lang) }}</a>
-        <a href="{{ 'range' | url(lang) }}#cabinet">{{ ui.footer.podiatry | t(lang) }}</a>
-        <a href="{{ 'studies' | url(lang) }}">{{ ui.footer.research | t(lang) }}</a>
-        <a href="{{ 'range' | url(lang) }}#labo">{{ ui.footer.sport | t(lang) }}</a>
+        <a href="{{ 'engineering' | url(lang) }}">{{ ui.nav.engineering | t(lang) }}</a>
       </div>
       <div class="ftr__col">
         <span class="ftr__k">{{ ui.footer.resources | t(lang) }}</span>
         <a href="{{ 'guide' | url(lang) }}">{{ ui.nav.guide | t(lang) }}</a>
         <a href="{{ 'studies' | url(lang) }}">{{ ui.nav.studies | t(lang) }}</a>
-        <a href="{{ 'contact' | url(lang) }}#support">{{ ui.footer.support | t(lang) }}</a>
+        <a href="{{ 'downloads' | url(lang) }}">{{ ui.nav.downloads | t(lang) }}</a>
+        <a href="{{ 'support' | url(lang) }}">{{ ui.footer.support | t(lang) }}</a>
+        <a href="{{ 'news' | url(lang) }}">{{ ui.nav.news | t(lang) }}</a>
       </div>
       <div class="ftr__col">
         <span class="ftr__k">{{ ui.footer.company | t(lang) }}</span>
         <a href="{{ 'company' | url(lang) }}">{{ ui.footer.story | t(lang) }}</a>
+        <a href="{{ 'distribution' | url(lang) }}">{{ ui.nav.distribution | t(lang) }}</a>
         <a href="{{ 'contact' | url(lang) }}">{{ ui.nav.contact | t(lang) }}</a>
         <a href="{{ 'request' | url(lang) }}">{{ ui.cta | t(lang) }}</a>
         <span class="ftr__muted">Balma · Sophia Antipolis</span>

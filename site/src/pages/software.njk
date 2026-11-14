@@ -1,0 +1,31 @@
+---
+pagination: { data: langs, size: 1, alias: lang }
+permalink: "{{ 'software' | url(lang) }}"
+layout: layouts/base.njk
+routeKey: software
+eleventyComputed:
+  title: "{{ pages.software.title | t(lang) }}"
+  description: "{{ pages.software.description | t(lang) }}"
+---
+{%- import "macros.njk" as m -%}
+{%- set S = pages.software -%}
+{{ m.head(S.eyebrow | t(lang), S.h1 | t(lang), S.lead | t(lang), true) }}
+<section class="wrap" style="padding-bottom:48px">
+  <div class="softs">{% for it in S.items %}
+    <article class="softcard">
+      <img src="/assets/img/{{ it.img }}" alt="" loading="lazy">
+      <div class="stack" style="gap:10px"><span class="mc-product"><span class="mc-sensor"></span>{{ it.name }}</span><p>{{ it.d | t(lang) }}</p><small>{{ 'Avec' if lang == 'fr' else 'With' }} {{ it.for }}</small></div>
+    </article>{% endfor %}
+  </div>
+  <p class="offline">{{ S.offline | t(lang) }}</p>
+</section>
+<section class="sec sec--alt" id="configuration">
+  <div class="wrap">
+    <div class="sec-h"><div><span class="mc-eyebrow">PC</span><h2 class="h2">{{ S.pc.title | t(lang) }}</h2></div><a class="mc-btn mc-btn--secondary" href="{{ S.pc.pdf }}" target="_blank" rel="noopener"><span class="mc-sensor"></span>PDF</a></div>
+    <div class="cmp-wrap"><table class="cmp cmp--pc"><thead><tr><td></td><th scope="col">{{ 'Minimum' }}</th><th scope="col">{{ 'Conseillé' if lang == 'fr' else 'Recommended' }}</th></tr></thead><tbody>
+      {% for r in S.pc.rows %}<tr><th scope="row">{{ r[0] | t(lang) }}</th><td class="txt">{{ r[1] | t(lang) }}</td><td class="txt">{{ r[2] | t(lang) }}</td></tr>{% endfor %}
+    </tbody></table></div>
+    <p class="note" style="margin-top:14px">{{ S.pc.notes | t(lang) }}</p>
+  </div>
+</section>
+{{ m.cta(ui, copy, lang) }}

@@ -1,5 +1,6 @@
 /* Medicapteurs — generated from tokens.json */
-:root, [data-theme="light"] {
+:root, [data-theme="light"], [data-theme="dark"] {
+  color-scheme: light;
   --orange: #f29519;
   --on-orange: #16181b;
   --orange-text: #9c5200;
@@ -27,34 +28,7 @@
   --pressure-6: #d7262e;
   --shadow-raised: 0 1px 2px rgba(22,24,27,0.08), 0 8px 24px rgba(22,24,27,0.08);
 }
-[data-theme="dark"] {
-  --orange: #f29519;
-  --on-orange: #16181b;
-  --orange-text: #f6a843;
-  --orange-soft: #3a2510;
-  --black-logo: #000000;
-  --surface: #121315;
-  --surface-alt: #1b1c1f;
-  --surface-sunken: #25272a;
-  --surface-inverse: #f1efeb;
-  --ink: #f1efeb;
-  --ink-muted: #a9a49c;
-  --ink-inverse: #16181b;
-  --line: #34363a;
-  --line-strong: #76726b;
-  --focus: #f6a843;
-  --success: #5cc98b;
-  --warning: #f2c14e;
-  --danger: #ff8a80;
-  --info: #86b2f0;
-  --pressure-1: #4a63d6;
-  --pressure-2: #3aa6e6;
-  --pressure-3: #3ccb8e;
-  --pressure-4: #ecdb3b;
-  --pressure-5: var(--orange);
-  --pressure-6: #ef4b4f;
-  --shadow-raised: 0 1px 2px rgba(0,0,0,0.5), 0 8px 24px rgba(0,0,0,0.4);
-}
+/* Le site a une seule apparence (claire, avec ses sections sombres dessinées) : pas de thème sombre automatique. */
 :root {
   --space-1: 4px;
   --space-2: 8px;

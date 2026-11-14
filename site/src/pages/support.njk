@@ -1,0 +1,31 @@
+---
+pagination: { data: langs, size: 1, alias: lang }
+permalink: "{{ 'support' | url(lang) }}"
+layout: layouts/base.njk
+routeKey: support
+eleventyComputed:
+  title: "{{ pages.support.title | t(lang) }}"
+  description: "{{ pages.support.description | t(lang) }}"
+---
+{%- import "macros.njk" as m -%}
+{%- set S = pages.support -%}
+{{ m.head(S.eyebrow | t(lang), S.h1 | t(lang), S.lead | t(lang), true) }}
+<section class="wrap" style="padding-bottom:48px">
+  <div class="hotline">
+    <div class="stack" style="gap:8px"><span class="mc-eyebrow">{{ S.hotline.t | t(lang) }}</span><a class="hotline__tel" href="tel:+33562577459">{{ site.phoneSupport }}</a><span>{{ S.hotline.hours | t(lang) }} <span class="check">{{ S.hotline.check | t(lang) }}</span></span><span class="muted">{{ S.hotline.need | t(lang) }}</span></div>
+    <div class="stack" style="gap:8px"><span class="mc-eyebrow">E-mail</span><span class="hotline__mail">{{ site.emailSupport }}</span><span class="muted">{{ 'Service après-vente, Balma' if lang == 'fr' else 'After-sales department, Balma' }}</span></div>
+  </div>
+  <div class="tiles" style="margin-top:20px">
+    {% for b in [S.licence, S.remote, S.manuals] %}<div class="tile"><b>{{ b.t | t(lang) }}</b><span>{{ b.d | t(lang) }}</span></div>{% endfor %}
+    <a class="tile tile--link" href="{{ 'software' | url(lang) }}#configuration"><b>{{ 'Configuration PC' if lang == 'fr' else 'PC requirements' }}</b><span>Windows 8.1, 10, 11 · {{ "8 Go / 16 Go" if lang == "fr" else "8 GB / 16 GB" }}</span></a>
+  </div>
+</section>
+<section class="sec sec--alt">
+  <div class="wrap">
+    <div class="sec-h"><div><span class="mc-eyebrow">FAQ</span><h2 class="h2">{{ 'Questions fréquentes' if lang == 'fr' else 'Frequently asked questions' }}</h2></div></div>
+    <div class="faq">{% for f in S.faq %}<details{% if loop.first %} open{% endif %}><summary>{{ f.q | t(lang) }}</summary><p>{{ f.a | t(lang) }}</p></details>{% endfor %}</div>
+  </div>
+</section>
+<section class="wrap sec">
+  <div class="quote"><div class="quote__t"><strong>{{ ui.nav.downloads | t(lang) }}</strong><span>{{ pages.downloads.lead | t(lang) }}</span></div><a class="mc-btn mc-btn--secondary" href="{{ 'downloads' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.nav.downloads | t(lang) }}</a></div>
+</section>

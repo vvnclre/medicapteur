@@ -36,6 +36,10 @@ export default function (eleventyConfig) {
     return value.replace(/(\d),(\d)/g, "$1.$2").replace(/(\d) (\d{3})(?!\d)/g, "$1,$2");
   });
 
+  // Date lisible : 2026-03-10 -> « 10 mars 2026 » / « 10 March 2026 »
+  eleventyConfig.addFilter("date", (iso, lang) =>
+    new Intl.DateTimeFormat(lang === "en" ? "en-GB" : "fr-FR", { day: "numeric", month: "long", year: "numeric" }).format(new Date(iso + "T12:00:00")));
+
   eleventyConfig.addFilter("byFamily", (products, family) => products.filter((p) => p.family === family));
   eleventyConfig.addFilter("bySlug", (products, slug) => products.find((p) => p.slug === slug));
 

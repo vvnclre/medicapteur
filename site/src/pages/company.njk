@@ -4,10 +4,11 @@ permalink: "{{ 'company' | url(lang) }}"
 layout: layouts/base.njk
 routeKey: company
 eleventyComputed:
-  title: "{{ copy.company.title | t(lang) }}"
-  description: "{{ copy.company.description | t(lang) }}"
+  title: "{{ pages.company.title | t(lang) }}"
+  description: "{{ pages.company.description | t(lang) }}"
 ---
-{%- set C = copy.prep.company -%}
+{%- import "macros.njk" as m -%}
+{%- set C = pages.company -%}
 <section class="wrap page-head">
   <span class="mc-eyebrow">{{ C.eyebrow | t(lang) }}</span>
   <div class="soul">
@@ -15,17 +16,47 @@ eleventyComputed:
       <h1 class="statement soul__title">{{ C.h1 | t(lang) }}</h1>
       <p class="soul__text">{{ C.lead | t(lang) }}</p>
     </div>
-    <div class="soul__img"><img src="/assets/img/hero-plateforme.jpg" alt="{{ copy.home.soulAlt | t(lang) }}" width="1600" height="1052"></div>
+    <div class="soul__img"><img src="/assets/img/histo1.jpg" alt="{{ 'Pieds posés sur une plateforme Medicapteurs' if lang == 'fr' else 'Feet on a Medicapteurs platform' }}" width="600" height="402"></div>
   </div>
 </section>
 <section class="sec sec--alt">
-  <div class="wrap tiles">
-    {% for pt in C.points %}<div class="mc-measure"><b style="font-size:30px;line-height:36px">{{ pt.b }}</b><em>{{ pt.s | t(lang) }}</em></div>{% endfor %}
+  <div class="wrap">
+    <div class="figures">{% for f in C.figures %}<div class="mc-measure"><b>{{ f.b | loc(lang) }}</b><em>{{ f.s | t(lang) }}</em></div>{% endfor %}</div>
+    <p class="note" style="margin-top:16px">{{ C.figuresNote | t(lang) }}</p>
   </div>
 </section>
-<section class="wrap" style="padding-top:56px;padding-bottom:64px">
-  <div class="cta-band">
-    <div style="max-width:640px"><h2 class="cta-band__t">{{ copy.home.ctaTitle | t(lang) }}</h2><p>{{ copy.home.ctaText | t(lang) }}</p></div>
-    <a class="mc-btn mc-btn--ink mc-btn--lg" href="{{ 'request' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.cta | t(lang) }}</a>
+<section class="wrap sec">
+  <div class="benefits benefits--2">{% for s in C.sections %}<div class="benefit"><b>{{ s.t | t(lang) }}</b><p>{{ s.d | t(lang) }}</p>{% if s.check %}<span class="check">{{ s.check | t(lang) }}</span>{% endif %}</div>{% endfor %}</div>
+</section>
+<section class="dark-sec mc-on-inverse sec">
+  <div class="wrap">
+    <div class="sec-h"><div><span class="mc-eyebrow">{{ 'Repères' if lang == 'fr' else 'Milestones' }}</span><h2 class="h2">{{ '40 ans de capteurs' if lang == 'fr' else '40 years of sensors' }}</h2></div></div>
+    <ol class="timeline">{% for e in C.timeline %}<li><b>{{ e.y }}</b><span>{{ e.d | t(lang) }}</span></li>{% endfor %}</ol>
   </div>
 </section>
+<section class="wrap sec">
+  <div class="split">
+    <div class="stack">
+      <span class="mc-eyebrow">{{ 'Dans le monde' if lang == 'fr' else 'Worldwide' }}</span>
+      <h2 class="h2">{{ 'Utilisateurs dans le monde' if lang == 'fr' else 'Users around the world' }}</h2>
+      <p class="body-text">{{ C.clients | t(lang) }}</p>
+      <a class="mc-btn mc-btn--link" href="{{ 'distribution' | url(lang) }}" style="align-self:flex-start">{{ ui.nav.distribution | t(lang) }}</a>
+    </div>
+    <figure class="map"><img src="/assets/img/carte-clients.jpg" alt="{{ 'Carte des pays équipés' if lang == 'fr' else 'Map of equipped countries' }}" width="991" height="388" loading="lazy"></figure>
+  </div>
+</section>
+<section class="sec sec--alt">
+  <div class="wrap">
+    <div class="sec-h"><div><span class="mc-eyebrow">{{ 'Équipe' if lang == 'fr' else 'Team' }}</span><h2 class="h2">{{ 'Qui vous répond' if lang == 'fr' else 'Who answers you' }}</h2></div></div>
+    <div class="tiles team-tiles">{% for p in C.team %}<div class="tile" style="background:var(--surface)"><b>{{ p.n }}</b><span>{{ p.r | t(lang) }}</span></div>{% endfor %}</div>
+    <p class="note" style="margin-top:14px">{{ C.teamNote | t(lang) }}</p>
+  </div>
+</section>
+<section class="wrap sec">
+  <div class="tiles">
+    <a class="mc-plate" href="{{ 'engineering' | url(lang) }}"><span class="mc-product"><span class="mc-sensor"></span>{{ ui.nav.engineering | t(lang) }}</span><p>{{ pages.engineering.lead | t(lang) | truncate(120) }}</p></a>
+    <a class="mc-plate" href="{{ 'news' | url(lang) }}"><span class="mc-product"><span class="mc-sensor"></span>{{ ui.nav.news | t(lang) }}</span><p>{{ pages.news.items[0].t | t(lang) }}</p></a>
+    <a class="mc-plate" href="{{ 'studies' | url(lang) }}"><span class="mc-product"><span class="mc-sensor"></span>{{ ui.nav.studies | t(lang) }}</span><p>{{ pages.studies.h1 | t(lang) }}</p></a>
+  </div>
+</section>
+{{ m.cta(ui, copy, lang) }}
