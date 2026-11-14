@@ -694,3 +694,5 @@ a.mc-product:hover { color: var(--orange-text); }
   .cta-band__side { flex-basis: 100%; min-width: 0; padding: 20px; align-items: stretch; }
   .cta-band__side .mc-btn { justify-content: center; white-space: normal; padding-left: 16px; padding-right: 16px; }
 }
+/* Encadré « Vous hésitez » du menu Produits : à la hauteur de son contenu */
+.mega__help { align-self: start; }

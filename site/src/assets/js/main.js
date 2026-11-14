@@ -48,11 +48,13 @@
   btns.forEach(function (btn) {
     var panel = panelOf(btn);
     btn.addEventListener("click", function () {
+      // Un menu qui vient de s'ouvrir au survol reste ouvert quand on clique dessus
+      if (btn.getAttribute("aria-expanded") === "true" && Date.now() - (btn._hoverAt || 0) < 600) return;
       var open = btn.getAttribute("aria-expanded") !== "true";
       closeAll(btn); setMenu(btn, open); closeAll(btn);
     });
     if (canHover && panel) {
-      btn.addEventListener("mouseenter", function () { clearTimeout(closeTimer); closeAll(btn); setMenu(btn, true); closeAll(btn); });
+      btn.addEventListener("mouseenter", function () { clearTimeout(closeTimer); if (btn.getAttribute("aria-expanded") !== "true") btn._hoverAt = Date.now(); closeAll(btn); setMenu(btn, true); closeAll(btn); });
       [btn, panel].forEach(function (el) {
         el.addEventListener("mouseleave", function () { closeTimer = setTimeout(function () { setMenu(btn, false); closeAll(null); }, 220); });
         el.addEventListener("mouseenter", function () { clearTimeout(closeTimer); });
