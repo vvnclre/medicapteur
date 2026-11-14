@@ -1,0 +1,31 @@
+---
+pagination: { data: langs, size: 1, alias: lang }
+permalink: "{{ 'company' | url(lang) }}"
+layout: layouts/base.njk
+routeKey: company
+eleventyComputed:
+  title: "{{ copy.company.title | t(lang) }}"
+  description: "{{ copy.company.description | t(lang) }}"
+---
+{%- set C = copy.prep.company -%}
+<section class="wrap page-head">
+  <span class="mc-eyebrow">{{ C.eyebrow | t(lang) }}</span>
+  <div class="soul">
+    <div class="stack" style="gap:22px">
+      <h1 class="statement soul__title">{{ C.h1 | t(lang) }}</h1>
+      <p class="soul__text">{{ C.lead | t(lang) }}</p>
+    </div>
+    <div class="soul__img"><img src="/assets/img/hero-plateforme.jpg" alt="{{ copy.home.soulAlt | t(lang) }}" width="1600" height="1052"></div>
+  </div>
+</section>
+<section class="sec sec--alt">
+  <div class="wrap tiles">
+    {% for pt in C.points %}<div class="mc-measure"><b style="font-size:30px;line-height:36px">{{ pt.b }}</b><em>{{ pt.s | t(lang) }}</em></div>{% endfor %}
+  </div>
+</section>
+<section class="wrap" style="padding-top:56px;padding-bottom:64px">
+  <div class="cta-band">
+    <div style="max-width:640px"><h2 class="cta-band__t">{{ copy.home.ctaTitle | t(lang) }}</h2><p>{{ copy.home.ctaText | t(lang) }}</p></div>
+    <a class="mc-btn mc-btn--ink mc-btn--lg" href="{{ 'request' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.cta | t(lang) }}</a>
+  </div>
+</section>

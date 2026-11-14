@@ -1,0 +1,93 @@
+---
+pagination: { data: langs, size: 1, alias: lang }
+permalink: "/{{ lang }}/"
+layout: layouts/base.njk
+routeKey: home
+headerTone: dark
+eleventyComputed:
+  title: "{{ copy.home.title | t(lang) }}"
+  description: "{{ copy.home.description | t(lang) }}"
+---
+{%- set C = copy.home -%}
+<section class="hero mc-on-inverse">
+  <div class="hero__matrix" aria-hidden="true"></div>
+  <div class="hero__frame" aria-hidden="true"></div>
+  <div class="hero__stage" aria-hidden="true">
+    <svg class="dial" viewBox="0 0 620 620" focusable="false">
+      <path d="{{ dial.minor }}" stroke="rgba(241,239,235,.08)" stroke-width="1"/>
+      <path d="{{ dial.major }}" stroke="rgba(241,239,235,.22)" stroke-width="2"/>
+      <circle cx="310" cy="310" r="226" fill="none" stroke="rgba(241,239,235,.07)"/>
+      <path d="{{ dial.arc }}" fill="none" stroke="#f29519" stroke-width="5" stroke-linecap="round"/>
+    </svg>
+    <div class="walkway">
+      <div class="walkway__track"></div>
+      <span class="walkway__label">WIN-TRACK</span>
+      <div class="step" style="left:73px;top:590px" data-step="0"></div>
+      <div class="step step--r" style="left:177px;top:432px" data-step="0.6"></div>
+      <div class="step" style="left:73px;top:274px" data-step="1.2"></div>
+      <div class="step step--r" style="left:177px;top:116px" data-step="1.8"></div>
+    </div>
+  </div>
+  <div class="hero__copy">
+    <h1 class="hero__title">{{ C.titleA | t(lang) }}<br><span>{{ C.titleB | t(lang) }}</span></h1>
+    <p class="hero__sub">{{ C.sub | t(lang) }}</p>
+    <div class="hero__actions">
+      <a class="mc-btn mc-btn--primary mc-btn--lg" href="{{ 'request' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.findPlatform | t(lang) }}<span class="mc-cells" aria-hidden="true"><i></i><i></i><i></i></span></a>
+      <a class="mc-btn mc-btn--link" href="{{ 'range' | url(lang) }}">{{ C.seeRange | t(lang) }}</a>
+    </div>
+  </div>
+  <div class="hero__ticker">
+    <span>{{ C.tickA | t(lang) | safe }}</span>
+    <span class="scroll">{{ C.tickScroll | t(lang) }}<span class="mc-sensor" aria-hidden="true"></span></span>
+    <span>{{ C.tickB | t(lang) | safe }}</span>
+  </div>
+</section>
+
+<section class="wrap" style="padding-bottom:56px">
+  <div class="doors">
+    {%- for d in C.doors %}
+    <a class="door{% if loop.last %} door--dark{% endif %}" href="{{ d.route | url(lang) }}">
+      <span class="door__k">{{ d.k | t(lang) | upper }}</span>
+      <h2>{{ d.t | t(lang) }}</h2>
+      <p>{{ d.p | t(lang) }}</p>
+      {% if loop.first %}<div class="door__thumbs" aria-hidden="true"><img src="/assets/img/minipod.jpg" alt="" width="64" height="48"><img src="/assets/img/win-pod.jpg" alt="" width="64" height="48"><img src="/assets/img/win-track-mini.jpg" alt="" width="64" height="48"></div>
+      {% elif loop.index == 2 %}<div class="door__scale" aria-hidden="true"><div class="mc-pressure__bar"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+      {% else %}<span class="door__tel">{{ site.phone }}</span>{% endif %}
+      <span class="door__go"><span class="mc-sensor"></span>{{ d.go | t(lang) }}</span>
+    </a>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="wrap reveal" style="padding-bottom:64px">
+  <div class="sec-h"><h2 class="h2">{{ C.rangeTitle | t(lang) }}</h2><a class="mc-btn mc-btn--link" href="{{ 'range' | url(lang) }}">{{ C.rangeAll | t(lang) }}</a></div>
+  <div class="range-row">
+    {%- for r in C.rangePick %}{% set p = products | bySlug(r.slug) %}
+    <a class="rp" href="{{ 'product' | url(lang, p.slug) }}">
+      <div class="rp__ph"><img src="/assets/img/{{ p.image }}" alt="{{ p.name }}" width="240" height="240" loading="lazy"></div>
+      <span class="rp__n">{{ p.name }}{% if p.isNew %} <span class="tag-new">{{ ui.isNew | t(lang) }}</span>{% endif %}</span>
+      <span class="rp__d">{{ r.d | t(lang) }}</span>
+    </a>
+    {%- endfor %}
+  </div>
+</section>
+
+<section style="background:var(--surface)" class="sec">
+  <div class="wrap soul reveal">
+    <div class="stack" style="gap:22px">
+      <span class="mc-eyebrow">{{ C.soulEyebrow | t(lang) }}</span>
+      <h2 class="statement soul__title">{{ C.soulTitle | t(lang) }}</h2>
+      <p class="soul__text">{{ C.soulText | t(lang) }}</p>
+      <div class="facts">{% for f in C.facts %}<div><b>{{ f.b }}</b><span>{{ f.s | t(lang) }}</span></div>{% endfor %}</div>
+      <a class="mc-btn mc-btn--link" href="{{ 'company' | url(lang) }}" style="align-self:flex-start">{{ C.soulLink | t(lang) }}</a>
+    </div>
+    <div class="soul__img"><img src="/assets/img/hero-plateforme.jpg" alt="{{ C.soulAlt | t(lang) }}" width="1600" height="1052" loading="lazy"></div>
+  </div>
+</section>
+
+<section class="wrap" style="padding-top:56px;padding-bottom:64px">
+  <div class="cta-band reveal">
+    <div style="max-width:640px"><h2 class="cta-band__t">{{ C.ctaTitle | t(lang) }}</h2><p>{{ C.ctaText | t(lang) }}</p></div>
+    <a class="mc-btn mc-btn--ink mc-btn--lg" href="{{ 'request' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.cta | t(lang) }}</a>
+  </div>
+</section>

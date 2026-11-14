@@ -1,0 +1,103 @@
+---
+pagination: { data: langs, size: 1, alias: lang }
+permalink: "{{ 'range' | url(lang) }}"
+layout: layouts/base.njk
+routeKey: range
+eleventyComputed:
+  title: "{{ copy.range.title | t(lang) }}"
+  description: "{{ copy.range.description | t(lang) }}"
+---
+{%- set C = copy.range -%}
+{%- set Q = copy.request -%}
+<section class="wrap page-head">
+  <span class="mc-eyebrow">{{ C.eyebrow | t(lang) }}</span>
+  <h1 class="h1">{{ C.h1 | t(lang) }}</h1>
+  <p class="lead">{{ C.lead | t(lang) }}</p>
+  <form class="finder" data-finder onsubmit="return false">
+    <div class="finder__q"><label for="f-metier">1. {{ C.q1 | t(lang) }}</label>
+      <select class="select" id="f-metier" name="metier">
+        {% for m in Q.metiers %}<option value="{{ ['podo','medecin','kine','chercheur','sport','pharma','autre'][loop.index0] }}">{{ m | t(lang) }}</option>{% endfor %}
+      </select></div>
+    <div class="finder__q"><label for="f-usage">2. {{ C.q2 | t(lang) }}</label>
+      <select class="select" id="f-usage" name="usage">
+        {% for m in Q.usages %}<option value="{{ ['statique','pas','marche','course','posture','chaussure'][loop.index0] }}"{% if loop.index0 == 1 %} selected{% endif %}>{{ m | t(lang) }}</option>{% endfor %}
+      </select></div>
+    <div class="finder__q"><label for="f-lieu">3. {{ C.q3 | t(lang) }}</label>
+      <select class="select" id="f-lieu" name="lieu">
+        {% for m in Q.lieux %}<option value="{{ ['cabinet','mobile','labo'][loop.index0] }}">{{ m | t(lang) }}</option>{% endfor %}
+      </select></div>
+    <div class="finder__out" aria-live="polite">
+      <div class="finder__reco"><strong>{{ C.advice | t(lang) }}</strong> <span data-finder-names><span class="mc-product"><span class="mc-sensor"></span>T-Plate</span> · <span class="mc-product"><span class="mc-sensor"></span>Win-Pod Wifi</span></span></div>
+      <div class="finder__btns">
+        <a class="mc-btn mc-btn--secondary" href="{{ 'product' | url(lang, 't-plate') }}" data-finder-see><span class="mc-sensor"></span><span>{{ C.see | t(lang) }}</span></a>
+        <a class="mc-btn mc-btn--primary" href="{{ 'request' | url(lang) }}" data-finder-req><span class="mc-sensor"></span>{{ ui.cta | t(lang) }}</a>
+      </div>
+      <p class="muted" style="flex-basis:100%;font-size:15px;line-height:22px" data-finder-why></p>
+    </div>
+  </form>
+</section>
+
+<section class="wrap" style="padding-bottom:40px">
+  {%- for fam in ['mobile', 'cabinet', 'posture', 'labo'] %}{% set F = ui.families[fam] %}
+  <div class="family" id="{{ fam }}">
+    <div class="family__head"><span class="mc-eyebrow">{{ F.eyebrow | t(lang) }}</span><h2 class="h2">{{ F.title | t(lang) }}</h2><p>{{ F.text | t(lang) }}</p></div>
+    <div class="cards">
+      {%- for p in products | byFamily(fam) %}
+      <a class="mc-plate" href="{{ 'product' | url(lang, p.slug) }}">
+        <img class="card-img" src="/assets/img/{{ p.image }}" alt="{{ p.name }}" width="400" height="300" loading="lazy">
+        <span class="card-name"><span class="mc-product"><span class="mc-sensor"></span>{{ p.name }}</span>{% if p.isNew %}<span class="tag-new">{{ ui.isNew | t(lang) }}</span>{% endif %}</span>
+        <p>{{ p.tagline | t(lang) }}</p>
+        <span class="mc-data">{% if p.key.length %}{% for k in p.key %}{{ k.value | loc(lang) }}{% if k.unit %} {{ k.unit | t(lang) }}{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}{% else %}{{ ui.soon | t(lang) }}{% endif %}</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+  {%- endfor %}
+</section>
+
+<section id="comparateur" class="sec sec--alt">
+  <div class="wrap">
+    <div class="sec-h"><div><span class="mc-eyebrow">{{ C.cmpEyebrow | t(lang) }}</span><h2 class="h2">{{ C.cmpTitle | t(lang) }}</h2></div></div>
+    <div class="cmp-wrap">
+      <table class="cmp">
+        <thead><tr><td></td>{% for s in C.cmpCols %}{% set p = products | bySlug(s) %}<th scope="col"><a class="mc-product" href="{{ 'product' | url(lang, s) }}"><span class="mc-sensor"></span>{{ p.name }}</a></th>{% endfor %}</tr></thead>
+        <tbody>
+          {%- for row in C.rows %}
+          <tr><th scope="row">{{ row.label | t(lang) }}</th>{% for v in row.v %}<td{% if row.txt %} class="txt"{% endif %}>{{ v | t(lang) }}{% if row.checks and (loop.index0 in row.checks) %} <span class="check">{{ ui.toConfirm | t(lang) }}</span>{% endif %}</td>{% endfor %}</tr>
+          {%- endfor %}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:14px">{{ C.cmpNote | t(lang) }}</p>
+  </div>
+</section>
+
+<section class="wrap" style="padding-top:56px;padding-bottom:64px">
+  <div class="cta-band">
+    <div style="max-width:640px"><h2 class="cta-band__t">{{ ui.mega.helpTitle | t(lang) }}</h2><p>{{ ui.mega.helpText | t(lang) }}</p></div>
+    <a class="mc-btn mc-btn--ink mc-btn--lg" href="{{ 'request' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.cta | t(lang) }}</a>
+  </div>
+</section>
+
+{% include "partials/products-json.njk" %}
+<script src="/assets/js/reco.js"></script>
+<script>
+(function () {
+  var form = document.querySelector("[data-finder]");
+  var data = JSON.parse(document.getElementById("mc-products").textContent);
+  var lang = document.documentElement.lang;
+  var names = form.querySelector("[data-finder-names]"), see = form.querySelector("[data-finder-see]"), why = form.querySelector("[data-finder-why]"), req = form.querySelector("[data-finder-req]");
+  var base = req.getAttribute("href");
+  function update() {
+    var s = { metier: form.metier.value, usages: [form.usage.value], lieu: form.lieu.value };
+    var r = window.mcReco(s, lang);
+    names.innerHTML = r.slugs.map(function (k) { return '<a class="mc-product" href="' + data[k].url + '"><span class="mc-sensor"></span>' + data[k].name + "</a>"; }).join(" · ");
+    see.href = data[r.slugs[0]].url;
+    see.lastElementChild.textContent = see.lastElementChild.textContent.replace(/ ·.*$/, "") + " · " + data[r.slugs[0]].name;
+    why.textContent = r.why;
+    req.href = base + "?metier=" + s.metier + "&usage=" + s.usages[0] + "&lieu=" + s.lieu;
+  }
+  form.addEventListener("change", update);
+  update();
+})();
+</script>

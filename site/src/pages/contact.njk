@@ -1,0 +1,38 @@
+---
+pagination: { data: langs, size: 1, alias: lang }
+permalink: "{{ 'contact' | url(lang) }}"
+layout: layouts/base.njk
+routeKey: contact
+eleventyComputed:
+  title: "{{ copy.contact.title | t(lang) }}"
+  description: "{{ copy.contact.description | t(lang) }}"
+---
+{%- set C = copy.contact -%}
+<section class="wrap page-head">
+  <span class="mc-eyebrow">{{ C.eyebrow | t(lang) }}</span>
+  <h1 class="h1">{{ C.h1 | t(lang) }}</h1>
+  <p class="lead">{{ C.lead | t(lang) }}</p>
+  <div class="tiles">
+    {% for tl in C.tiles %}<div class="tile"><b>{{ tl.b | t(lang) }}</b><a class="tel" href="tel:{{ site[tl.tel] | replace(' ', '') }}">{{ site[tl.tel] }}</a>{% if tl.check %}<span><span class="check">{{ ui.toConfirm | t(lang) }}</span></span>{% endif %}<span>{{ tl.s | t(lang) }}</span></div>{% endfor %}
+  </div>
+</section>
+<section class="wrap" style="padding-bottom:48px">
+  <div class="quote">
+    <div class="quote__t"><strong>{{ C.reqTitle | t(lang) }}</strong><span>{{ C.reqText | t(lang) }}</span></div>
+    <a class="mc-btn mc-btn--primary" href="{{ 'request' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.cta | t(lang) }}</a>
+  </div>
+</section>
+<section id="support" class="sec sec--alt">
+  <div class="wrap">
+    <div class="sec-h"><div><span class="mc-eyebrow">Support</span><h2 class="h2">{{ C.supportTitle | t(lang) }}</h2></div><a class="mc-btn mc-btn--secondary" href="mailto:{{ site.emailSupport }}"><span class="mc-sensor"></span>{{ site.emailSupport }}</a></div>
+    <div class="tiles">{% for s in C.support %}<div class="tile" style="background:var(--surface)"><b>{{ s.b | t(lang) }}</b><span>{{ s.s | t(lang) }}</span></div>{% endfor %}</div>
+  </div>
+</section>
+<section class="wrap sec">
+  <div class="sec-h"><div><span class="mc-eyebrow">{{ C.where | t(lang) }}</span></div></div>
+  <div class="tiles">
+    <div class="tile"><b>{{ C.hq | t(lang) }}</b><span>Medicapteurs · {{ site.address }}</span><a href="mailto:{{ site.emailSales }}">{{ site.emailSales }}</a></div>
+    <div class="tile"><b>{{ C.agencyName | t(lang) }}</b><span>{{ site.agency }}</span><a class="tel" href="tel:{{ site.phonePosturo | replace(' ', '') }}">{{ site.phonePosturo }}</a></div>
+    <div class="tile"><b>Export</b><span>{{ C.abroad | t(lang) }}</span><a href="mailto:{{ site.emailExport }}">{{ site.emailExport }}</a></div>
+  </div>
+</section>

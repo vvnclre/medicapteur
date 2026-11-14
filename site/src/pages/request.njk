@@ -1,0 +1,157 @@
+---
+pagination: { data: langs, size: 1, alias: lang }
+permalink: "{{ 'request' | url(lang) }}"
+layout: layouts/base.njk
+routeKey: request
+eleventyComputed:
+  title: "{{ copy.request.title | t(lang) }}"
+  description: "{{ copy.request.description | t(lang) }}"
+---
+{%- set C = copy.request -%}
+{%- set mk = ['podo','medecin','kine','chercheur','sport','pharma','autre'] -%}
+{%- set uk = ['statique','pas','marche','course','posture','chaussure'] -%}
+{%- set lk = ['cabinet','mobile','labo'] -%}
+{%- set sk = ['demo','devis','reprise','doc'] -%}
+<section class="wrap page-head" style="padding-bottom:8px">
+  <span class="mc-eyebrow">{{ C.eyebrow | t(lang) }}</span>
+  <h1 class="h1">{{ C.h1 | t(lang) }}</h1>
+  <p class="lead">{{ C.lead | t(lang) }}</p>
+</section>
+
+<section class="wrap" style="padding-bottom:64px">
+  <form class="req" data-req novalidate data-to="{{ site.emailSales if lang == 'fr' else site.emailExport }}">
+    <div>
+      <fieldset class="req__q">
+        <legend><span class="req__n">1/4</span>{{ C.q1 | t(lang) }}</legend>
+        <div class="opts">{% for m in C.metiers %}<label class="opt"><input type="radio" name="metier" value="{{ mk[loop.index0] }}" data-label="{{ m | t(lang) }}"{% if loop.first %} checked{% endif %}><span>{{ m | t(lang) }}</span></label>{% endfor %}</div>
+      </fieldset>
+      <fieldset class="req__q">
+        <legend><span class="req__n">2/4</span>{{ C.q2 | t(lang) }}<small>{{ C.q2help | t(lang) }}</small></legend>
+        <div class="opts">{% for m in C.usages %}<label class="opt"><input type="checkbox" name="usage" value="{{ uk[loop.index0] }}" data-label="{{ m | t(lang) }}"{% if loop.index0 < 2 %} checked{% endif %}><span>{{ m | t(lang) }}</span></label>{% endfor %}</div>
+      </fieldset>
+      <fieldset class="req__q">
+        <legend><span class="req__n">3/4</span>{{ C.q3 | t(lang) }}</legend>
+        <div class="opts">{% for m in C.lieux %}<label class="opt"><input type="radio" name="lieu" value="{{ lk[loop.index0] }}" data-label="{{ m | t(lang) }}"{% if loop.first %} checked{% endif %}><span>{{ m | t(lang) }}</span></label>{% endfor %}</div>
+      </fieldset>
+      <fieldset class="req__q">
+        <legend><span class="req__n">4/4</span>{{ C.q4 | t(lang) }}<small>{{ C.q2help | t(lang) }}</small></legend>
+        <div class="opts">{% for m in C.suites %}<label class="opt"><input type="checkbox" name="suite" value="{{ sk[loop.index0] }}" data-label="{{ m | t(lang) }}"{% if loop.index0 < 2 %} checked{% endif %}><span>{{ m | t(lang) }}</span></label>{% endfor %}</div>
+      </fieldset>
+      <fieldset class="req__q">
+        <legend>{{ C.q5 | t(lang) }}</legend>
+        <div class="fields">
+          <div class="fld"><label for="r-name">{{ C.name | t(lang) }}</label><input id="r-name" name="name" autocomplete="name" required aria-describedby="r-name-err"><span class="err" id="r-name-err" hidden>{{ C.errName | t(lang) }}</span></div>
+          <div class="fld"><label for="r-city">{{ C.city | t(lang) }}</label><input id="r-city" name="city" autocomplete="address-level2"></div>
+          <div class="fld"><label for="r-email">{{ C.email | t(lang) }}</label><input id="r-email" name="email" type="email" autocomplete="email" required aria-describedby="r-email-err"><span class="err" id="r-email-err" hidden>{{ C.errEmail | t(lang) }}</span></div>
+          <div class="fld"><label for="r-tel">{{ C.phone | t(lang) }} <small>({{ C.optional | t(lang) }})</small></label><input id="r-tel" name="tel" type="tel" autocomplete="tel"></div>
+          <div class="fld fld--full"><label for="r-msg">{{ C.message | t(lang) }} <small>({{ C.optional | t(lang) }})</small></label><textarea id="r-msg" name="msg" rows="3" placeholder="{{ C.messageHint | t(lang) }}"></textarea></div>
+        </div>
+      </fieldset>
+    </div>
+
+    <aside class="req__side" aria-live="polite">
+      <div class="reco">
+        <span class="mc-eyebrow">{{ C.reco | t(lang) }}</span>
+        <img src="/assets/img/t-plate.jpg" alt="" data-reco-img width="400" height="250">
+        <span data-reco-names><span class="mc-product"><span class="mc-sensor"></span>T-Plate</span></span>
+        <p data-reco-why></p>
+        <span class="reco__price">{{ C.budget | t(lang) }} : <span data-reco-price>{{ copy.product.onRequest | t(lang) }}</span></span>
+      </div>
+      <div class="recap">
+        <span class="mc-eyebrow" style="margin-bottom:12px">{{ C.recap | t(lang) }}</span>
+        <dl>
+          <dt>{{ C.rMetier | t(lang) }}</dt><dd data-r="metier"></dd>
+          <dt>{{ C.rUsages | t(lang) }}</dt><dd data-r="usage"></dd>
+          <dt>{{ C.rLieu | t(lang) }}</dt><dd data-r="lieu"></dd>
+          <dt>{{ C.rSuites | t(lang) }}</dt><dd data-r="suite"></dd>
+          <dt>{{ C.rTo | t(lang) }}</dt><dd data-r="to">{{ C.toSales | t(lang) if lang == 'fr' else C.toExport | t(lang) }}</dd>
+        </dl>
+      </div>
+      <div class="req__send">
+        <button class="mc-btn mc-btn--primary mc-btn--lg" type="submit"><span class="mc-sensor"></span>{{ C.send | t(lang) }}<span class="mc-cells" aria-hidden="true"><i></i><i></i><i></i></span></button>
+        <span class="note">{{ C.sendNote | t(lang) }} {{ C.privacy | t(lang) }}</span>
+        <div class="req__done" data-done hidden>{{ C.done | t(lang) }} <a href="mailto:{{ site.emailSales if lang == 'fr' else site.emailExport }}">{{ site.emailSales if lang == 'fr' else site.emailExport }}</a>.</div>
+        <span class="note">{{ C.orCall | t(lang) }} <a href="tel:{{ site.phoneHref }}" style="font-family:var(--font-mono)">{{ site.phone }}</a>.</span>
+      </div>
+    </aside>
+  </form>
+</section>
+
+{% include "partials/products-json.njk" %}
+<script src="/assets/js/reco.js"></script>
+<script>
+(function () {
+  var f = document.querySelector("[data-req]");
+  var data = JSON.parse(document.getElementById("mc-products").textContent);
+  var lang = document.documentElement.lang;
+  var T = {
+    toDefine: {{ C.toDefine | t(lang) | dump | safe }}, onRequest: {{ copy.product.onRequest | t(lang) | dump | safe }},
+    subject: {{ C.mailSubject | t(lang) | dump | safe }}, reco: {{ C.reco | t(lang) | dump | safe }},
+    labels: { metier: {{ C.rMetier | t(lang) | dump | safe }}, usage: {{ C.rUsages | t(lang) | dump | safe }}, lieu: {{ C.rLieu | t(lang) | dump | safe }}, suite: {{ C.rSuites | t(lang) | dump | safe }}, name: {{ C.name | t(lang) | dump | safe }}, city: {{ C.city | t(lang) | dump | safe }}, email: {{ C.email | t(lang) | dump | safe }}, tel: {{ C.phone | t(lang) | dump | safe }}, msg: {{ C.message | t(lang) | dump | safe }} },
+    toPosturo: {{ C.toPosturo | t(lang) | dump | safe }}, toDefault: {{ (C.toSales if lang == 'fr' else C.toExport) | t(lang) | dump | safe }}
+  };
+  /* Réponses reprises de la page précédente (comparateur, fiche produit) */
+  var q = new URLSearchParams(location.search);
+  if (q.get("metier")) f.querySelectorAll('[name=metier]').forEach(function (i) { i.checked = i.value === q.get("metier"); });
+  if (q.get("lieu")) f.querySelectorAll('[name=lieu]').forEach(function (i) { i.checked = i.value === q.get("lieu"); });
+  if (q.get("usage")) f.querySelectorAll('[name=usage]').forEach(function (i) { i.checked = i.value === q.get("usage"); });
+  var wanted = q.get("produit") && data[q.get("produit")] ? q.get("produit") : null;
+
+  function picked(name) { return Array.prototype.filter.call(f.querySelectorAll('[name=' + name + ']'), function (i) { return i.checked; }); }
+  function labels(name) { var l = picked(name).map(function (i) { return i.getAttribute("data-label"); }); return l.length ? l.join(", ") : T.toDefine; }
+  var current;
+  function update() {
+    var s = { metier: (picked("metier")[0] || {}).value, usages: picked("usage").map(function (i) { return i.value; }), lieu: (picked("lieu")[0] || {}).value };
+    var r = window.mcReco(s, lang);
+    var slugs = wanted ? [wanted] : r.slugs;
+    current = slugs;
+    f.querySelector("[data-reco-names]").innerHTML = slugs.map(function (k) { return '<a class="mc-product" href="' + data[k].url + '"><span class="mc-sensor"></span>' + data[k].name + "</a>"; }).join(" · ");
+    f.querySelector("[data-reco-img]").src = data[slugs[0]].img;
+    f.querySelector("[data-reco-why]").textContent = wanted ? "" : r.why;
+    f.querySelector("[data-reco-price]").textContent = (!wanted && r.budget) || data[slugs[0]].price || T.onRequest;
+    ["metier", "usage", "lieu", "suite"].forEach(function (n) { f.querySelector('[data-r=' + n + ']').textContent = labels(n); });
+    f.querySelector("[data-r=to]").textContent = (s.metier === "kine" && s.usages.indexOf("posture") !== -1) ? T.toPosturo : T.toDefault;
+  }
+  f.addEventListener("change", function (e) { if (e.target.name !== "msg") { if (e.target.name === "usage" || e.target.name === "lieu" || e.target.name === "metier") wanted = null; update(); } });
+  update();
+
+  function check(input, ok) {
+    var err = document.getElementById(input.id + "-err");
+    input.setAttribute("aria-invalid", ok ? "false" : "true");
+    if (err) err.hidden = ok;
+    return ok;
+  }
+  var nameI = f.elements.name, mailI = f.elements.email;
+  var validName = function () { return check(nameI, nameI.value.trim().length > 1); };
+  var validMail = function () { return check(mailI, /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(mailI.value.trim())); };
+  nameI.addEventListener("blur", function () { if (nameI.value) validName(); });
+  mailI.addEventListener("blur", function () { if (mailI.value) validMail(); });
+  nameI.addEventListener("input", function () { if (nameI.getAttribute("aria-invalid") === "true") validName(); });
+  mailI.addEventListener("input", function () { if (mailI.getAttribute("aria-invalid") === "true") validMail(); });
+
+  f.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var okName = validName(), okMail = validMail();
+    if (!okName) { nameI.focus(); return; }
+    if (!okMail) { mailI.focus(); return; }
+    var L = T.labels, el = f.elements;
+    var body = [
+      L.name + " : " + el.name.value.trim(),
+      L.city + " : " + (el.city.value.trim() || T.toDefine),
+      L.email + " : " + el.email.value.trim(),
+      L.tel + " : " + (el.tel.value.trim() || T.toDefine),
+      "",
+      L.metier + " : " + labels("metier"),
+      L.usage + " : " + labels("usage"),
+      L.lieu + " : " + labels("lieu"),
+      L.suite + " : " + labels("suite"),
+      T.reco + " : " + current.map(function (k) { return data[k].name; }).join(", "),
+      "",
+      el.msg.value.trim()
+    ].join("\n");
+    var subject = T.subject + " · " + labels("suite") + " · " + current.map(function (k) { return data[k].name; }).join(", ");
+    location.href = "mailto:" + f.getAttribute("data-to") + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    f.querySelector("[data-done]").hidden = false;
+  });
+})();
+</script>

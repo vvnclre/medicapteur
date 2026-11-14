@@ -1,0 +1,110 @@
+---
+pagination: { data: productPages, size: 1, alias: item }
+permalink: "{{ 'product' | url(item.lang, item.product.slug) }}"
+layout: layouts/base.njk
+routeKey: product
+eleventyComputed:
+  lang: "{{ item.lang }}"
+  slug: "{{ item.product.slug }}"
+  title: "{{ item.product.name }} · {{ item.product.tagline | t(item.lang) | replace(r/\\.$/, '') }}"
+  description: "{{ item.product.summary | t(item.lang) }}"
+---
+{%- set p = item.product -%}
+{%- set C = copy.product -%}
+{%- set F = ui.families[p.family] -%}
+{%- set withSoftware = p.slug in ['t-plate', 't-plate-40', 't-plate-30th', 'xt-plate', 'win-pod-wifi', 'fusyo', 'win-track', 'powertrack'] -%}
+<section class="wrap p-hero">
+  <div class="p-hero__copy">
+    <nav class="crumbs" aria-label="{{ 'Fil d’Ariane' if lang == 'fr' else 'Breadcrumb' }}"><a href="{{ 'range' | url(lang) }}">{{ ui.nav.products | t(lang) }}</a><span aria-hidden="true">/</span><a href="{{ 'range' | url(lang) }}#{{ p.family }}">{{ F.eyebrow | t(lang) }}</a><span aria-hidden="true">/</span><span aria-current="page">{{ p.name }}</span></nav>
+    <span class="card-name"><span class="mc-product p-hero__name"><span class="mc-sensor"></span>{{ p.name }}</span>{% if p.isNew %}<span class="tag-new">{{ ui.isNew | t(lang) }}</span>{% endif %}</span>
+    <h1 class="h1">{{ p.tagline | t(lang) }}</h1>
+    <p class="lead">{{ p.summary | t(lang) }}</p>
+    {% if p.key.length %}
+    <div class="p-hero__key">
+      {% for k in p.key %}<div class="mc-measure"><b>{{ k.value | loc(lang) }}{% if k.unit %}<span>{{ k.unit | t(lang) }}</span>{% endif %}</b><em>{{ k.label | t(lang) }}</em></div>{% endfor %}
+    </div>
+    {% endif %}
+    <div class="p-hero__btns">
+      <a class="mc-btn mc-btn--primary mc-btn--lg" href="{{ 'request' | url(lang) }}?produit={{ p.slug }}"><span class="mc-sensor"></span>{{ C.demo | t(lang) }}<span class="mc-cells" aria-hidden="true"><i></i><i></i><i></i></span></a>
+      <a class="mc-btn mc-btn--link" href="#fiche">{{ C.seeSpecs | t(lang) }}</a>
+    </div>
+  </div>
+  <div class="p-hero__media"><img src="/assets/img/{{ p.image }}" alt="{{ p.name }}" width="800" height="600"></div>
+</section>
+
+<nav class="subnav" aria-label="{{ 'Sections de la fiche' if lang == 'fr' else 'Page sections' }}">
+  <div class="wrap">
+    {% if p.features.length %}<a href="#points-forts">{{ C.why | t(lang) }}</a>{% endif %}
+    {% if withSoftware %}<a href="#logiciel">{{ C.software | t(lang) }}</a>{% endif %}
+    <a href="#fiche">{{ C.specs | t(lang) }}</a>
+    {% if p.studies %}<a href="#etudes">{{ C.studies | t(lang) }}</a>{% endif %}
+    <a href="#devis">{{ C.quote | t(lang) }}</a>
+  </div>
+</nav>
+
+{% if p.features.length %}
+<section id="points-forts" class="wrap sec">
+  <div class="sec-h"><div><span class="mc-eyebrow">{{ p.name }}</span><h2 class="h2">{{ C.why | t(lang) }}</h2></div></div>
+  <div class="feats">
+    {% for f in p.features %}<div class="li dots"><span class="mc-sensor" aria-hidden="true"></span><span>{{ f | t(lang) }}</span></div>{% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if withSoftware %}
+<section id="logiciel" class="dark-sec mc-on-inverse sec">
+  <div class="wrap" style="display:grid;gap:32px">
+    <div class="sec-h" style="margin:0"><div><span class="mc-eyebrow">{{ C.softwareEyebrow | t(lang) }}</span><h2 class="h2">{{ C.softwareTitle | t(lang) }}</h2></div><p style="max-width:46ch;font-size:15px;line-height:22px;opacity:.8">{{ C.softwareNote | t(lang) }}</p></div>
+    <img class="shot" src="/assets/img/logiciel-diabete.jpg" alt="{{ C.softwareAlt | t(lang) }}" width="1600" height="821" loading="lazy">
+  </div>
+</section>
+{% endif %}
+
+<section id="fiche" class="wrap sec">
+  <div class="specs">
+    <div class="stack">
+      <span class="mc-eyebrow">{{ C.specs | t(lang) }}</span>
+      <h2 class="h2">{{ C.specTitle | t(lang) }}</h2>
+      {% if p.specs.length %}<p class="muted" style="font-size:15px;line-height:22px">{{ C.specIntro | t(lang) }}</p>{% endif %}
+    </div>
+    {% if p.specs.length %}
+    <table class="mc-spec">
+      <caption class="sr">{{ C.specTitle | t(lang) }} {{ p.name }}</caption>
+      {% for s in p.specs %}<tr><th scope="row">{{ s.label | t(lang) }}</th><td>{{ s.value | t(lang) | loc(lang) }}{% if s.check %} <span class="check">{{ ui.toConfirm | t(lang) }}</span>{% endif %}</td></tr>{% endfor %}
+    </table>
+    {% else %}
+    <div class="missing"><strong>{{ C.missingTitle | t(lang) }}</strong><span class="muted" style="font-size:15px;line-height:22px">{{ C.missingText | t(lang) }}</span></div>
+    {% endif %}
+  </div>
+</section>
+
+<section id="devis" class="wrap" style="padding-bottom:56px">
+  <div class="quote">
+    <div class="quote__t"><strong>{{ C.quoteTitle | t(lang) }} {{ p.name }}</strong><span>{{ C.quoteText | t(lang) }}</span></div>
+    <div class="quote__price">
+      {% if p.price %}<small>{{ p.price.note | t(lang) }}</small><b>{{ p.price.value | t(lang) }}</b>{% if p.price.check %}<small><span class="check">{{ ui.toConfirm | t(lang) }}</span></small>{% endif %}
+      {% else %}<b style="font-size:20px">{{ C.onRequest | t(lang) }}</b>{% endif %}
+    </div>
+    <a class="mc-btn mc-btn--primary" href="{{ 'request' | url(lang) }}?produit={{ p.slug }}"><span class="mc-sensor"></span>{{ ui.cta | t(lang) }}</a>
+  </div>
+</section>
+
+{% if p.studies %}
+<section id="etudes" class="sec sec--alt">
+  <div class="wrap"><div class="sec-h" style="margin:0;align-items:center">
+    <div><span class="mc-eyebrow">{{ C.studies | t(lang) }}</span><p class="h2"><span style="font-family:var(--font-mono);font-weight:500">{{ p.studies }}</span> {{ C.studiesText | t(lang) }}</p></div>
+    <a class="mc-btn mc-btn--secondary" href="{{ 'studies' | url(lang) }}"><span class="mc-sensor"></span>{{ C.studiesLink | t(lang) }}</a>
+  </div></div>
+</section>
+{% endif %}
+
+{% if p.related.length %}
+<section class="wrap sec">
+  <span class="mc-eyebrow" style="margin-bottom:16px">{{ C.related | t(lang) }}</span>
+  <div class="related">
+    {% for s in p.related %}{% set r = products | bySlug(s) %}
+    <a class="mc-plate" href="{{ 'product' | url(lang, r.slug) }}"><img src="/assets/img/{{ r.image }}" alt="" width="72" height="54" loading="lazy"><span><span class="mc-product" style="font-size:13px">{{ r.name }}</span><small>{{ r.short | t(lang) }}</small></span></a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

@@ -1,0 +1,1 @@
+<script type="application/json" id="mc-products">{ {%- for p in products %}"{{ p.slug }}": {"name": "{{ p.name }}", "url": "{{ 'product' | url(lang, p.slug) }}", "img": "/assets/img/{{ p.image }}", "price": {% if p.price %}{{ p.price.value | t(lang) | dump | safe }}{% else %}null{% endif %}}{% if not loop.last %}, {% endif %}{% endfor -%} }</script>

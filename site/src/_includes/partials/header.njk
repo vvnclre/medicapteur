@@ -1,0 +1,66 @@
+{%- set dark = headerTone == "dark" -%}
+<header class="hdr{% if dark %} hdr--dark mc-on-inverse{% endif %}" data-hdr>
+  <div class="hdr__in">
+    <a class="hdr__logo" href="{{ 'home' | url(lang) }}" aria-label="Medicapteurs, {{ 'accueil' if lang == 'fr' else 'home' }}">
+      <img src="/assets/img/{{ 'medicapteurs-logo-fond-sombre.png' if dark else 'medicapteurs-logo-couleur.png' }}" alt="Medicapteurs" width="150" height="42">
+    </a>
+    <nav class="hdr__nav" aria-label="{{ ui.navLabel | t(lang) }}">
+      <button class="hdr__link hdr__mega-btn" type="button" aria-expanded="false" aria-controls="mega" data-mega-btn>{{ ui.nav.products | t(lang) }}<span class="hdr__chev" aria-hidden="true"></span></button>
+      <a class="hdr__link" href="{{ 'diabetes' | url(lang) }}"{% if routeKey == 'diabetes' %} aria-current="page"{% endif %}>{{ ui.nav.diabetes | t(lang) }}</a>
+      <a class="hdr__link" href="{{ 'guide' | url(lang) }}"{% if routeKey == 'guide' %} aria-current="page"{% endif %}>{{ ui.nav.guide | t(lang) }}</a>
+      <a class="hdr__link" href="{{ 'studies' | url(lang) }}"{% if routeKey == 'studies' %} aria-current="page"{% endif %}>{{ ui.nav.studies | t(lang) }}</a>
+      <a class="hdr__link" href="{{ 'company' | url(lang) }}"{% if routeKey == 'company' %} aria-current="page"{% endif %}>{{ ui.nav.company | t(lang) }}</a>
+    </nav>
+    <div class="hdr__end">
+      <nav class="lang" aria-label="{{ ui.langLabel | t(lang) }}">
+        <a href="{{ routeKey | url('fr', slug) }}" hreflang="fr" lang="fr" data-lang="fr"{% if lang == 'fr' %} aria-current="true" class="on"{% endif %} title="Français">FR</a>
+        <a href="{{ routeKey | url('en', slug) }}" hreflang="en" lang="en" data-lang="en"{% if lang == 'en' %} aria-current="true" class="on"{% endif %} title="English">EN</a>
+      </nav>
+      <a class="mc-btn mc-btn--primary hdr__cta" href="{{ 'request' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.cta | t(lang) }}</a>
+      <button class="hdr__burger" type="button" aria-expanded="false" aria-controls="drawer" data-drawer-btn><span class="hdr__burger-i" aria-hidden="true"><i></i><i></i><i></i></span><span class="sr">{{ ui.menu | t(lang) }}</span></button>
+    </div>
+  </div>
+
+  <div class="mega" id="mega" hidden data-mega>
+    <div class="mega__in">
+      <div class="mega__needs">
+        <span class="mc-eyebrow">{{ ui.mega.byNeed | t(lang) }}</span>
+        {% for n in ui.mega.needs %}<a href="{{ n.route | url(lang) }}{% if n.hash %}#{{ n.hash }}{% endif %}">{{ n.label | t(lang) }}</a>{% endfor %}
+      </div>
+      {% for col in ui.mega.cols %}
+      <div class="mega__col">
+        <span class="mc-eyebrow">{{ col.title | t(lang) }}</span>
+        {% for s in col.items %}{% set p = products | bySlug(s) %}
+        <a class="mega__it" href="{{ 'product' | url(lang, p.slug) }}"><img src="/assets/img/{{ p.image }}" alt="" width="64" height="48" loading="lazy"><span><span class="mc-product">{{ p.name }}</span><small>{{ p.short | t(lang) }}</small></span></a>
+        {% endfor %}
+        {% if loop.last %}
+        <span class="mc-eyebrow mega__sub">{{ ui.mega.software | t(lang) }}</span>
+        <a class="mega__it mega__it--text" href="{{ 'product' | url(lang, 'win-pod-wifi') }}#logiciel"><span><span class="mc-product">{{ ui.mega.softwareName }}</span><small>{{ ui.mega.softwareNote | t(lang) }}</small></span></a>
+        {% endif %}
+      </div>
+      {% endfor %}
+      <div class="mega__help">
+        <strong>{{ ui.mega.helpTitle | t(lang) }}</strong>
+        <span>{{ ui.mega.helpText | t(lang) }}</span>
+        <a class="mc-btn mc-btn--primary mc-btn--sm" href="{{ 'request' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.findPlatform | t(lang) }}</a>
+        <a class="mc-btn mc-btn--link" href="{{ 'range' | url(lang) }}#comparateur">{{ ui.compare | t(lang) }}</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="drawer" id="drawer" hidden data-drawer>
+    <nav class="drawer__nav" aria-label="{{ ui.navLabel | t(lang) }}">
+      <a href="{{ 'range' | url(lang) }}">{{ ui.nav.products | t(lang) }}</a>
+      <div class="drawer__prods">
+        {% for p in products %}<a href="{{ 'product' | url(lang, p.slug) }}"><span class="mc-sensor"></span>{{ p.name }}</a>{% endfor %}
+      </div>
+      <a href="{{ 'diabetes' | url(lang) }}">{{ ui.nav.diabetes | t(lang) }}</a>
+      <a href="{{ 'guide' | url(lang) }}">{{ ui.nav.guide | t(lang) }}</a>
+      <a href="{{ 'studies' | url(lang) }}">{{ ui.nav.studies | t(lang) }}</a>
+      <a href="{{ 'company' | url(lang) }}">{{ ui.nav.company | t(lang) }}</a>
+      <a href="{{ 'contact' | url(lang) }}">{{ ui.nav.contact | t(lang) }}</a>
+    </nav>
+    <a class="mc-btn mc-btn--primary mc-btn--lg drawer__cta" href="{{ 'request' | url(lang) }}"><span class="mc-sensor"></span>{{ ui.cta | t(lang) }}</a>
+    <a class="drawer__tel" href="tel:{{ site.phoneHref }}">{{ site.phone }}</a>
+  </div>
+</header>

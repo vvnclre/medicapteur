@@ -1,0 +1,16 @@
+{
+  "name": "medicapteurs-site",
+  "version": "1.0.0",
+  "description": "Site Medicapteurs : plateformes de mesure des pressions plantaires (FR / EN)",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "clean": "rm -rf _site"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  },
+  "type": "module",
+  "private": true
+}

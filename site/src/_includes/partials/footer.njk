@@ -1,0 +1,43 @@
+<footer class="ftr mc-on-inverse">
+  <div class="wrap ftr__in">
+    <div class="ftr__grid">
+      <div class="ftr__brand">
+        <img src="/assets/img/medicapteurs-logo-fond-sombre.png" alt="Medicapteurs" width="121" height="34">
+        <p>{{ ui.footer.about | t(lang) }}</p>
+        <a class="ftr__tel" href="tel:{{ site.phoneHref }}">{{ site.phone }}</a>
+      </div>
+      <div class="ftr__col">
+        <span class="ftr__k">{{ ui.footer.products | t(lang) }}</span>
+        <a href="{{ 'range' | url(lang) }}#cabinet">{{ ui.footer.plates | t(lang) }}</a>
+        <a href="{{ 'range' | url(lang) }}#labo">{{ ui.footer.walkways | t(lang) }}</a>
+        <a href="{{ 'range' | url(lang) }}#posture">{{ ui.footer.posturology | t(lang) }}</a>
+        <a href="{{ 'product' | url(lang, 'w-inshoe') }}">{{ ui.footer.inshoe | t(lang) }}</a>
+        <a href="{{ 'range' | url(lang) }}#comparateur">{{ ui.footer.comparator | t(lang) }}</a>
+      </div>
+      <div class="ftr__col">
+        <span class="ftr__k">{{ ui.footer.solutions | t(lang) }}</span>
+        <a href="{{ 'diabetes' | url(lang) }}">{{ ui.nav.diabetes | t(lang) }}</a>
+        <a href="{{ 'range' | url(lang) }}#cabinet">{{ ui.footer.podiatry | t(lang) }}</a>
+        <a href="{{ 'studies' | url(lang) }}">{{ ui.footer.research | t(lang) }}</a>
+        <a href="{{ 'range' | url(lang) }}#labo">{{ ui.footer.sport | t(lang) }}</a>
+      </div>
+      <div class="ftr__col">
+        <span class="ftr__k">{{ ui.footer.resources | t(lang) }}</span>
+        <a href="{{ 'guide' | url(lang) }}">{{ ui.nav.guide | t(lang) }}</a>
+        <a href="{{ 'studies' | url(lang) }}">{{ ui.nav.studies | t(lang) }}</a>
+        <a href="{{ 'contact' | url(lang) }}#support">{{ ui.footer.support | t(lang) }}</a>
+      </div>
+      <div class="ftr__col">
+        <span class="ftr__k">{{ ui.footer.company | t(lang) }}</span>
+        <a href="{{ 'company' | url(lang) }}">{{ ui.footer.story | t(lang) }}</a>
+        <a href="{{ 'contact' | url(lang) }}">{{ ui.nav.contact | t(lang) }}</a>
+        <a href="{{ 'request' | url(lang) }}">{{ ui.cta | t(lang) }}</a>
+        <span class="ftr__muted">Balma · Sophia Antipolis</span>
+      </div>
+    </div>
+    <div class="ftr__base">
+      <span>{{ ui.footer.regulatory | t(lang) }}</span>
+      <span><a href="{{ 'legal' | url(lang) }}">{{ ui.footer.legal | t(lang) }}</a> · <a href="{{ 'legal' | url(lang) }}#donnees">{{ ui.footer.privacy | t(lang) }}</a> · © {{ site.year }} Medicapteurs</span>
+    </div>
+  </div>
+</footer>

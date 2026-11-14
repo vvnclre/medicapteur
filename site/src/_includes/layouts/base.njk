@@ -1,0 +1,35 @@
+{%- set other = "en" if lang == "fr" else "fr" -%}
+{%- set selfUrl = routeKey | url(lang, slug) -%}
+{%- set otherUrl = routeKey | url(other, slug) -%}
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title | t(lang) | safe }}{% if routeKey != "home" %} · Medicapteurs{% endif %}</title>
+<meta name="description" content="{{ description | t(lang) | safe }}">
+<link rel="canonical" href="{{ site.url }}{{ selfUrl }}">
+<link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ selfUrl }}">
+<link rel="alternate" hreflang="{{ other }}" href="{{ site.url }}{{ otherUrl }}">
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ routeKey | url('fr', slug) }}">
+<meta property="og:title" content="{{ title | t(lang) | safe }}">
+<meta property="og:description" content="{{ description | t(lang) | safe }}">
+<meta property="og:locale" content="{{ 'fr_FR' if lang == 'fr' else 'en_GB' }}">
+<meta name="theme-color" content="#111214">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@400;500&family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,700;1,400&family=Michroma&family=Sora:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="/assets/css/tokens.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+<script src="/assets/js/main.js" defer></script>
+</head>
+<body class="page-{{ routeKey }}">
+<a class="skip" href="#contenu">{{ ui.skip | t(lang) }}</a>
+{% include "partials/header.njk" %}
+<main id="contenu">
+{{ content | safe }}
+</main>
+{% include "partials/footer.njk" %}
+</body>
+</html>
