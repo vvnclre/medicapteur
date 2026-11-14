@@ -1,0 +1,49 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/02/computer-requirements-fusyo-v2.3-2019-uk.pdf
+Mis en ligne le : 2019-05-29
+------------------------------------------------------------
+       Minimum computer system requirements for
+                       Fusyo
+                             PC with following processors (CPU) :
+Type
+
+                                    - INTEL Core I5 (or higher) Desktop highly recommended
+                                    - Macintosh (Apple) are not compatible
+                                    - Tablets are not compatible
+                                    - All in one PC are not compatible
+
+
+                             If you already own a PC or for other configuration : contact us
+
+Operating system             Windows 7, 8, 10 (32 or 64 bits)1 Windows 10 S excluded
+
+RAM Memory                   4 Go
+
+Hard Drive                   128 Go
+
+Display                      1024 x 768 pixels
+
+                             Fusyo : 3 USB ports on the PC , 2 ports exclusively dedicated to the
+USB Ports                    platform
+
+
+Webcam (option)                     - Any webcam running at 30 frames per second
+(if video option                    - 1 x discrete graphic card
+available)                          - 1 x additional dedicated USB port
+
+Data backup                  1 external Hard Drive (USB)
+
+       This list of requirements is for indicative purpose only and does not guarantee a full compatibility.
+                              If you have any doubt or question, please contact us.
+
+       *
+           Fusyo with power supply (old generation) runs only on 32bits Windows.
+
+
+                                                 Version 2.3 May 2019
+
+
+
+
+ MEDICAPTEURS France S.A.S. – « Les Espaces de Balma » - 18, avenue Charles de Gaulle - Bât.33/34 - 31130 BALMA
+                  Tél. +33 (0) 562 571 571 / Fax +33 (0) 562 577 468 – www.medicapteurs.fr
+

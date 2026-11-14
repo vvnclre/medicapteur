@@ -1,0 +1,161 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/02/w-inshoe-uk.pdf
+Mis en ligne le : 2017-09-15
+------------------------------------------------------------
+                                                                                                                                                                                                                                                    Technical characteristics
+Actual size of unit image
+
+
+
+
+                                                                                                                                                                                                                                                    Unit dimensions                                65 x 46.5 x 18.3 mm
+                                                                                                                                                                                                                                                    Unit weight                                    50 g
+                                                                                                                                                                                                                                                                                                                         P O D O LO G Y , P O S T U R O LO G Y A N D R E H A B I L I TAT I O N
+                                                                                                                                                                                                                                                                                                   calibrated HD
+                                                                                                                                                                                                                                                    Sensor technology
+                                                                                                                                                                                                                                                                                                   resistive sensor
+                                                                                                                                                                                                                                                    Number of sensors                              9 sensors per unit
+                                                                                                                                                                                                                                                    Sensor active surface area                     12 mm Ø
+                                                                                                                                                                                                                                                    Sensor thickness                               0.5 mm
+                                                                                                                                                                                                                                                    Min/Max pressure per sensor                    0.1 kgF to 8 kgF
+                                                                                                                                                                                                                                                    Guaranteed number of uses                      > 1,000,000
+                                                                                                                                                                                                                                                    Acquisition frequency                          100 images/second
+                                                                                                                                                                                                                                                    PC/unit interface                              Bluetooth®
+                                                                                                                                                                                                                                                    Maximum acquisition time                       5 hours
+                                                                                                                                                                                                                                                    Charging method                                Mains/USB
+                                                                                                                                                                                                                                                    Required Operating System                      Windows Vista, 7, 8
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                 WINSHOE
+                                                                                                                                                                                                                                                    Packaging                                      Transport case
+
+
+                                                                                                                                                                                                                                                  The complete case includes:
+                                                                                                                                                                                                                                                  • 2 units
+
+                                                     Wireless embedded                                                                                                                                                                            • 2 sets of sensors
+                                                                                                                                                                                                                                                  • 2 USB cables                                                                                                                       wireless embedded
+                                                     sensor system
+                                                                                                                                                                                                                                                  • Mains / USB x2 adapter
+                                                                                                                                                                                                                                                  • Bluetooth® adapter
+                                                                                                                                                                                                                                                    (for computers without built-in Bluetooth®)
+                                                                                                                                                                                                                                                                                                                                                                                         pressure sensors
+                                                                                                                                                                                                                                                  • Operating software
+                                                     The best-performing in-shoe pressure analysis                                                                                                                                                • Manual
+                                                     solution on the market enabling the most realistic
+                                                     assessment of foot pressures.                                                                           Medicapteurs, European leader
+                                                                                                                                                             for electronic podometry
+                                                                                                                                                             More than 30 years’ experience designing and
+                                                                                                                                                             manufacturing equipment for podology, posturology
+                                             SMALL   • More than three years’ development time was required to design this                                  and biomechanics
+                                              SIZE      innovative product consisting of two ultra-lightweight units (50 g),                                 A comprehensive, upgradeable range of measurement,
+                                                        each controlling nine ultra-thin, calibrated sensors.                                                diagnosis and manufacturing-aid devices
+
+                                                     • WINSHOE is the ideal technological solution for directly analysing                                   Acknowledged quality and reliability CE certification for
+                                                                                                                                                             medical devices per Directive 93/42 Class 1m (DEKRA)
+                                                        the pressure on the targeted zones by allowing the sensors to be
+                                                                                                                                                             Partner to foot sole and shoe professionals
+                                                        positioned freely on the foot or sole.
+                                                                                                                                                             A company born from its close ties with the world of
+                                                     • WINSHOE is designed to assess the effect of orthoses/orthopaedic                                     research and high technology (LAAS / CNRS)
+                                                        shoes in real conditions (in the medical setting or elsewhere) to                                    More than 10,000 customers equipped
+                                                        optimise the effectiveness of them.
+                                                                                                                                                             Worldwide reputation and presence
+                                                                                                                                                             (Europe, United States, Asia...)
+
+
+
+
+                                CAN BE
+                                                                                                                                                             Quality management
+                                                                                                                               Crédts photos : Thinkstock.
+
+
+
+
+                             ADAPTED TO
+                            ALL SHOE SIZES                                                                                                                   Certified conform
+                                                                                                                                                             with directive 93 / 42 /
+                                                                          NINE                                                                               CEE relative to medical devices
+                                                                      INDEPENDENT
+                                                                        SENSORS
+                                                                                                                               WINSHOE / 03-2014
+
+
+
+
+                                                                                                                                                                                                                                         P O D O LO G Y , P O S T U R O LO G Y A N D R E H A B I L I TAT I O N
+
+
+
+                                                                                                                                                                                          «Les Espaces de Balma» - 18 av. Charles de Gaulle - Bât. 33 & 34
+                                                                                                                                                                                                                                  31130 BALMA - France
+
+                                                                                                                                                                                                           tél. +33 (0) 562 571 571 - fax +33 (0) 562 577 468
+                                                                                                                                                                                                                  info@medicapteurs.fr - www.medicapteurs.fr
+                                                                                                                                                                              Winshoe can be used
+                                                                                                                                                                              with Medicapteurs platforms
+  Light,                                                                                                                                                                      If you already have a Medicapteurs
+  high-performance                                                                                                                                                            product, WINSHOE’s functions
+                                                                                                                                                                              and ease-of-use will give you the
+  and easy-to-use unit                                                                                                                                                        additional measurements you need
+                                                                                                                                                                              to establish finer diagnoses and
+  • 100 Hz acquisition frequency                                                                                                                                              more effective treatments.
+  • Automatic synchronisation of the two units
+  • Fast recharging via USB (90 min.)
+    lasts for 5 hours
+  • Simple clip attachment to shoelaces or strap                                 Patient Sheet                                Step recognition
+
+
+
+
+            CE CERTIFIED
+              Medical
+               device
+
+
+                                                                                 Simple,                                                                                    Varied, extensive
+                                                                                 intuitive software                                                                         applications
+                                                                                 Acquisitions                                                                               WINSHOE is designed for studying foot pressures.
+                                                                                 • Real-time 3D acquisition and display                                                     It is the ideal partner for facilitating diagnosis,
+                                                                                                                                                                            correcting and improving the gait of many patients
+                                                                                 •	Ambulatory downloading of recorded data
+                                                                                                                                                                            and optimising sporting performance.
+
+
+
+
+                                                                                                                                                                            •	Objectively assess the impact of
+                                                                                                                                                                               orthoses/orthopaedic shoes
+  High-precision                                                                                                              Parameter setting
+                                                                                                                                                                            •	Correct postural problems
+                                                                                                                              •	Patient sheet and database compatible
+  pressure sensors                                                                                                               and shared with all Medicapteurs
+                                                                                                                                 software
+                                                                                                                                                                            •	Help prevent the risk of diabetic ulcers
+                                                                                                                                                                            •	Adapt prostheses and monitor the
+  • Nine ultra-thin, calibrated sensors                                                                                       •	Intuitive creation and saving of digital      rehabilitation of equipped patients
+  • Free positioning                                                                                                             sensor positioning models                  •	Improve sportsmen’s performance by
+  •	Guaranteed for 1 million uses*                                                                                           •	Sensor positioning assistant using            adapting training
+    *validated on test bench
+                                                                                                                                 webcam                                     •	Evaluate locomotor disorders
+                                                   Parameter setting assistant   Recording mode
+
+
+
+
+                                                                                                                              Analysis
+                                                                                                                              •	Detailed acquisition analysis: displays      Great freedom of use
+                                                                                                                                 the pressures, activation times and
+                                                                                                                                 each of the sensors’ impulses                Once the patient has been equipped and the
+MAXIMUM                                                                                                                                                                       software configured, the pressure values are either
+MEASURED                                                                                                                      • Right foot / Left foot comparison
+                                                                                                                                                                              transmitted by Bluetooth® to the PC (in real time),
+PRESSURE                                                                                                                      • Sensor barycentre                             or saved to each unit’s internal memory (acquisition
+ 8 kg/cm²
+                                                                                                                              • Step detection assistant                      possible without a computer).
+                                                                                                                              •	Comparison of sensor values between
+                                                   Detailed analysis             Comparison of 2 acquisitions                    several recordings
+                                                                                                                              • Report editing
+

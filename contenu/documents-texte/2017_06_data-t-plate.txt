@@ -1,0 +1,41 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/06/data-t-plate.pdf
+Mis en ligne le : 2017-09-22
+------------------------------------------------------------
+                                                                         22 mm
+
+
+
+
+                                                                   612 mm
+
+
+
+
+                                               565mm
+
+
+
+
+Size (length, width, height)   565x612x22 mm
+Thickness (sensor area)        8 mm
+Active Area                    400x400mm
+Weight                         3.15 Kg
+
+
+
+
+Sensors type                   Resistive sensor
+Sensor size                    10mm x 10mm
+Number of sensors              1600 (40x40)
+Temperature range              from - 40°C to + 85°C (- 40°F to 185°F)
+Sensor lifetime                > 3 000 000 actuations
+Maximum pressure               100 N/cm2
+Interface PC/Platform          USB
+Power supply                   USB
+Frequency data Acquisition     ≤ 100 Hz
+Analogic/Digital conversion    8 bits
+
+
+
+data T-Plate.doc                                           19/07/2013
+

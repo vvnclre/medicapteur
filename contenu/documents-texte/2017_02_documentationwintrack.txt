@@ -1,0 +1,135 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/02/documentationwintrack.pdf
+Mis en ligne le : 2017-02-21
+------------------------------------------------------------
+                                                                                                                                                                                                                                                                WIN-TRACK
+                        Caractéristiques techniques
+                        Dimensions (longueur/largeur/hauteur)
+                        Epaisseur
+                                                                  1610 x 652 x 30 mm
+                                                                  9 mm
+                                                                                                                                                                                                                                                                Une longueur d’avance
+                        Surface active                            1500 x 500 mm                                                                                             P O D O LO G I E , P O S T U R O LO G I E E T R É É D U C AT I O N
+                        Poids                                     11,8 Kg                                                                                                                                                                                       WIN-TRACK : une véritable piste de marche dédiée à l’analyse podométrique
+                        Capteurs                                  Résistifs HD                                                                                                                                                                                  dynamique et permettant également de réaliser des acquisitions statiques
+                        Taille du capteur                         0,78 x 0,78 cm
+                        Nombre de capteurs                        12 288
+                                                                                                                                                                                                                                                                et posturographiques avec une totale liberté de positionnement.
+                        Pression mini/maxi par capteur            0,4 à 100 N
+                        Température admissible                    0°C à +85° C
+                        Type d’interface PC/plate-forme           USB
+                        Alimentation                              Par le câble USB
+                        Fréquence d’acquisition                   200 images / seconde
+                        Système d’exploitation requis             Windows Vista, 7, 8
+                        Synchronisation                           1 entrée, 1 sortie
+                        Conditionnement                           1 palette
+
+
+
+
+                      Medicapteurs, leader européen
+                      de la podométrie électronique
+                      plus de 30 ans d’expérience dans la conception et la fabrication
+                      d’équipements pour la podologie, la posturologie et la biomécanique
+                      une gamme complète et évolutive d’appareils de mesure,
+                      de diagnostic et d’aide à la fabrication
+                                                                                                        Medicapteurs vous propose
+                                                                                                        également d’autres solutions
+                                                                                                        pour l’étude des pressions plantaires
+                                                                                                                                                                                                                             WIN-TRACK
+                                                                                                                                                                                                                                                 Une longueur
+                      qualité et fiabilité reconnues certification CE dispositifs médicaux
+                      selon la Directive 93/42 Classe 1m (DEKRA)
+                                                                                                        et de la posture.
+                      le partenaire des professionnels du pied, de la semelle
+
+
+                                                                                                                                                                                                                                                    d’avance
+                      et de la chaussure
+                      une entreprise née de la filiation avec le monde de la
+                      recherche et de la haute technologie (LAAS / CNRS)
+                      plus de 10 000 clients équipés
+                      une notoriété et une implantation mondiales (Europe, États-Unis,
+                      Asie...)
+
+
+
+
+                      Gestion de la qualité
+                      Certifié conforme
+                      à la directive 93 / 42 / CEE
+                      relative aux dispositifs médicaux
+WIN-TRACK / 03-2015
+
+
+
+
+                                                                                                       P O D O LO G I E , P O S T U R O LO G I E E T R É É D U C AT I O N
+
+
+
+                                                                                 «Les Espaces de Balma» - 18 av. Charles de Gaulle - Bât. 33 & 34
+                                                                                                                         31130 BALMA - France
+
+                                                                                                tél. +33 (0) 562 571 571 - fax +33 (0) 562 577 468
+                                                                                                       info@medicapteurs.fr - www.medicapteurs.fr
+WIN-TRACK                                                                                                                                                                     WIN-TRACK software
+Une longueur d’avance                                                                                                                                                         Le logiciel WIN-TRACK software comprend toutes les visualisations et calculs nécessaires
+                                                                                                                                                                              à l’analyse des pressions plantaires et à la locométrie (analyse des paramètres spatio-temporels
+                                                                                                                                                                              liés à la marche).
+
+Une plateforme monobloc                                                                                              Une analyse du mouvement                                 Analyse dynamique
+                                                                                                                     inédite
+                                                                                                                                                                              • Acquisition dynamique multiple
+Plus de 2 ans de recherche et développement ont été                                                                                                                           • Image globale dynamique, calculs, courbes
+                                                                                                                                                                              • Calcul des paramètres spacio-temporels
+nécessaires pour mettre au point une structure
+                                                                                                                     Les 12288 capteurs de la WIN-TRACK peuvent               •	Cartographie du temps d’appui et intégrale
+“monobloc“ visant à s’affranchir des défauts générés                                                                                                                             temps / pression
+                                                                                                                     enregistrer jusqu’à 200 images par seconde
+par une conception modulaire (plusieurs plates-formes                                                                                                                         • Vidéo
+                                                                                                                     les cartographies de pression pendant la marche,         •	Analyse par zone et analyse médio-latérale
+de podométrie reliées entres-elles).
+                                                                                                                     la course ou des mouvements spécifiques                                                                        Analyse détaillée et visualisation   Acquisition dynamique multiple   Analyse médio-latérale   Analyse vidéo
+                                                                                                                                                                                                                                    spatio-temporelle
+                                                                                                                     (Sport, Posturo-Séquentielle...)
+Cette solution technique supprime les zones mortes,
+les problèmes de sensibilité et de synchronisation entre                                                             Grâce aux fonctionnalités du logiciel et aux entrées/    Analyse statique
+les modules, tout en garantissant des fréquences                                                                     sorties de synchronisation, le praticien pourra          • Cartographie statique avec calcul par zone
+d’acquisition élevées et une manipulation aisée.                                                                     visualiser simultanément l’évolution des pressions       •	Multitude de visualisations
+                                                                                                                                                                                 (thermographique, isopression, 3D…)
+                                                                                                                     et des images vidéos et piloter des dispositifs d’ana-   • Impression à l’échelle 1/1
+                                                                                                                     lyses tels que EMG, ECG...                               • Comparaison d’examens
+
+
+
+                                                                                                                                                                                                                                    Cartographie statique                Comparaison d’examens
+
+                                                           Fiabilité et performance uniques
+                                                           Plus de 30 ans d’expérience en matière de capteurs                                                                 Analyse posturographique
+                                                                                                                                                                              •	Analyse numérique et graphique des paramètres
+                                                           résistifs permettent aujourd’hui de proposer une                                                                      de stabilométrie
+                                                           technologie fiable et une qualité de résultat inégalée.                                                            •	Evolution des cartographies et des centres
+                                                                                                                                                                                 de pression en continu ou pas à pas
+                                                                                                                                                                              • Quotient de Romberg
+                                                           La conception innovante du châssis de la WIN-TRACK                                                                 • Visualisation temps réel
+                                                           en matériau composite lui assure rigidité, solidité,
+                                                           légèreté et facilité d’entretien.                                                                                                                                        Analyse posturographique détaillée   Courbes posturographiques
+
+
+
+
+                                                                                                                                                                              Fonctions avancées
+                                                                                                                                                                              •	Fiche d’examen clinique avec possibilité de lier
+                                                                                                                                                                                 des documents électroniques
+                                                                                                                                                                              •	Rapport personnalisable : insertion de photos,
+                                                                                                                                                                                 ajout de commentaires, création de modèles
+                                                                                                                                                                                 types
+                                                                                                                                                                              • Exportation au format PDF
+                                                                                                                                                                              • Gestion d’un agenda multi-praticiens
+
+                                                                                                                                                                                                                                    Examen clinique paramétrable
+
+
+
+                                                                                                                                                                                                                                                                         Rapport personnalisable
+

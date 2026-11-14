@@ -1,0 +1,121 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/02/wintrackuk.pdf
+Mis en ligne le : 2017-02-22
+------------------------------------------------------------
+                                                                                                                                                                                                                                                                                                                                  WIN-TRACK
+                                                                          System Features
+                                                                          Dimensions (Length x Width x Height)
+                                                                          Thickness
+                                                                                                                     1610x652x30mm
+                                                                                                                     9mm
+                                                                                                                                                                                                                                                                                                                                  A step ahead
+                                                                          Sensing area                               1500x500mm                                                                                                      E D 9 > 6I G N !  E D H I J G D AD < N  6 C 9  G : = 6 7 > A > I6I > D C
+                                                                          Weight                                     11.8Kgs                                                                                                                                                                                                      Win-Track: a foot pressure sensitive walkway dedicated to static, posturographic
+                                                                          Sensor technology                          Resistive HD                                                                                                                                                                                                 and gait analysis with total freedom in stance and motion acquisition.
+                                                                          Sensor’s size                              0.78x0.78cm
+                                                                          Number of sensors                          12,288
+                                                                          Pressure range                             From 0.4 to 100N
+                                                                          Temperature range                          From 0°C to +85°C
+                                                                          PC/Platform interface                      USB 2.0
+                                                                          Power supply                               Through USB
+                                                                          Sampling rate                              200Hz
+                                                                          Required operating system                  Windows XP, Vista, Seven
+                                                                          Synchronization                            1 input, 1 output
+
+
+
+
+                                                                        Medicapteurs, European leader
+                                                                        in electronic podometry
+                                                                        More than 25 years of experience in the design and manufacturing
+                                                                        of podiatry, posturology and biomechanical equipment.
+
+
+
+
+                                                                                                                                                                                                                                                                                             WIN-TRACK
+                                                                        a complete and evolving line of measuring devices for diagnosis
+                                                                        and orthotics design process.
+                                                                        quality and reliability certification according to European Communittee (CE)
+                                                                        medical devices standards /Dekra certified company EN 46003
+                                                                        a partner for foot clinicians, orthotics and shoes manufacturers
+                                                                        more than 6000 equipped clients
+                                                                        a world class establishment and reputation                                                                                                                                                                                                 A step ahead
+                                                                        3 locations : Toulouse, Nice, Atlanta
+
+
+
+
+                                                                        Quality Control
+                                                                        Certified
+                                                                        EEC regulation 93/42
+                                                                        For medical devices
+                                                  WIN-TRACK / 09-2009
+
+
+
+
+                                                                                                                                                       E D 9 > 6I G N !  E D H I J G D AD < N  6 C 9  G : = 6 7 > A > I6I > D C
+
+
+
+                                                                                            Address: «Les Espaces de Balma» - 18 av. Charles de Gaulle - Bât. 33 & 34
+                                                                                                                                             31130 BALMA - France
+
+                                                                                                                      tél. +33 (0) 562 571 571 - fax +33 (0) 562 577 468
+                                                                                                                             info@medicapteurs.fr - www.medicapteurs.fr
+
+
+
+
+MEDICAPTEURS win-track plaquette OK GB.indd 1-4                                                                                                                                                                                                                                                                                                                                                                      27/04/10 17:15:15
+                  WIN-TRACK                                                                                                                                                                                            WIN-TRACK software
+                                                                                                                                                                                                                       The Win-Track software offers all tools to display and analyze your patient’s foot pressure
+                   A step ahead                                                                                                                                                                                        and gait pattern, including space-time calculations.
+
+
+
+                   A one piece platform                                                                                                      A high performance motion analysis
+                   Thanks to more than 2 years of research and development, our                                                              The 12,288 sensors on the Win-Track register foot pressure
+                   single unit structure reduces the complexity of the modular                                                               at a sampling rate up to 200 images per second during                     Dynamic analysis
+                                                                                                                                                                                                                       • Roll-off animation
+                   concept (connection of multiple podometry platforms).                                                                     stance, walking, gait, or specific activities (sport movements,
+                                                                                                                                                                                                                       • Global dynamic picture, calculations, and graphs
+                                                                                                                                             postural sequences…)                                                      • Simultaneous displays of each step
+                   This technical solution eliminates “blind spot” areas,                                                                                                                                              • Calculation of space/time parameters
+                   and the need of synchronization between multiple modules,                                                                 More than pedobarography                                                  • Multiple characteristics of gait timing
+                                                                                                                                                                                                                       • Video synchronization, up to 2 cameras
+                   while providing high sample rate and easy use.                                                                            The software allows synchronization of Win-Track measurements             • Foot pressure mapping and timing of the stance
+                                                                                                                                                                                                                         phase and complete time/pressure analysis
+                                                                                                                                             with other diagnostic tools. The clinician can visualize simultaneously                                                        Detailed analysis and space/time view   Graphs comparison   Medio-lateral analysis   Video analysis
+                                                                                                                                                                                                                       • Medio-lateral analysis
+                                                                                                                                             foot pressure evolution, video images, and link with other medical
+                                                                                                                                             devices such as EMG, EKG…
+                                                                                                                                                                                                                       Static analysis
+                                                                                                                                                                                                                       • Foot pressure mapping
+                                                                                                                                                                                                                         with calculation per area
+                                                                                                                                                                                                                       • Multiple visualization options
+                                                                                                                                                                                                                       • Scale 1:1 printing
+                                                                                                                                                                                                                       • Exams comparisons
+
+
+                                                                          Unmatched performance and reliability
+                                                                          Our 25+ years of experience in the design and manufacturing of                                                                                                                                    Clinical exam data                      Exams comparison    3D view                  Personalized report
+                                                                          resistive sensor technology enables us to provide a state-of-the-art
+                                                                          system with an unmatched quality of performance.
+                                                                                                                                                                                                                       Postural analysis
+                                                                                                                                                                                                                       • Numerical and graphic analysis
+                                                                          Additionally, the innovative body of the Win-Track provides a solid,                                                                           of stabilometry parameters
+                                                                          rigid and light structure.                                                                                                                   • Continuing or step by step analysis and
+                                                                                                                                                                                                                         mapping of the centers of pressure evolutions
+                                                                                                                                                                                                                       • Romberg quotient calculation
+                                                                                                                                                                                                                       • Live display
+
+
+
+                                                                                                                                                                                                                                                                            Detailed posturographic analysis        Postural graphs
+
+
+
+
+MEDICAPTEURS win-track plaquette OK GB.indd 5-8                                                                                                                                                                                                                                                                                                                                        27/04/10 17:15:23
+

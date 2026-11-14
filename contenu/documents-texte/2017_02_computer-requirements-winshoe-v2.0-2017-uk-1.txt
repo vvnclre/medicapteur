@@ -1,0 +1,42 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/02/computer-requirements-winshoe-v2.0-2017-uk-1.pdf
+Mis en ligne le : 2019-05-29
+------------------------------------------------------------
+       Computer system requirements for Winshoe
+                          PC with following processors (CPU) :
+Type
+
+                                  - INTEL Core i5 (or higher)
+                                  - Tablets running Windows OS (10 S excluded) with Bluetooth
+                                  built in
+                                  - Macintosh (Apple) are not compatible
+                                  - All in one PC are not compatible
+
+
+                          If you already own a PC or for other configuration : contact us
+
+Operating system          Windows 7, 8, 10 (32 or 64 bits)1 Windows 10 excluded
+
+RAM Memory                4 Go
+
+Hard Drive                128 Go
+
+Display                   1024 x 768 pixels
+
+Webcam (option)                   - Any webcam running at 30 frames per second
+(if video option                  - 1 x discrete graphic card
+available)                        - 1 USB port
+
+Data backup               1 external Hard Drive (USB)
+
+       This list of requirements is for indicative purpose only and does not guarantee a full compatibility.
+                              If you have any doubt or question, please contact us.
+
+
+                                               Version 2.0 May 2017
+
+
+
+
+ MEDICAPTEURS France S.A.S. – « Les Espaces de Balma » - 18, avenue Charles de Gaulle - Bât.33/34 - 31130 BALMA
+                  Tél. +33 (0) 562 571 571 / Fax +33 (0) 562 577 468 – www.medicapteurs.fr
+

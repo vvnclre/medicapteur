@@ -1,0 +1,145 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/06/tplate2026.pdf
+Mis en ligne le : 2026-04-01
+------------------------------------------------------------
+Medicapteurs an European leader
+in electronic baropodometry
+A complete and evolving range of measuring, diagnostic and manufacturing tools
+• Over 20 000 devices running around the world
+• Worldwide sales network
+• More than 300 scientific and published works
+
+
+    T-Plate software provides 3 types of acquisitions:
+   Static and Postural measure                          Dynamic measure                            Dynamic and Synchronized Video
+
+
+
+
+                        Mechanic / ELECTRONIC data
+                        T-Plate          T-Plate Wifi     T-Plate 30       T-Plate 30th Wifi
+  Size mm (Length       565 x 612 x 22   565 x 612 x 22   710 x 610 x 22   710 x 610 x 22      T-Plate30 and T-Plate size comparison
+  x Width x Height)
+  Thickness             8 mm             8 mm             8 mm             8 mm
+  Weight                3 kg             3 kg             3.6 kg           3.6 kg
+  Active area           400 x 400 mm 400 x 400 mm         500 x 500 mm     500 x 500 mm
+  Maximum load          200 kg           200 kg           200 kg           200 kg
+  Number of resistive   1600             1600             4096             4096
+  sensors
+  Temperature range     0 to +60 °C      0 to + 60 °C     0 to +60 °C      0 to +60 °C
+  Sensor lifetime       >1000 000        >1000 000        >1000 000        >1000 000
+  actuation
+  Max pressure          100 N            100 N            100 N            100 N
+  per sensor Ncm2
+  Sampling rate max     100              150              150              200
+  (frequency)
+  Plate connection      USB              Wifi or USB      USB              Wifi or USB
+
+
+
+
+T-plate pressures plates are Class 1m medical certified devices :
+EC (Europe) , FDA (US) , KFDA (South Korea), PAL (Japan).
+
+
+Visit our website www.medicapteurs.com to view our full range of product
+Stay tuned of Medicapteurs news and events on Facebook and Linkedin
+
+
+ Les Espaces de Balma - 18 av. Charles de Gaulle - Bât. 33 & 34 - 31130 BALMA - France - +33 (0) 562 571 571
+                  fax +33 (0) 562 577 468 - info@medicapteurs.fr - www.medicapteurs.fr
+                                                                        Baropodometry
+                                                                              Platform
+
+
+
+
+P O D O LO G Y , P O S T U R O LO G Y A N D R E H A B I L I TAT I O N
+The state of the art
+foot pressure devices
+
+T-plate devices onboard powerfull, sensitive and long life sensors
+for a professional and accurate display of the foot pressure profile.
+
+T-plate softwares and app propose various and precious informations that help footcare
+specialists on different fields :
+
+• Anatomical and functionnal evaluation of the foot : flat, varus/valgus, foot posture index.
+• Treatment of Patient complaining of any deseases of the foot and other body districts that are
+  anatomically and functionnaly related to the foot : bunion, mallet toes, metatarsalgy etc.
+• Insoles and shoe manufacturing.
+• Athlete’s foot assesment. Gait and biomechanic of the foot
+• Diabetic foot evaluation and risk of ulcers prediction.
+• Elderly fall risk evaluation.
+• Foot and ankle pre-post surgery follows up.
+• Children flat foot and sever detection.
+• Research and scientific publication.
+
+
+
+
+Gait and biomechanical analysis
+                                                                     Dynamic test of the foot patern :
+                                                                     • Pronation Supination
+                                                                     • Stability/Symetry
+                                                                     • Gaitline shape
+                                                                     • Pressure/time integral
+                                                                     • Time of contact
+                                                                     • Automatic front/rear balance
+                                                                     • 7/12 foot zones study
+                                                                     • 3D
+Diabetic foot care
+• Diabetic foot ulceration prevention and insole/shoe testing
+• Monitoring and evaluation of diabetic foot
+• Scoring of the Diabetic foot : Predictive ulcerations risk index
+• Automatic display of the risk zones to help pressure offloading
+
+
+
+
+                                                                     Copyright D.ARMSTRONG
+
+
+
+
+elderly fall risk evaluation
+• Elderly muscular test and join mobility
+• Monopodal 5 seconds fall risk testing
+• Sit and stand testing center of pressure excursion
+posture and balance
+• Posture study and its pathological variations , hip pain, knee pain, spinal pain
+• Romberg calculation, statokinesigram view, real time left/right balance
+
+
+
+
+athlete’s foot assessment
+• Athletes performances improvement and injury study : overload disorders (high pressure),
+  ankle instability etc
+• High pressure peaks , time/pressure Integral. COP (center of pression) excursion : CPEI index
+• Automatic pressure/video synchronization with 2 digital cameras
+children foot
+
+• Following children growth pathology : Sever desease, Flat foot.
+
+
+
+
+PODOCAPTURE APP
+
+Drive your wireless Plate (bluetooth or wifi option) using your Smartphone, Tablet , Ipad, Iphone
+
+
+
+                                                     • User friendly app
+
+                                                     • Keep contact with your patient
+
+                                                     • Mix photos, notes , vocal notes, graphs
+
+                                                     • Print report through wifi printer in one click
+
+                                                     • Wifi screen mirroring on a wide TV screen
+
+                                                     • Available on Apple and Android stores for
+                                                       wifi T-Plate , Android for Bluetooth T-Plate
+

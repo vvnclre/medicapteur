@@ -1,0 +1,68 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2022/11/fiche-config-info-generale-conseillee-v2.7-2022-fr-a5.pdf
+Mis en ligne le : 2022-11-17
+------------------------------------------------------------
+           Configuration
+           informatique                             Minimale                                Conseillée
+                (Hors W-inshoe)
+
+         Type                                                                    Tout PC avec un des processeurs
+                                           Tout PC avec un des processeurs
+                                                                                 suivants :
+                                           suivants :
+                                                                                       - INTEL Core i3 « génération 8 »
+                                                 - INTEL Core i3
+                                                                                 (ou supérieur) fréquence 2 Ghz
+                                           (ou supérieur) fréquence 2 Ghz
+                                                                                 minimum
+                                           minimum
+                                                                                       - AMD Ryzen 3 « génération 3 »
+                                                 - AMD A10 (ou supérieur)
+                                                                        1        (ou supérieur) fréquence 2 Ghz
+                                                                                           1
+                                           fréquence 2 Ghz minimum
+                                                                                 minimum
+
+                                                      - Les Macs ne sont pas compatibles
+                                                      - Les PC tout-en-un (All-in-one / AIO) sont déconseillés
+                                                      - Les tablettes ne sont pas compatibles
+                                                      - Les micro-PC et Sticks sont déconseillés
+                                           Si vous possédez déjà un PC ou pour toute autre configuration :
+                                           nous contacter
+
+                                           Windows 8.1, 10,11 (32 ou 64 bits) 2
+         Système d’exploitation
+                                           Windows 10 S non compatible
+
+         Mémoire RAM                       4 Go                                  8 Go
+
+         Disque dur                        128 Go                                256Go
+
+         Résolution d’écran                1366x768 pixels                       1920x1080 pixels
+
+                                           2 ports USB minimum sur le PC dont 1 port USB dédié exclusivement à la
+         Ports USB                         plateforme ou pour clé Wifi fournie (si option wifi)
+                                           Port USB C compatible avec adaptateur
+
+                                                      - Toute webcam fonctionnant à 30 images par seconde
+         Webcam (si l’option vidéo est
+         disponible)
+                                                      - 1 carte graphique performante dédiée
+                                                      - 1 port USB supplémentaire dédié
+
+         Système de sauvegarde             1 disque dur externe (USB)
+
+       Un environnement surchargé en signaux wifi peut altérer ou empêcher la connexion sans fil de nos produits.
+    Cette fiche d’information est indicative et ne garantit pas la totale compatibilité de votre PC avec votre plateforme.
+                                     En cas de doute, n’hésitez pas à nous contacter.
+1
+    Avec processeur AMD Ryzen, câble USB maximum 3 mètres.
+2
+    Win-Pod et Fusyo avec alimentation prise secteur (ancienne         génération)
+                                                       Version 2.4 Février 2021    ne fonctionne que sur 32 bits.
+
+
+
+
+MEDICAPTEURS France S.A.S. – « Les Espaces de Balma » - 18, avenue Charles de Gaulle - Bât.33/34 - 31130 BALMA
+                               Tél. +33 (0) 562 571 571– www.medicapteurs.fr
+

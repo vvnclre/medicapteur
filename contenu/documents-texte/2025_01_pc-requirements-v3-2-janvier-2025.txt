@@ -1,0 +1,49 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2025/01/pc-requirements-v3-2-janvier-2025.pdf
+Mis en ligne le : 2025-01-24
+------------------------------------------------------------
+     PC
+Requirements                                       Minimal                                     recommended
+      New device ¹
+CPU Type 4                                    • INTEL Core i3 6157u                                • INTEL Core i5 8250u
+
+                                              • AMD Ryzen 3 2200u ²                                • AMD Ryzen 5 3450u ²
+
+
+
+                                               •   Apple Mac not compatible
+                                               •   All-in-one not recommended
+                                               •   Only Windows tablets are compatible
+                                               •   Micro PC et Stick PC are not recommended
+
+
+OS                                           Windows 8.1, 10,11 (32 or 64 bits) Windows 10 S excluded
+
+RAM                                                      4 Go                                                  8 Go
+
+Screen résolution                               1366 x 768 pixels                                   1920 x 1080 pixels
+
+                                         • At least 2 USB A 5 port , 1 dedicated exclusively to the pressure
+                                           device or to the wifi USB key (for wifi option pressure plate) ³
+USB ports
+                                         •   USB C port compatible using adaptator only
+                                         • 30 images/second webcam
+Webcam
+                                           For example : Logitech C920 Pro : USB port dedicated
+
+Back up                                                               External hard drive (USB)
+
+
+                    ¹ If you already owns a PC or an older pressure device contact us
+                                   ² AMD Ryzen CPU allows only 3 meters USB wire.
+                ³ An overloaded wifi networks environment can alter the connection of your pressure device.
+              4
+                Qualcomm Snapdragon mobile processors are not compatible with some products, contact us
+        5
+         For USB 3.2 controller, maximum 3-meter USB cable (for longer lengths, please contact after self service).
+
+      This document is indicative and does not guarantee the full compatibility of your PC
+                                                      Version 3-1, january 2025
+
+
+            MEDICAPTEURS France S.A.S. –Tél. +33 (0) 562 57 74 59 / Email : mailto:sav@medicapteurs.fr– www.medicapteurs.fr
+

@@ -1,0 +1,156 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/02/documentationwinposturo.pdf
+Mis en ligne le : 2017-02-21
+------------------------------------------------------------
+                                                                                                             Caractéristiques techniques
+                                                                                                             Dimensions                            530 x 460 x 35 mm
+                                                                                                             Epaisseur plateau                     12 mm
+                                                                                                             Poids                                 7,8 Kg
+                                                                                                             Matériau                              Aluminium AU4G rectifié
+
+
+
+
+WIN-POSTURO
+                                                                                                             Charge maximale                       250 Kg
+                                                                                                             Non-linéarité                         < 0,2%
+                                                                                                             Résolution                            900 points/Kg
+                                                                                                             Hystérésis                            < 0,2%                                                                                                                E D 9 D AD < > : !  E D H I J G D AD < > :  : I  G w w 9 J 8 6I > D C
+                                                                                                             Fréquence d’acquisition               Programmable de 5Hz à 40Hz
+                                                                                                             Conversion analogique-numérique       16 bits
+                                                                                                             Type d’interface PC/plate-forme       USB
+                                                                                                             Alimentation                          Par le câble USB
+l’indispensable outil du                                                                                     Logiciels d’exploitation              WinPosture NV
+                                                                                                                                                   logiciel d’exploitation stabilographique
+                                                                                                                                                   WinTrainer NV(option)
+
+Praticien Posturologue pour :                                                                                Système d’exploitation requis
+                                                                                                                                                   logiciel de rééducation par biofeedback visuo-postural
+                                                                                                                                                   Windows XP/Vista
+                                                                                                             Options                               Plateau d’équilibration dynamique
+• L’évaluation posturale.                                                                                                                          Valise de transport
+• L’analyse des troubles de la statique et de l’équilibre.
+• Un bon contrôle thérapeutique.
+
+
+
+                                                                                                           Medicapteurs, leader européen
+nouvelle plate-forme                                                                                       de la podométrie électronique
+40 hz /16b.                                                                                                plus de 23 ans d’expérience dans la conception
+                                                                                                           et la fabrication d’équipements pour la podologie,
+                                                                                                           la posturologie et la biomécanique
+• Nouvelle conception plus performante et plus robuste                                                     une gamme complète et évolutive                                                       Medicapteurs, c’est aussi une gamme complète
+• Nouveau design                                                                                           d’appareils de mesure, de diagnostic                                                  de plate-formes de podométrie électronique
+                                                                                                           et d’aide à la fabrication
+
+
+                                                                                                                                                                                                                                                                                                               WIN-POSTURO
+• Plate-forme extra-plate
+• Performances métrologiques garantissant des données fiables à 5Hz comme à 40Hz                           qualité et fiabilité reconnues
+• Connexion USB                                                                                            certification CE-dispositifs médicaux / Dekra
+• Plateau optionnel d’équilibration dynamique                                                              entreprise certifiée EN 46003
+• Nouveaux logiciels
+• WinPosture NV Software et WinTrainer NV Software.
+                                                                                                           le partenaire des professionnels du pied,
+                                                                                                           de la semelle et de la chaussure                                                                                                                                                                     la plate-forme normalisée
+                                                                                                           une entreprise née de la filiation
+                                                                                                           avec le monde de la recherche et de la
+                                                                                                           haute technologie (LAAS / CNRS)
+                                                                                                                                                                                                                                                                                                                      de stabilographie et
+                                                  Nouveau design
+                                                                                                           plus de 5 000 clients équipés
+                                                                                                                                                                                                                                                                                                                de réeducation posturale
+                                                                                                           une notoriété et une implantation
+                                                                                                           mondiales (Europe, États-Unis, Asie...)
+
+                                                                                                           3 sites : Toulouse, Nice, Atlanta
+
+
+
+
+                                                                                                           Gestion de la qualité
+                                                                                                           Certifié conforme
+                                                                                                           à la directive 93 / 42 / CEE
+                                                                                                           relative aux dispositifs médicaux
+                                                                                   WIN-POSTURO / 05-2008
+
+
+
+
+                                                                                                                                                                                              E D 9 D AD < > : !  E D H I J G D AD < > :  : I  G w w 9 J 8 6I > D C
+
+Plateau d’équilibrage dynamique
+                                                                                                                                  «Les Espaces de Balma» - 18 av. Charles de Gaulle - Bât. 33 & 34
+                                                                                                                                                                          31130 BALMA - France
+
+                                                                                                                                                   t. +33 (0) 562 571 571 - f. +33 (0) 562 577 468
+                                                                                                                                                       info@medicapteurs.fr - www.medicapteurs.fr
+                                                                                                                      La posturologie
+un instrument aux                                                                                                     La posturologie est l’étude de l’équilibre orthostatique régi
+                                                                                                                      par le système postural fin qui fait appel à l’œil, l’oreille interne,
+
+objectifs multiples                                                                                                   à la proprioception et au pied qui, sous l’appellation d’entrée
+                                                                                                                      podale, possède une grande place dans le système.
+Analyse du comportement postural statique et dynamique
+• Proposer une description comportementale objective et chiffrée
+  par l’analyse des enregistrements stabilométriques
+• Établir des bilans posturaux documentés
+• Identifier le malade postural
+• Orienter le diagnostic
+                                                                     WinPosture NV
+Validation posturale et optimisation des traitements
+• Contrôle et optimisation du traitement sur la posture du patient
+  (semelles correctrices, orthoplasties, prothèses, gouttières
+  occlusales, manipulations, soins...)
+                                                                     software
+Meilleure communication                                              Nouveau logiciel de Stabilographie
+avec le patient et les autres praticiens
+                                                                     Statique et Dynamique
+                                                                     • Convivialité et ergonomie incomparables
+                                                                     • Création et gestion des protocoles d’acquisition
+
+
+une plate-forme                                                      • Paramétrage des normes et référentiels
+                                                                     • Production de la totalité des données stabilométriques normalisées APE 85
+
+
+très performante                                                     • Nouvelles fonctionnalités issues de l’actualité scientifique
+                                                                       (option : ondelettes, analyses fractales et de diffusion…)
+Instrument de mesure extrêmement précis et fiable                    • Possibilité de comparaison des examens
+• Plate-forme extra-plate
+                                                                     • Multiples Visualisations du signal stabilométrique
+• Électronique de gestion 16 bits permettant
+  des enregistrements fiables à 40 Hz                                • Edition de rapports et bilans personnalisables
+• Connexion directe USB de la plate-forme sur le PC
+                                                                     • Exportation directe des données stabilométriques vers Excel
+• Parfaite linéarité
+• Très grande sensibilité                                            • Editeur de courrier
+                                                                     • Publipostage
+
+
+
+
+une plate-forme                                                      WinTrainer NV
+normalisée                                                           software
+• Certifiée CE Dekra selon la directive
+  européenne 93/42 annexe VI
+
+• Normalisée suivant les normes                                      La souplesse d’un logiciel
+  A.F.P. 85 (aujourd’hui A.P.E) :                                    de rééducation paramétrable
+    • MEDICAPTEURS est membre de l’A.P.E.
+      (Association Posture et Equilibre)
+                                                                     • Nouveau logiciel de rééducation et de contrôle
+    • Implémentation systématique des dernières                        thérapeutique par biofeedback visuo-postural
+      évolutions validées par l’A.P.E.
+                                                                     • Exercices ludiques paramétrables par le praticien                                                        Un service client de qualité                       Win-Posturo adopté par
+                                                                       en fonction de l’évolution de la rééducation du patient
+                                                                                                                                                                                • Formation à l’utilisation de la plate-forme      de nombreuses spécialités
+                                                                     • Facilité d’utilisation grâce à des exercices                                                               et à la stabilométrie.
+                                                                       avec création rapide de niveaux prédéfinis                                                               • Evolutions logicielles régulières.               • Podologie, Kinésithérapie, Ostéopathie, Orthopractie,
+                                                                                                                                                                                • Assistance téléphonique.                         • Médecine Physique et Sportive, Rééducation,
+                                                                     • Ergonomie optimisée
+                                                                                                                                                                                • Contrat de maintenance.                          • Orthopédie, Rhumatologie,
+                                                                     • Publipostage                                                                                             • Formation personnalisée sur demande.             • Dentisterie (Occlusodontie), Orthodontie,
+                                                                                                                                                                                                                                   • O.R.L., Réhabilitation Vestibulaire,
+                                                                                                                                                                                                                                   • Ophtalmologie, Orthoptie,
+                                                                                                                                                                                Notre objectif : la satisfaction de nos clients.   • Neurologie, Gériatrie, Psychiatrie, Neurosciences...
+

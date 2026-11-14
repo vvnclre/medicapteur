@@ -1,0 +1,46 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/06/report.pdf
+Mis en ligne le : 2026-03-13
+------------------------------------------------------------
+                                                  Mayo Clinic
+                                 135 Los angeles boulevard 13330 SANTA MONICA
+                                                 13 02 45 11 32
+                                                mayo@clinicla.com
+                                                   mayo.com
+
+
+
+TEST PODO                                                                                        Static analysis
+
+
+
+
+                                                             Flat          Normal        Cavus
+
+
+
+
+                                                 Area=308 cm²       Max P=734 g/cm²     Avg. P=299 g/cm²
+
+
+  Date :            04/05/2010         The left/right lateral pressure distribution isoutside the norm. The
+  Check-up                             forefoot/rearfoot ratios are 1.6 on the left and 1.1 on the right. The load
+                                       distribution (thrust) between the 2 feet shows a significant offset between the
+  Age :             66 years           front and rear feet.
+  Weight :          92 Kg              The maximum pressure measured on both feet is 734 g/cm². It is located at
+  Height :          180 cm             the hindfoot left.
+                                       The average pressure on both feet is 299 g/cm².
+  Foot size :       44                 The average support area of ??the     feet represents 308 cm² for a left-right
+                                       distribution of 152/156 cm², with the largest support area located on the
+                                       forefoot left.
+                                       There is a moderate difference in support surface between the forwards left
+                                       and right feet. There is a moderate difference in support surface between the
+                                       backs left and right feet.
+                                       The contact areas of the left foot with the ground in the external band are
+                                       weak. The contact areas of the right foot with the ground in the external band
+                                       are moderate. : ASYMMETRY
+
+
+
+
+Medicapteurs Software
+

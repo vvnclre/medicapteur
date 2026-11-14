@@ -1,0 +1,48 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2023/05/fiche-config-info-generale-v3-mai-2023-fr.pdf
+Mis en ligne le : 2023-05-24
+------------------------------------------------------------
+Configuration
+informatique                                      Minimale                                           Conseillée
+    Produit Neuf ¹
+Type processeur                              • INTEL Core i3 6157u                                 • INTEL Core i5 8250u
+
+                                             • AMD Ryzen 3 2200u ²                                 • AMD Ryzen 5 3450u ²
+
+
+
+                                              •    Les Macs ne sont pas compatibles
+                                              •    Les PC tout-en-un (All-in-one) sont déconseillés
+                                              •    Seules les tablettes Windows sont compatibles
+                                              •    Les micro-PC et Sticks sont déconseillés
+
+
+Système d’exploitation                        Windows 8.1, 10,11 (32 ou 64 bits) Windows 10 S exclu
+
+Mémoire RAM                                              4 Go                                                 8 Go
+
+Résolution d’écran                                1366 x 768 pixels                                 1920 x 1080 pixels
+
+                                        • 2 ports USB A minimum sur le PC dont 1 dédié exclusivement à
+                                          la plateforme ou pour la clé Wifi fournie (si option wifi) ³
+Ports USB
+                                        •   Port USB C compatible avec adaptateur obligatoire
+                                               • Toute webcam fonctionnant à 30 images par seconde
+Webcam                                           Modèle conseillée Logitech C920 Pro
+                                                 1 port USB supplémentaire dédié
+
+Système de sauvegarde                                                Disque dur externe (USB)
+
+
+                  ¹ Si vous possédez déjà un PC ou un ancien produit CONTACTEZ NOUS
+                                ² Avec processeur AMD Ryzen, câble USB maximum 3 mètres.
+
+    ³ Un environnement surchargé en signaux wifi peut altérer ou empêcher la connexion sans fil de nos produits.
+
+  Cette fiche d’information est indicative et ne garantit pas la totale compatibilité de votre PC avec votre plateforme.
+
+
+                                                         Version 3, Mai 2023
+
+
+            MEDICAPTEURS France S.A.S. –Tél. +33 (0) 562 57 74 59 / Email : mailto:sav@medicapteurs.fr– www.medicapteurs.fr
+

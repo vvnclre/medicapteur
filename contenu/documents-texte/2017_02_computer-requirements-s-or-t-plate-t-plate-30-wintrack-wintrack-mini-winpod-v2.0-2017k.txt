@@ -1,0 +1,48 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/02/computer-requirements-s-or-t-plate-t-plate-30-wintrack-wintrack-mini-winpod-v2.0-2017k.pdf
+Mis en ligne le : 2017-09-14
+------------------------------------------------------------
+            Minimum computer system requirements
+           For T/S-Plate, T-plate30 , Win-pod*, Win-track/mini
+                            PC with following processors (CPU) :
+Type
+
+                                    - INTEL Core i3, frequency 2 Ghz minimum (or higher)
+                                      Avoid “U” version processors (Ultra low power)
+
+                                     - Macintosh (Apple) are not compatible
+                                     - Tablets are not compatible
+                                     - All in one PC are not compatible
+
+
+                            If you already own a PC - for other configuration : contact us
+
+Operating system            Windows 7, 8, 10 (32 or 64 bits)1 Windows10 S excluded
+
+RAM Memory                  4 Go
+
+Hard Drive                  128 Go
+
+Display                     1024 x 768 pixels
+
+USB Ports                   Minimum 2 USB ports on the PC.
+
+Webcam (option)                      - Any webcam running at 30 frames per second
+(if video option                     - 1 x discrete high level graphic card
+available)                           - 1 x additional dedicated USB port
+
+Data backup                 1 external Hard Drive (USB)
+
+         This list of requirements is for indicative purpose only and does not guarantee a full compatibility.
+                                       If any doubt or question, please contact us.
+
+
+
+*
+    Winpod with power supply (old generation) runs only on 32bits Windows.
+
+
+                                                Version 2.0 May 2017
+
+    MEDICAPTEURS France S.A.S. – « Les Espaces de Balma » - 18, avenue Charles de Gaulle - Bât.33/34 - 31130 BALMA
+                      Tél. +33 (0) 562 571 571 / Fax +33 (0) 562 577 468 – www.medicapteurs.fr
+

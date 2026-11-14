@@ -1,0 +1,50 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2021/10/fiche-config-info-winshoe-v2.2-2021-fr.pdf
+Mis en ligne le : 2021-10-26
+------------------------------------------------------------
+                                                   Guration
+
+
+
+
+      Configuration
+      informatique
+         Système                        Minimale                                   Conseillée
+        W-INSHOE
+
+    Type                         Tout PC avec un des                      Tout PC avec un des processeurs
+                                 processeurs suivants :                   suivants :
+
+                                        - INTEL Core i5 (ou                     - INTEL Core i5
+                                     supérieur)                              « génération 8 »
+
+                                         - Les tablettes Windows (possédant le Bluetooth) sont
+                                           compatibles Sauf Windows RT ou 10 S
+                                         - Les Macs ne sont pas compatibles
+                                         - Les PC tout-en-un (All-in-one / AIO) sont à proscrire
+
+                                 Si vous possédez déjà un PC ou pour toute autre
+                                 configuration :
+                                 nous contacter
+                                 Windows 8, 10 (32 ou 64 bits)
+    Système d’exploitation
+                                 Windows 10 S non compatible
+    Mémoire RAM                  4 Go                                     8Go
+    Disque dur                   128 Go                                   256 Go
+    Résolution d’écran           1280 x720 pixels                         1920x1080 pixels
+                                 1 port USB dédié exclusivement à l'adaptateur Bluetooth, si
+                                 Bluetooth non intégré sur le PC.
+    Ports USB
+                                 1 port USB pour la camera (pour l’option vidéo, si disponible)
+                                 Port USB C possible avec adaptateur
+    Système de sauvegarde        1 disque dur externe (USB)
+
+Cette fiche d’information est indicative et ne garantit pas la totale compatibilité de votre PC avec votre plateforme.
+                                   En cas de doute, n’hésitez pas à nous contacter.
+
+
+                                               Version 2.2 octobre 2021
+
+
+   MEDICAPTEURS France S.A.S. – « Les Espaces de Balma » - 18, avenue Charles de Gaulle - Bât.33/34 - 31130 BALMA
+                    Tél. +33 (0) 562 571 571 / Fax +33 (0) 562 577 468 – www.medicapteurs.fr
+

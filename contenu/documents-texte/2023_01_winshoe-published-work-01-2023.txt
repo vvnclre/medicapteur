@@ -1,0 +1,54 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2023/01/winshoe-published-work-01-2023.pdf
+Mis en ligne le : 2023-01-13
+------------------------------------------------------------
+                                                                             W-INSHOE published work
+n°     Auteurs                     Titre                                                  Magazine, livre, congrès                   Format        Genre    Taille Année   Langue
+
+     1 DARMANA Robert              Biomécanique du pied application clinique et           INSERM Unité 825, Chu Purpan, Toulouse,      PPT        WINPOD     27   2014     Français
+                                   podologique                                            France _ Université Toulouse III Paul                   WINSHOE
+                                                                                          Sabatier, Toulouse, France
+     2 LAUGIER Sylvain             Applications en cabinet de podologie de W-Inshoe       ADP 2016                                     PPT        WINPOD     12   2015     Français
+                                                                                                                                                  WINSHOE
+     3 AUZIAS Paloma, SEITZ        Comparaison de la course pieds nus avec la course en   SOFAMEA 2016                               Abstract     WINSHOE    1    2016     Français
+       Charline, ESCALLE Yanick,   chaussures standards et minimalistes
+       RODRIGUEZ Annie,
+       LOUBINOUX Isabelle,
+       DARMANA Robert
+
+     4 AUZIAS Paloma, SEITZ        Comparaison de la course pieds nus avec la course en   ADP Magazine Novembre 2016                  Article     WINSHOE    3    2016     Français
+       Charline                    chaussures standards et minimalistes
+     5 AUZIAS Paloma, SEITZ        Shod, Barefoot and minimalist shoes running. A         SOFAMEA 2016                                 PTT        WINSHOE    20   2016     Anglais
+       Charline, ESCALLE Yanick,   comparative study
+       RODRIGUEZ Annie,
+       LOUBINOUX Isabelle,
+       DARMANA Robert
+
+     6 LAMAUD Marion,              Mesure de la décharge de la 2ème tête métatarsienne    ADP Magazine Novembre 2016                  Article     WINSHOE    2    2016     Anglais
+       BONNEVAL Fannie             par différents matériaux de padding
+
+     7 MELAKESSOU Foued,         Presentation of a new sensor enabling reliable real time DOI: 10.1007/978-3-319-98551-0_25         Publication   WINSHOE    8    2017     Anglais
+       BIECK Werner, LALLEMANT foot plantar pressure distribution retrieval
+       Quentin, PALMIROTTA
+       Guendalina, ANTI Baptiste
+
+
+     8 JANIN Marc, DUPUI           Foot Orthoses reduce repercussions of Ns4 Noxious      2018 International Foot and Ankle          POSTER       WINSHOE    1    2018     Anglais
+       Philippe                    stimulus                                               Biomechanic's Symposium
+
+
+
+
+W-INSHOE published work                                                                   MAJ le 12/01/2023                                                                           1/2
+   9 DIMOPOULOS Dimitris,     Variations of pressure data from insoles in normal      2022 7th South-East Europe Design    Abstract   WINSHOE   1   2022   Anglais
+     KALOGIROU Evangelos,     population during the 10meter walking test and an       Automation, Computer Engineering,
+     NAKOS Vasilis, MANOLIS   appropriate parameters’ extraction algorithm: a pilot   Computer Networks and Social Media
+     Ioannis, BOUGHARIOU      study                                                   Conference (SEEDA-CECNSM)
+     Mohamed Hedi,
+     VASILEIADIS George I.,
+     PLOUMIS Avraam
+
+
+
+
+W-INSHOE published work                                                               MAJ le 12/01/2023                                                              2/2
+

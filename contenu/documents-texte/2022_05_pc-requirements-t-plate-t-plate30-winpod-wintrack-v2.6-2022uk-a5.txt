@@ -1,0 +1,56 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2022/05/pc-requirements-t-plate-t-plate30-winpod-wintrack-v2.6-2022uk-a5.pdf
+Mis en ligne le : 2022-05-05
+------------------------------------------------------------
+      PC requirements
+      T-plate T plate 30                          Minimum                                Recommended
+      Winpod Wintrack
+
+      CPU Type                           All computers with following
+                                                                                  All the computer with following
+                                         processors:
+                                                                                  processors:
+                                          -     INTEL Core i3 (or higher)
+                                                                                   -     INTEL Core i3 « génération 8 »
+                                                minimum 2 Ghz frequency
+                                                                                         (or higher) minimum 2 Ghz
+                                          -     AMD A10 (or higher)
+                                                                              1    -     AMD Ryzen« génération3 »
+                                                                                                                       1
+                                                minimum 2 Ghz freq
+                                                                                         (or higher) minimum 2Ghz
+
+                                                      - Mac IOS is not compatible
+                                                      - Computer All-in-one / AIO are not recommended
+                                                      - Tablets are not compatible
+                                                      - micro-Computer and Stick PC are not recommended
+                                         If you already have a PC or for any advice Please Contact us
+
+                                         Windows 8.1, 10, 11 (32 or 64 bits) 2
+      OS
+                                         Windows 10 S not supported
+
+      RAM                                4 Go                                     8 Go
+
+      HARD DRIVE                         128 Go                                   256 Go
+
+      Screen resolution                  1024x768 pixels                          1920x1080 pixels
+
+                                         Minimum 2 USB ports on PC ( 1 USB port dedicated only to the plate)
+      USB ports                          USB C Port compatible with adapter only
+
+                                                      - webcam running at 30 frames per second
+      Webcam option                                   - 1 graphic board dedicated to the webcam
+                                                      - 1 dedicated USB port to the camera
+
+      Back up                            External USB hard drive
+
+           An environment overloaded with wifi networks can alter the wireless connection of your pressure device.
+           This document is indicative and does not guarantee the full compatibility of your PC with your pressure device.
+                                                           Version 2.6 May 2021
+
+
+
+
+MEDICAPTEURS France S.A.S. – « Les Espaces de Balma » - 18, avenue Charles de Gaulle - Bât.33/34 - 31130 BALMA
+                               Tél. +33 (0) 562 571 571– www.medicapteurs.fr
+

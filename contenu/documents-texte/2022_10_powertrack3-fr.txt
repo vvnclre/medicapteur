@@ -1,0 +1,53 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2022/10/powertrack3-fr.pdf
+Mis en ligne le : 2024-01-08
+------------------------------------------------------------
+PowerTrack
+
+
+
+
+    Le 1er tapis de course 2-en-1
+    PowerTrack est le fruit de 37 années d’expérience en podométrie électronique.
+    Ce concept unique allie tapis de course et plate-forme de pression amovible. Powertrack
+    s’adapte à tout type d’examen : du sportif de haut niveau aux personnes âgées présentant
+    des troubles de l’équilibre.
+  PowerTrack
+
+                          4 types d’acquisition
+                                                                                                 - Statique
+                                                                                                 - Dynamique au sol
+                                                                                                 - Posturologique
+                                                                                                 - Dynamique sur tapis
+
+
+
+Logiciel V10 : Fonctionnalités et puissance inégalées
+- Une multitude de visualisations (thermographique, isopression, 3D, histogrammes, diagrammes circulaires etc.)
+- Paramètres spécifiques exclusifs : FPI (Foot Posture Index), CPEI (Center of Pressure Excursion Index),
+ Index prédictif d’ulcération du pied diabétique selon David Armstrong.
+- Calcul et visualisation du Sway index ou Papillon
+- Examen clinique paramétrable
+- Edition de rapports personnalisables
+- Importation de base données d’anciens
+ systèmes Medicapteurs                                          Insole Recommendation
+- Synchronisation vidéo avec plusieurs caméras                       - Customization depending on your
+                                                                     existing range of prefab insoles
+                                                                     - Possibility to provide a customized range
+                                                                     of insoles with your brandname
+
+
+
+
+                                                             Taille (longueur/hauteur/largeur)    180 x153 x 88 cm
+                                                             Poids                                125 kg
+                                                             Vitesse                              de 0,8 à 20 km/h
+                                                             Pression mini/maxi par capteur       de 0,6 N à 100 N
+                                                             Interface PC                         USB
+                                                             Fréquence acquisition                jusqu’à 200 images par
+                                                                                                  seconde
+
+
+
+  www.medicapteurs.fr
+  				          						                                                                        +33 5 62 571 571
+

@@ -1,0 +1,392 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/02/winposturo.pdf
+Mis en ligne le : 2017-02-21
+------------------------------------------------------------
+                                                  Liste des publications sur WIN-POSTURO / QFP / POSTUROLAB
+n°     Auteurs                      Titre                                                     Magazine, livre, congrès                     Format           Genre      Taille Année   Langues
+     1 PERRIN P, CHAYS A            Posturographie : comment? pour qui? pourquoi?                                                          Article/          QFP         5      0     Français
+                                                                                                                                          magazine
+     2 SAFIN Jean Luc               Orthopractie et clinique posturale                        in Pied, posture et mouvement. Masson      Article/ livre      QFP        9    2000     Français
+                                                                                              2000
+     3 SASAKI Osamu, GAGEY          Nonlinear analysis of orthostatic posture in patients     Neurosci Res. 2001 Oct _ 41(2):185-92.        Article/         QFP        8    2001     Français
+       Pierre-Marie, OUAKNINE       with vertigo or balance disorders                                                                      magazine
+       Maurice, MARTINERIE
+       Jacques, LE VAN QUYEN
+       Michel, TOUPET Michel,
+       L'HERITIER Alain
+     4 POINTHIERE Yann,             Physiologie posturale mandibulaire                        Revue C.E.O.P.S. 2002                         Article/         QFP             2002     Français
+       CYPRIEN Pascal                                                                                                                      magazine
+     5 ARRANZ Patrick, LE VAN       Role of visual input in nonlinear postural control system Exp Brain Res. 2002 Nov_147(1):1-7. Epub      Article/      WINPOSTURO    7    2002     Anglais
+       QUYEN Michel,                                                                          2002 Sep 13.                                 magazine
+       MARTINERIE Jacques,
+       GAGEY Pierre-Marie,
+       USAMI Shin-ichi, SASAKI
+       Osamu
+     6 DANTEC Philippe              L'apport du chausson de gymnastique modifie-t-il la       Histoire de la stabilométrie                 Abstract          QFP        1    2004     Français
+                                    statique ? Etude sur quinze gymnastes
+     7 LEMAIRE Joël, BOUCHER        Asymétries posturales, verticalité et latéralités         Histoire de la stabilométrie                 Abstract          PEL38      1    2004     Français
+       Jean-P                                                                                                                                                 QFP
+     8 JANIN Marc, TOUSSAINT        Variation du centre de pression lors de stimulations par Nouvelles méthodes de traitement du signal Article/ livre    WINPOSTURO    14   2004     Français
+       Lucette                      éléments antérieurs d'orthèse                            posturographique
+     9 BOVE Marco, BRICHETTO        Neck proprioception and spatial orientation in cervical   Brain (2004), 127, 2764-2778                  Article/         QFP        15   2004     Anglais
+       Giampaolo, ABBRUZZESE        dystonia                                                                                               magazine
+       Giovanni, MARCHESE
+       Roberta, SCHIEPPATI
+       Marco
+
+
+
+
+Publications WIN-POSTURO / QFP / POSTUROLAB                                                   MAJ le 08/11/2016                                                                                 1/10
+  10 JAMET Mallaury,                Higher visual dependency increases balance control          Neuroscience Letters 359 (2004) 61-64            Article/        QFP       4    2004   Anglais
+     DEVITERNE Dominique,           perturbation during cognitive task fulfilment in elderly                                                    magazine
+     GAUCHARD Gérome,               people
+     VANCON Guy, PERRIN
+     Philippe
+  11 SAUTRE Serge                   Atlas Orthogonal Center of Gravity and Stability Clinical                                                     PPT         WINPOSTURO   15   2004   Anglais
+                                    Case Study
+  12 DANTEC Philippe                Stratégies posturales du judoka : comparaison de deux Congrès Sport, Posture, Equilibre, Aix les            Abstract         QFP       1    2005   Français
+                                    groupe de haut niveau dont un groupe de mal voyant Bains, 9-11 Décembre 2005
+  13 DANTEC Philippe, COLLOT L'apport du chausson de gymnastique modifie-t-il la                Bipédie, contrôle postural et représentation Article/ livre      QFP       6    2005   Français
+     Olivier, POTIRON Michèle statique?                                                         corticale
+  14 VOURIOT Alexandre,        Long-term exposure to solvents impairs vigilance and             Int Arch Occup Environ Health. 2005              Article/        QFP       6    2005   Anglais
+     HANNHART Bernard,         postural control in serigraphy workers.                          Jul_78(6):510-5. Epub 2005 May 26.              magazine
+     GAUCHARD Gérome,
+     BAROT Alain, LEDIN
+     Torbjorn, MUR Jean-Marie,
+     PERRIN Philippe
+
+  15 BOVE Marco, BONZANO L, The postural disorientation induced by neck muscle                  Neuroscience - Volume 143, Issue 4, 28          Abstract         QFP       1    2006   Anglais
+     TROMPETTO C,           vibration subsides on lightly touching a stationa                   December 2006, Pages 1095-1103
+     ABBRUZZESE Giovanni,
+     SCHIEPPATI Marco
+  16 JOLIVET Carole, NGUYEN Justifications fonctionnelles et posturales des                     International Orthodontics - Volume 4, Issue     Article/     WINPOSTURO   12   2006   Français
+     KIM Khuê, TESTON Cyrille, thérapeutiques des Classes II division 2                         1, March 2006, Pages 51-62                      magazine
+     JOLIVET Christian
+  17 POLECHONSKI Jacek,             The effect of acoustic noise on postural sway in male       Journal of Human Kinetics (2006) Volume:         Article/        QFP       16   2006   Anglais
+     BLASZCZYK Janusz               and female subjects                                         15, Pages: 37-52                                magazine
+  18 FABRI Stéphane,                Le critère objectif de récupération proprioceptive          SFTS 2006                                         PPT         WINPOSTURO   32   2006   Français
+     CERTHOUX J.R, MARC
+     Thierry, LACAZE Franc,
+     GAUDIN Thierry
+  19 GAGEY Pierre-Marie,            Les attaques vertigineuses de la maladie ménière                                                           Publication       QFP       14   2006   Français
+     SASAKI Osamu, USAMI            peuvent être prévenus par une analyse non-linéaire du
+     Shin-ichi, SAKURA Sousa        signal stabilométrique
+
+
+
+Publications WIN-POSTURO / QFP / POSTUROLAB                                                     MAJ le 08/11/2016                                                                                2/10
+  20 ALBINET Cédric, BERNARD Contrôle attentionnel de la stabilité posturale chez la          Annales de réadaptation et de médecine          Publication      WINPOSTURO   7    2006   Français
+     Pierre Louis, PALUT     personne âgée : effets d'un programme d'activité                 physique 49 (2006) 625-631
+     Yannick                 physique
+  21 BOVE Marco, FAELLI             Postural control after a strenuous treadmill exercise     Neuroscience letters - 2007, vol. 418, no3,       Abstract       WINPOSTURO   1    2007   Anglais
+     Emanuela, TACCHINO                                                                       pp.276-281
+     Andrea, LOFRANO
+     Francesco, COGO Carla E,
+     RUGGERI Piero
+
+  22 JAUREGUI-RENAUD                The effect of vestibular rehabilitation supplemented by Journal of Vestibular Research - Volume 17,         Abstract          QFP       1    2007   Anglais
+     Kathrine, VILLANUEVA-          training of the breathing rhythm or proprioception        Number 1 / 2007 _ 63-72
+     PADRON Laura Alejandra,        exercises, in patients with chronic peripheral vestibular
+     CRUZ-GOMEZ Nora Silvia         disease
+
+  23 BOVE Marco, BRICHETTO          Postural responses to continuous unilateral neck          Movement Disorders - Volume 22, Issue 4,          Abstract          QFP       1    2007   Anglais
+     Giampaolo, ABBRUZZESE          muscle vibration in standing patients with cervical       pages 498-503, 15 March 2007
+     Giovanni, MARCHESE             dystonia
+     Roberta, SCHIEPPATI
+     Marco
+
+  24 JANIN Marc, VAUGELADE          Effets de la kinésithérapie et de la balnéothérapie sur   Contrôle postural et représentations            Article/ livre   WINPOSTURO   10   2007   Français
+     Delphine, AUDIFFREN M          l'équilibre postural                                      spatiales : De la Neurobiologie à la Clinique
+
+  25 GIEMZA Czeslaw,                The effect of physiotherapy training programme on         Aging Male - June, 2007, Vol. 10, No. 2 ,         Article/       WINPOSTURO   6    2007   Anglais
+     OSTROWSKA Bozena,              postural stability in men with hip osteoarthritis         Pages 67-70                                      magazine
+     MATCZAK-GIEMZA
+     Magdalena
+
+  26 JAMET Mallaury,                Age-related part taken by attentional cognitive           Gait Posture. 2007 Feb_25(2):179-84. Epub         Article/          QFP       6    2007   Anglais
+     DEVITERNE Dominique,           processes in standing postural control in a dual-task     2006 Apr 18.                                     magazine
+     GAUCHARD Gérome,               context
+     VANCON Guy, PERRIN
+     Philippe
+  27 DAUTY M, DANTEC           Reproductibilité test-retest des mesures                Journal science et sport 2007.01.002                     Article/          QFP       5    2007   Français
+     Philippe, COLLOT Olivier, stabilométrique après reconstruction de ligament croisé                                                         magazine
+     POTIRON Michèle, DUBOIS antérieur du genoux chez le sujet sportif
+     C
+
+
+
+Publications WIN-POSTURO / QFP / POSTUROLAB                                                   MAJ le 08/11/2016                                                                                   3/10
+  28 GENTHON Nicolas, GISSOT Posturography in Patients With Stroke. Estimating the Stroke 2008, 39:489: originally published              Publication   WINPOSTURO   4   2007   Anglais
+     Anne-Sophie, FROGET      Percentage of Body Weight on Each Foot From a Single online January 3, 2008
+     Jérôme, ROUGIER Patrice, Force Platform
+     PERENNOU Dominic
+
+  29 GIEMZA Czeslaw,        Coxarthrosis physiotherapy and the way of keeping the Acta Bio-Optica et Informatica Medica.                   Article/     WINPOSTURO   2   2008   Polonais
+     OSTROWSKA Bozena,      body balance                                          Inzynieria Biomedyczna -Vol. 14, nr 4 - p280-           magazine
+     BARCZYK K, HAWRYLAK A,                                                       -281
+     KOCHANSKI M
+  30 BOVE Marco, FENOGGIO C, Interaction between vision and neck proprioception in           Neuroscience - Volume 164, Issue 4, 29        Abstract        QFP       1   2009   Anglais
+     TACCHINO Andrea,        the control of stance                                           December 2009, Pages 1601-1608
+     PELOSIN E, SCHIEPPATI
+     Marco
+
+  31 NARDONE Antonio, GODI Stabilometry is a predictor of gait performance in                Gait & Posture - Volume 30, Issue 1, July     Abstract        QFP       1   2009   Anglais
+     Marco, GRASSO            chronic hemiparetic stroke patients                            2009, Pages 5-10
+     Margherita, GUGLIELMETTI
+     Simone, SCHIEPPATI Marco
+
+  32 ARANDA Catalina, MEZA          Diabetic polyneuropathy may increase the handicap        Archives of Medical Research - Volume 40,     Article/     POSTUROLAB   6   2009   Anglais
+     Anabel, RODRIGUEZ              related to vestibular disease                            Issue 3, April 2009, Pages 180-185           magazine
+     Raymundo, MANTILLA
+     María Teresa, JAUREGUI-
+     RENAUD Kathrine
+
+  33 RAMDANI Sofiane, SEIGLE On the use of sample entropy to analyze human                   Medical Engineering & Physics - Volume 31,    Article/     WINPOSTURO   9   2009   Anglais
+     Benoît, LAGARDE Julien, postural sway data                                              Issue 8, October 2009, Pages 1023-1031       magazine
+     BOUCHARA Frédéric,
+     BERNARD Pierre Louis
+
+  34 SEIGLE Benoît, RAMDANI         Dynamical structure of center of pressure fluctuations   Gait & Posture 30 (2009) p.223-226           Publication   WINPOSTURO   4   2009   Anglais
+     Sofiane, BERNARD Pierre        in elderly people
+     Louis
+  35 BONTOUX-PINATON L-M            Réalité virtuelle et contrôle postural                   Neurophysiologie Clinique Novembre-           Abstract     WINPOSTURO   1   2010   Français
+                                                                                             Décembre 2010 vol40/5-6 p249-326
+
+
+
+
+Publications WIN-POSTURO / QFP / POSTUROLAB                                                  MAJ le 08/11/2016                                                                            4/10
+  36 GODI Marco, NARDONE            Curved walking in hemiparetic patients                      Journal of Rehabilitation Medicine, Volume     Article/        QFP       8    2010   Anglais
+     Antonio, SCHIEPPATI                                                                        42, Number 9, October 2010 , pp. 858-         magazine
+     Marco                                                                                      865(8)
+  37 GASQ David, LABRUNEE           Quels sont les paramètres stabilométriques les plus                                                        POSTER       WINPOSTURO   1    2010   Anglais
+     Marc, DE BOISSEZON             pertinents pour évaluer la stabilité chez l'hémiplégique
+     Xavier, CASTEL-LACANAL         vasculaire?
+     Evelyne, DUPUI Philippe,
+     MONTOYA Richard,
+     MARQUE Philippe
+
+  38 GASQ David, LABRUNEE           Relevant posturography descriptive mesures in                                                              POSTER       WINPOSTURO   1    2010   Anglais
+     Marc, DE BOISSEZON             hemiplegis standing balance assessment : a pilot study
+     Xavier, CASTEL-LACANAL
+     Evelyne, DUPUI Philippe,
+     MONTOYA Richard,
+     MARQUE Philippe
+
+  39 BERNARD Pierre Louis,    Reproductibilité des mesures de centre de pression                Annales de Gérontologie - vol 3, n° 1, mars   Publication   WINPOSTURO   6    2010   Français
+     SEIGLE Benoît, BLAIN     plantaire et perspectives méthodologiques                         2010
+     Hubert, DEGACHE Francis,
+     RAMDANI Sofiane
+
+  40 DELIGNIERES Didier,            Interest of velocity variability and maximal velocity for   Movement & Sport Sciences - 2011/3 (n° 74)     Abstract     WINPOSTURO   1    2011   Anglais
+     TORRE Kjerstin, BERNARD        characterizing center-of-pressure fluctuations              - Page 31-37
+     Pierre Louis
+
+  41 RAMDANI Sofiane, SEIGLE Characterizing the dynamics of postural sway in humans Annals of Biomedical Engineering - January                 Abstract     WINPOSTURO   13   2011   Anglais
+     Benoît, VAROQUI Déborah, using smoothness and regularity measures              2011, Volume 39, Issue 1, pp 161-171
+     BOUCHARA Frédéric,
+     BLAIN Hubert, BERNARD
+     PIerre Louis
+  42 BLASZCZYK Janusz,              Assessment of postural control in patients with             Basic Mechanisms underlying Balance            Abstract        QFP       1    2011   Anglais
+     ORAWIEC Renata                 Parkinson's disease: Sway ratio analysis                    Control under Static and Dynamic
+                                                                                                Conditions- V30, Issue 2,
+  43 HAINAUT Jean-Philippe,         The role of trait anxiety on static balance performance     Gait & Posture - Volume 33, Issue 4, April     Abstract     WINPOSTURO   1    2011   Anglais
+     CAILLET Grégory,               in control and anxiogenic situations                        2011, Pages 604-608
+     LESTIENNE Francis G,
+     BOLMONT Benoît
+
+
+
+Publications WIN-POSTURO / QFP / POSTUROLAB                                                     MAJ le 08/11/2016                                                                              5/10
+  44 THEDON Thibaud,         Degraded postural performance after muscle fatigue                  Gait & Posture 33 (2011) 686-689               Abstract       WINPOSTURO   1    2011   Anglais
+     MANDRICK Kevin, FOISSAC can be compensated by skin stimulation
+     Matthieu, MOTTET Denis,
+     PERREY Stéphane
+
+  45 GELY Alexandre, GARCIN         Ultra-trail du Mont-Blanc analyse en composantes                                                            Abstract       WINPOSTURO   3    2011   Français
+     Olivier, WEBER Bernard         principales (ACP) à 4 facteurs et 10 variables du Départ                                                                      FUSYO
+                                    Encore un exemple qui montre, en négatif!..., l'utilité de
+                                    travailler sur le CdG
+
+  46 BOISSIN Rebecca,               Évaluation de la récupération musculaire après               Revue de Chirurgie Orthopédique et             Abstract       WINPOSTURO   1    2011   Français
+     PHILIPPOT Rémi,                ligamentoplastie du ligament croisé antérieur et             Traumatologique / Volume 97, numéro 7S /
+     CHALENCON François,            comparaison selon la technique chirurgicale                  p286
+     VERDOT François-Xavier,
+     FARIZON Frédéric
+
+  47 CRUZ-GOMEZ Nora Silvia, Influence of obesity and gender on the postural stability Obesity Facts (The European Journal of                   Article/       POSTUROLAB   6    2011   Anglais
+     PLASCENCIA G,              during upright stance                                  Obesity) June 2011 - Vol. 4, No. 3, 2011                magazine
+     VILLANUEVA-PADRON
+     Laura Alejandra, JAUREGUI-
+     RENAUD Kathrine
+
+  48 DELIGNIERES Didier,            Transition from persistent to anti-persistent                PLoS Computational Biology;Feb2011, Vol. 7     Article/       WINPOSTURO   10   2011   Anglais
+     TORRE Kjerstin, BERNARD        correlations in postural sway indicates velocity-based       Issue 2, p1                                   magazine
+     Pierre Louis                   control
+
+  49 NARDONE Antonio,          Spinal and supraspinal stretch responses of postural              Experimental Neurology - Volume 237, Issue     Abstract          QFP       1    2012   Anglais
+     PASETTI Carlo, SCHIEPPATI muscles in early Parkinsonian patients                            2, October 2012, Pages 407-417
+     Marco
+
+  50 LINARES R, MICALLEF Jean- L'entraînement proprioceptif améliore l'équilibre des             Science & Sports - Volume 27, Issue 5,         Abstract       WINPOSTURO   1    2012   Français
+     Paul, MARIN L             véliplanchistes olympiques                                        November 2012, Pages 283-292
+  51 VIGUIER Marion, DUPUI          Influence du port d'une protection intrabuccale              Controle postural, Espace, Locomotion        Article/ livre   WINPOSTURO   12   2012   Français
+     Philippe, MONTOYA              (protège-dents) et de la condition occlusale (dents
+     Richard                        serrées ou non) sur les performances posturales de
+                                    rugbymen disponible dans le livre posture et équilibre
+
+
+
+
+Publications WIN-POSTURO / QFP / POSTUROLAB                                                      MAJ le 08/11/2016                                                                                6/10
+  52 DUPUI Philippe, MONTOYA Quels sont les paramètres spatio-temporels de la                   Controle postural, Espace, Locomotion          Article/ livre   WINPOSTURO   15   2012   Français
+     Richard, GASQ David,    marche les plus pertinents chez l'hémiplégique? Etude
+     LABRUNEE Marc, MARQUE hémiloco
+     Philippe
+  53 EDOUARD Pascal, GASQ           Shoulder sensorimotor control assessment by force           Clinical Physiology and Functional Imaging -     Article/       WINPOSTURO   5    2012   Anglais
+     David, CALMELS Paul,           platform: feasibility and reliability                       Volume 32, Issue 5, pages 409-413,              magazine
+     DUCROT Sarah, DEGACHE                                                                      September 2012
+     Francis
+
+  54 SZYMANSKI C,                   Functional performance after hip resurfacing or total       Orthopaedics & Traumatology: Surgery &           Article/          QFP       7    2012   Anglais
+     THOUVARECQ R,                  hip replacement: A comparative assessment with non-         Research, Volume 98, Issue 1, February          magazine
+     DUJARDIN F, MIGAUD H,          operated subjects                                           2012, Pages 1-7
+     MAYNOU C, GIRARD J
+  55 DING-HAI Yu, HUI-XIN Yang The effect of Tai Chi intervention on balance in older           Journal of Sport and Health Science -            Article/       WINPOSTURO   4    2012   Anglais
+                               males                                                            Volume 1, Issue 1, May 2012, Pages 57-60        magazine
+
+  56 CARETTE P, KEMOUN G,           Could home be an appropriate location for performing        Neurophysiologie Clinique / Clinical           Publication      WINPOSTURO   5    2012   Anglais
+     THIBAUD M, BREQUE C,           posturographic assessments in elderly subjects?             Neurophysiology- Vol.42, n°3 - p133-137
+     DUGUE B                                                                                    (avril 2012)
+
+  57 DEGACHE Francis, LARGHI Hypobaric versus Normobaric Hypoxia: Same Effects on High Altitude Medicine & Biology. March                      Publication      WINPOSTURO   6    2012   Anglais
+     Gabriele, FAISS Raphael, Postural Stability?                                 2012, Vol. 13, No. 1: 40-45
+     DERIAZ Olivier, MILLET
+     Gregoire
+
+  58 JAUREGUI-RENAUD                Repeatability of Static Posturography on the Follow-up Archives of Medical Research - Volume 44,             Abstract       POSTUROLAB   1    2013   Anglais
+     Kathrine, CRUZ-GOMEZ           of Vestibular Rehabilitation                           Issue 2, February 2013, Pages 151-158
+     Nora Silvia, VILLANUEVA-
+     PADRON Laura Alejandra
+
+  59 DUMAS Georges, LION            Clinical interest of postural and vestibulo-ocular reflex                                                    Abstract          QFP       9    2013   Anglais
+     Alexis, GAUCHARD               changes induced by cervical muscles and skull vibration
+     Gérome, HERPIN                 in compensated unilateral vestibular lesion patients
+     Guillaume, MAGNUSSON
+     Måns, PERRIN Philippe
+
+
+
+
+Publications WIN-POSTURO / QFP / POSTUROLAB                                                     MAJ le 08/11/2016                                                                                  7/10
+  60 BERNARD Pierre Louis,          Bruxisme et réponses posturales avant et après             Movement & Sport Sciences - Science &         Abstract     WINPOSTURO   1   2013   Français
+     JAME Oliver, RAMDANI           traitement occlusal                                        Motricité
+     Sofiane, SEIGLE Benoît,
+     DEGACHE Francis, COLLIN
+     Philippe, MICALLEF Jean-
+     Paul, BLAIN Hubert,
+     BONAFE Isabelle
+
+  61 FREPPEL S, BISDORFF A,   Visuo-proprioceptive interactions in degenerative                Neuroscience - Volume 255, 26 December        Abstract     WINPOSTURO   7   2013   Anglais
+     COLNAT-COULBOIS S,       cervical spine diseases requiring surgery                        2013, Pages 226-232
+     CEYTE Hadrien, CIAN C,
+     GAUCHARD Gérome,
+     AUQUE J, PERRIN Philippe
+
+  62 EDOUARD Pascal, GASQ           Sensorimotor control deficiency in recurrent anterior      Journal of Shoulder and Elbow Surgery - 3     Abstract     WINPOSTURO   1   2013   Anglais
+     David, CALMELS Paul,           shoulder instability assessed with a stabilometric force   September 2013
+     DEGACHE Francis                platform
+  63 NARDONE Antonio, CORNA Afferent control of walking: Are there distinct deficits           Clinical Neurophysiology . 2013 Aug 12.       Abstract     WINPOSTURO       2013   Anglais
+     Stefano, TURCATO Anna   associated to loss of fibres of different diameter?
+     Maria, SCHIEPPATI Marco
+
+  64 DAUTY Marc, MENU P,   Resumption of support of operated leg after knee                    Science & Sports -Volume 28, num 4 - pages    Article/     WINPOSTURO   7   2013   Anglais
+     FOUASSON CHAILLOUX A, surgery through the practise of table tennis                        181-187 (septembre 2013)                     magazine
+     FERREOL S, DUBOIS C
+  65 DEGACHE Francis                Ivre de fatigue                                            Sport & vie - n°137 Mars-Avril 2013           Article/     WINPOSTURO   8   2013   Français
+                                                                                                                                            magazine       BIORESCUE
+  66 CARETTE P, KEMOUN G,           Concomitant changes in clinical and posturographic         Neurophysiol Clin. 2013 Oct-43               Publication   WINPOSTURO   8   2013   Anglais
+     WATELAIN E., DUGUE B           data in elderly fallers during the course of an inhome
+                                    antifalling multimodal program - A preliminary
+                                    investigation
+
+  67 TALLON Guillaume, BLAIN Dynamical and stabilometric measures are                          Gait & Posture 38 (2013) p.92-96             Publication   WINPOSTURO   5   2013   Anglais
+     Hubert, SEIGLE Benoît,  complementary for the characterization of postural
+     BERNARD Pierre Louis,   fluctuations in older women
+     RAMDANI Sofiane
+
+
+
+
+Publications WIN-POSTURO / QFP / POSTUROLAB                                                    MAJ le 08/11/2016                                                                            8/10
+  68 NARDONE Antonio,               Effects of balance and gait rehabilitation in cerebellar   Restorative Neurology and Neuroscience        Abstract     WINPOSTURO   1   2014   Anglais
+     TURCATO Anna Maria,            disease of vascular or degenerative origin                 2014 Jan 7.
+     SCHIEPPATI Marco
+  69 SOBRY Vinciane, BADIN          Do visually impaired people have a static balance as       NeuroRehabilitation. 2014;35(4):851-61        Abstract     WINPOSTURO   1   2014   Anglais
+     Philippe Pierre,               effective as sighted people?
+     CERNAIANU Sorina,
+     AGNANI Olivier,
+     TOUSSAINT Michel
+  70 MARCHINI Andrea,               Differences in proprioception, muscle force control and Journal of Electromyography and                  Abstract     WINPOSTURO   1   2014   Anglais
+     LAUERMANN Samuel P.,           comfort between conventional and new-generation         Kinesiology 28 March 2014
+     MINETTO Marco                  knee and ankle orthoses
+     Alessandro, MASSAZZA
+     Giuseppe, MAFFIULETTI
+     Nicola A.
+  71 BASSO MORO Sara,          A semi-immersive virtual reality incremental swing              NeuroImage - Volume 85, Part 1, 15 January    Abstract     WINPOSTURO   1   2014   Anglais
+     BISCONTI Silvia, MUTHALIB balance task activates prefrontal cortex: A functional          2014, Pages 451-460
+     Makii, SPEZIALETTI        near-infrared spectroscopy study
+     Matteo, CUTINI Simone,
+     FERRARI Marco, PLACIDI
+     Giuseppe, QUARESIMA
+     Valentina
+
+  72 PELLERIN F, PAPIN-      Can osteopathic manipulative treatment modify the                 Journal of Bodywork and Movement              Abstract     WINPOSTURO   1   2014   Anglais
+     RICHARD E, GUIHENEUC P, posture in elderly people?                                        Therapies / Available online 11 July 2014
+     NIEL S, GUIHARD G
+
+  73 HERRERA-RANGEL Aline,    The influence of peripheral neuropathy, gender, and     Journal of Diabetes Research - Vol 2014-              Publication   POSTUROLAB   7   2014   Anglais
+     MANTILLA-OCHOA Teresa, obesity on the postural stability of patients with type 2 Article ID 787202
+     ARANDA-MORENO            diabetes mellitus
+     Catalina, ZAINOS-SAUCEDO
+     Lylia, JAUREGUI-RENAUD
+     Kathrine
+
+
+
+
+Publications WIN-POSTURO / QFP / POSTUROLAB                                                    MAJ le 08/11/2016                                                                            9/10
+  74 GASQ David, LABRUNEE     Between-day reliability of centre of pressure measures Journal of NeuroEngineering and                    Publication   WINPOSTURO   21   2014   Français
+     Marc, AMARANTINI David, for balance assessment in hemiplegic stroke patients    Rehabilitation 2014, 11:39
+     DUPUI Philippe, MONTOYA                                                         doi:10.1186/1743-0003-11-39
+     Richard, MARQUE Philippe
+
+  75 PROSS Nathalie, PATAT          Pharmacodynamic interactions of a solid formulation of British Journal of Clinical                   Abstract     WINPOSTURO   1    2015   Anglais
+     Alain, VIVET Philippe,         sodium oxybate and ethanol in healthy volunteers       Pharmacology_Volume 80, Issue
+     BIDAUT Michelle,                                                                      3_Sept2015_Pages 480.492
+     FAUCHOUX Nicolas
+  76 BLASZCZYK Janusz               The use of force-plate posturography in the assessment Gait & Posture February 2016 - Volume 44,     Abstract        QFP       1    2015   Anglais
+                                    of postural instability                                Pages 1-6
+  77 DECKER L.M., RAMDANI           Physical function decline and degradation of postural   The journal of nutrition, health & aging.    Abstract     WINPOSTURO   1    2015   Anglais
+     Sofiane, TALLON                sway dynamics in asymptomatic sedentary                 March 2015, Vol.19, Issue 3, p348-355
+     Guillaume, JAUSSENT A.,        postmenopausal women
+     PICOT M.-C., BERNARD
+     Pierrick.L., BLAIN Hubert
+  78 PERRIN Philippe Pierre,    Diurnal variation on balance control in patients with       Archives of Gerontology and Geriatrics 61   Publication   WINPOSTURO   6    2015   Anglais
+     LION Alexis, ZHANG Zheng, symptomatic knee osteoarthritis                              (2015) 109-114
+     CHARY-VALCKENAERE
+     Isabelle, LOEUILLE Damien,
+     RAT Anne-Christine,
+     PAYSANT Jean
+
+  79 POLECHONSKI Jacek,             Assessment of startle response and its prepulse         BioMed Research International - Volume      Publication   WINPOSTURO   5    2016   Anglais
+     JURAS Grzegorz, SLOMKA         inhibition using posturography: pilot study             2016 (2016)Article ID 8597185
+     Kajetan, BLASZCZYK
+     Janusz, MALECKI Andrzej,
+     NAWROCKA Agnieszka
+
+
+
+
+Publications WIN-POSTURO / QFP / POSTUROLAB                                                 MAJ le 08/11/2016                                                                        10/10
+

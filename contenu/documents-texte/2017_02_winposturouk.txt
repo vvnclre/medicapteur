@@ -1,0 +1,124 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/02/winposturouk.pdf
+Mis en ligne le : 2017-02-22
+------------------------------------------------------------
+MEDICAPT WIN-POSTURO GB 2007   15/05/07   16:50   Page 1
+
+
+
+
+           win-posturo                                                                       Technical Characteristics:
+                                                                                             Single platform standardized 3 points APE
+                                                                                             Dimensions
+                                                                                             Plate thickness
+                                                                                                                                  460 x 460 x 35 mm
+                                                                                                                                  12 mm
+                    The essential tool for                                                   Weight                               7,8 Kg
+                                                                                             Material                             Rectified Aluminium AU4G
+                    the Posturologist Practitioner :                                         Maximum load                         180 Kg or 250 Kg (optional)
+                                                                                             Non-linearity                        < 0.2%
+                               Postural evaluation.                                          Resolution                           900 points/Kg
+                               Analysis of static and balance disorders.                     Hysteresis                           < 0.2%
+                                                                                             Acquisition frequency                Programmable between 5 Hz and 40 Hz
+                               Good therapeutic control.
+                                                                                             Analog-to-digital conversion         16 bits
+                                                                                             Connection with PC                   USB
+                                                                                             Power                                Self-powered
+                                                                                             Operating software                   WinPosture NV :
+           new platform                                                                                                           Stabilographic operating software
+
+           40 hz/16b.                                                                                                             WinTrainer NV : Rehabilitation
+                                                                                                                                  software via visuo-postural biofeedback.
+                                                                                             Required operating system            Windows 2000/2000 Pro/XP/Vista
+              New, better-performing and more robust concept                                 Options                              Dynamic balancing plate
+              New design                                                                                                          Transport suitcase
+              Extra thin platform
+              Metrological performance guarantees reliable
+              data at 5Hz and also at 40Hz
+              Connection USB
+              Optional dynamic balancing plate
+              New software
+              WinPosture NV and WinTrainer NV.
+
+
+
+
+                                                                                                                                                                                            Photos : Christian Rivière.
+                    New design
+                                                           Dynamic balancing plate
+                                                                                                                     MEDICAPTEURS France S.A.S (headquarters)
+                                                                                     "Les Espaces de Balma" - 18 avenue Charles de Gaulle - Bât. 34 - 31138 TOULOUSE-BALMA cedex - FRANCE
+                                                                                                   tél. +33 (0) 562 571 571 -fax +33 (0) 562 577 468 - e-mail : info@medicapteurs.fr
+
+                                                                                                                     www.medicapteurs.fr
+MEDICAPT WIN-POSTURO GB 2007   15/05/07   16:50   Page 2
+
+
+
+
+           Posturology is the study of orthostatic
+           balance controlled by the fine postural system
+           which relies on the eyes, internal ear, proprioception
+           and the feet providing the podal entry, which plays
+           a significant role in this system.
+                                                                                                                                                                                                                                               a service
+                                                                                                                                                                         WinPosture NV                                                         of quality
+                                                                                                                                                                                                                                               • Training on platform utilization and stabilometry.
+                                                                                                                                                                         New Static and Dynamic Stabilography Software                         • Regular software upgrades.
+                                                                                                                                                                         • Incomparable user-friendliness and ergonomics.                      • Telephone assistance.
+                                                                                                                                                                                                                                               • Maintenance contract.
+                                                                                                                                                                         • Creation and management of acquisition protocols.                   • Personalized training on request.
+                                                                                                                                                                         • Parameter setting of norms and reference landmarks.
+           an instrument with                                                                                                                                            • Production of the totality of standardized stabilometric
+                                                                                                                                                                                                                                               Our objective: the satisfaction
+                                                                                                                                                                                                                                               of our customers.
+           multiple objectives                                            a high                                                                                           data A.F.P. 85.
+
+           Analysis of static and dynamic                                 performance                                                                                    • New functionalities resulting from the latest scientific
+                                                                                                                                                                           information (optional: wavelets analysis, fractal
+                                                                                                                                                                                                                                               a leader
+           postural behavior                                              platform                                                                                         and diffusion analysis...)                                          at your service
+           • Provides an objective behavioral                                                                                                                                                                                                  • With 22 years’ strong experience in the design,
+                                                                           Extremely precise and                                                                         • Possibility of comparing examinations.
+             description quantified with                                                                                                                                                                                                         manufacturing and marketing of systems for Podiatry
+             the analysis of stabilometry data.                            reliable measuring instrument                                                                 • Multiple visualizations of the stabilometric signal.                  and Biomechanics, the Medicapteurs company is
+                                                                                                                                                                                                                                                 the European leader in electronic podometry today.
+           • Establishes postural assessment reports.                      • Extra-thin Platform.                                                                        • Edition of customized reports and assessments.
+                                                                                                                                                                                                                                               • Based on leading research and high-tech innovations,
+           • Identifies the patient’s postural dysfunctions.               • 16-bits operating electronics                                                               • Direct export of stabilometric data to Excel.                         Medicapteurs offers a complete and evolutionary range
+                                                                             allowing reliable records at 40 Hertz.                                                                                                                              of equipments for measurement, diagnosis and clinical
+           • Guides the diagnostic reasoning.                                                                                                                            • Mail editor.                                                          evaluation.
+                                                                           • Direct connection of the platform                                                           • Mass mailing.                                                       • Total mastery of the design and the manufacture of our
+                                                                             to the PC.                                                                                                                                                          products guarantee the performance and the durability
+           Postural validation and                                                                                                                                                                                                               of our platforms.
+           treatment optimization                                          • Perfect linearity.
+                                                                                                                                                                                                                                               • World notoriety and presence (Europe, United States, Asia).
+           • Control and optimization of the treatment                     • High sensitivity level.                                                                                                                                           • 3 locations: Toulouse, Nice, Atlanta.
+             of the patient’s posture (corrective soles,
+             orthotics, prostheses, occlusive gutters,
+             manipulation, treatments...).                                                                                                                                                                                                     win-posturo adopted by
+                                                                                                                                                                                                                                               many health specialties
+           Better communication with                                                                                                                                                                                                           • Podiatry, Physical Therapy, Osteopathy, Orthopracty
+           the patient and the other practitioners                                                                                                                                                                                             • Physical and Sport Medicine, Rehabilitation
+                                                                                                                                                                                                                                               • Orthopedics, Rheumatology, Chiropractic
+                                                                                                                                                                                                                                               • Dentistry (Occlusodontics), Orthodontics,
+                                                                                                                                                                                                                                               • E.N.T., Vestibular Rehabilitation,
+                                                                                                                                                                                                                                               • Ophthalmology, Orthopty,
+
+                                                           a standardized                                               WinTrainer NV                                                                                                          • Neurology, Geriatrics, Psychiatry, Neurosciences…
+
+                                                           platform                                                     Flexibility of a rehabilitation software
+                                                                                                                        that offers many parameter-setting possibilities
+                                                           • Certified CE/Dekra according to
+                                                                                                                        • New software for rehabilitation and therapeutic                                                             Medicapteurs: also a complete range
+                                                             the European directive 93/42 appendix VI
+                                                                                                                          control via visuo-postural biofeedback.                                                                     of electronic podometry platforms
+                                                           • Standardized in accordance
+                                                             with standards A.F.P. 85 (currently A.P.E):                • Playful exercises parameters can be established
+                                                                                                                          by the practitioner according to the evolution
+                                                                      • MEDICAPTEURS is member of the A.P.E.              of the patient’s rehabilitation.
+                                                                        (French association for posture and balance).
+                                                                                                                        • Ease of use through exercises levels quickly preset.
+                                                                      • Systematic implementation of the latest
+                                                                        developments validated by A.P.E.                • Optimized ergonomics.
+                                                                                                                        • Mass mailing.
+

@@ -1,0 +1,41 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/03/data-t-plate-30-th.pdf
+Mis en ligne le : 2017-09-26
+------------------------------------------------------------
+                                                                         22 mm
+
+
+
+
+                                                                   710 mm
+
+
+
+
+                                               610mm
+
+
+
+
+Size (length, width, height)   710x610x22 mm
+Thickness (sensor area)        8 mm
+Active Area                    500x500mm
+Weight                         3.6 Kg
+
+
+
+
+Sensors type                   Resistive sensor
+Sensor size                    7.8mm x 7.8mm
+Number of sensors              4096 (64x64)
+Temperature range              from - 40°C to + 85°C (- 40°F to 185°F)
+Sensor lifetime                > 3 000 000 actuations
+Maximum pressure               100 N/cm2
+Interface PC/Platform          USB
+Power supply                   USB
+Frequency data Acquisition     ≤ 100 Hz
+Analogic/Digital conversion    8 bits
+
+
+
+data T -Plate 30 th.doc                                    20/06/2016
+

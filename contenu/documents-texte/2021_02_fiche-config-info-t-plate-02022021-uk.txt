@@ -1,0 +1,55 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2021/02/fiche-config-info-t-plate-02022021-uk.pdf
+Mis en ligne le : 2021-02-26
+------------------------------------------------------------
+                                                      Guration
+
+
+
+
+                                     T-Plate USB PC’s specs
+Type                            All computers with following processors :
+
+                                        - INTEL Core I3 (or higher) frequency 2 GHz minimum
+                                          avoid U processor (Ultra-Low Power)
+
+                                        Non compatible :
+                                        -   Macs/IOS
+                                        -   All-in-one PC
+                                        -   IOS and Android tablets
+                                        -   Micro or Stick PC
+
+                                If you already have a PC or for any other configuration:
+                                Contact us
+                                Windows 8.1, 10
+Operating System
+                                Windows 10 S not supported
+
+RAM Memory                      4 Go
+
+Hard Drive                      128 Go
+
+Display Resolution              1024 x768 pixels
+
+                                Minimum 2 USB ports on the PC ,1 USB port is dedicated only to the
+USB Ports
+                                platform
+                                        - webcam running at 30 frames per second
+Webcam (if you have an
+option)
+                                        - 1 graphic board dedicated to the webcam
+                                        - 1 dedicated USB port
+
+Backup system                   1 external hard drive (USB)
+
+
+
+This information sheet is indicative and does not guarantee the total compatibility of your PC with your platform.
+
+
+
+
+                                                   Version 2.5 février 2021
+
+       MEDICAPTEURS France S.A.S. – « Les Espaces de Balma » - 18, avenue Charles de Gaulle - Bât.33/34 - 31130 BALMA
+                        Tél. +33 (0) 562 571 571 / Fax +33 (0) 562 577 468 – www.medicapteurs.fr
+

@@ -1,0 +1,176 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/02/documentation-fusyo.pdf
+Mis en ligne le : 2017-02-21
+------------------------------------------------------------
+                                                            Caractéristisques mécaniques
+                                                            Taille (longueur/largeur/hauteur)       530 x 600 x 70 mm
+                                                                                                                                                                   En options :
+                                                            Epaisseur                               35 mm                                                          Plateau d’équilibration dynamique
+                                                            Poids                                   12,5 Kg
+
+                                                            Caractéristiques électroniques podométrie
+                                                            Capteurs                                Nouvelle génération de capteurs calibrés
+                                                                                                    garantissant une excellente précision
+                                                                                                    des données
+                                                            Taille du capteur                       8 x 8 mm
+                                                            Epaisseur du capteur                    0,15 mm
+                                                            Nombre de capteurs                      2304 soit 48 x 48
+                                                                                                                                                                                                                    P O D O LO G I E , P O S T U R O LO G I E E T R É É D U C AT I O N
+                                                            Surface active                          400 x 400 mm
+                                                            Pression mini/maxi par capteur          de 0,4N à 100N
+                                                            Alimentation                            Par le port USB
+                                                            Fréquence d’acquisition                 200 images/seconde
+                                                            Type d’interface PC/plate-forme         USB
+
+
+
+
+FUSYO
+                                                            Caractéristiques électroniques stabilométrie
+                                                            Capteurs
+                                                            Charge maximale
+                                                                                                    3 jauges de contrainte
+                                                                                                    250Kg
+                                                                                                                                                                   Piste de marche
+                                                                                                                                                                                                                                                                                                         FUSYO
+                                                                                                                                                                                                                                                                                                         le couplage
+                                                            Non-linéarité                           < 0,2%
+                                                            Fréquence d’acquisition                 Réglable de 5 à 40Hz
+
+
+
+software
+                                                            Type d’interface PC/plate-forme         USB
+
+
+
+
+                                                                                                                                                                                                                                                                                                         inédit
+                                                            Système d’exploitation requis           Windows Vista, 7, 8
+                                                            Options                                 Plateau d’équilibration dynamique
+                                                                                                    Valise de transport
+                                                                                                    WinTrainer (logiciel de rééducation
+                                                                                                    par biofeedback visuo- postural)
+
+
+
+
+Le tout nouveau logiciel                                                                                                                                                                                                                                                                                 Medicapteurs est
+Fusyo exploite l’intégralité                                                                                                                                                                                                                                                                             le seul fabricant à réaliser
+des possibilités offertes
+par les logiciels Win-Pod
+et WinPosture NV.
+De plus, il donne accès                                  Medicapteurs, leader européen
+                                                                                                                                                                   Valise de transport
+
+
+                                                                                                                                                                                                                                                                                     FUSYO               un système intégrant
+                                                                                                                                                                                                                                                                                                         les fonctionnalités
+                                                                                                                                                                                                                                                                                                         d’une plate-forme de
+
+                                                                                                                                                                                                                                                                                  podométrie
+                                                                                                                                                                                                                                                                                                         podométrie électronique
+à des paramètres                                         de la podométrie électronique                                                                                                                                                                                                                   et d’une plate-forme
+couplés inédits.
+                                                         plus de 30 ans d’expérience dans la conception
+                                                         et la fabrication d’équipements pour la podologie,
+                                                         la posturologie et la biomécanique
+                                                         une gamme complète et évolutive d’appareils
+                                                                                                                                                                                                                                                                             + posturographie            de posturographie
+                                                                                                                                                                                                                                                                                                         répondant aux
+                                                         de mesure, de diagnostic et d’aide à la fabrication
+                                                                                                                                                                                                                                                                                                         recommandations de l’APE.
+                                                         qualité et fiabilité reconnues certification CE dispositifs
+                                                         médicaux selon la Directive 93/42 Classe 1m (DEKRA)
+                                                         le partenaire des professionnels du pied,
+                                                         de la semelle et de la chaussure
+                                                         une entreprise née de la filiation avec le monde de la
+                                                         recherche et de la haute technologie (LAAS / CNRS)
+                                                         plus de 10 000 clients équipés
+                                                         une notoriété et une implantation mondiales
+                                                         (Europe, États-Unis, Asie...)
+                               70 mm
+
+
+
+
+                                                         Gestion de la qualité
+
+
+
+
+                                                                                                                                                                                                                                                                                                600 mm
+                                                         Certifié conforme
+                                                         à la directive 93 / 42 / CEE
+                                                         relative aux dispositifs médicaux
+                                       FUSYO / 10-2014
+
+
+
+
+                                                                                                                                               P O D O LO G I E , P O S T U R O LO G I E E T R É É D U C AT I O N                                                                                                  530 mm
+
+
+                                                                                          «Les Espaces de Balma» - 18 av. Charles de Gaulle - Bât. 33 & 34
+                                                                                                                                  31130 BALMA - France
+
+                                                                                                            tél. +33 (0) 562 571 571 - fax +33 (0) 562 577 468
+                                                                                                                   info@medicapteurs.fr - www.medicapteurs.fr
+Fonction podométrie                                                                                                               Fonction posturographie
+FUSYO est l’outil idéal pour analyser des cartographies de pression d’une précision                                               FUSYO permet de réaliser l’évaluation posturale et l’analyse des troubles de la statique et de l’équilibre, selon les recommandations
+et d’une fiabilité inégalées grâce à l’emploi de la technologie WIN-POD.                                                          de l’APE. Pour exploiter cette plate-forme, nous avons réalisé un tout nouveau logiciel très convivial.
+
+
+
+
+Analyse statique                                                                                                                  Analyse stabilographique
+• cartographie statique                                                                                                           statique et dynamique
+  avec calcul par zone
+                                                                                                                                  • convivialité et ergonomie incomparables
+• multitude de visualisations
+  (thermographique, isopression,                                                                                                  • création et gestion des protocoles d’acquisition
+  pourcentage, 3D...)                                                                                                             • paramétrage des normes et référentiels
+• impression à l’échelle 1/1                                                                                                      • production de la totalité des données
+• comparaison d’examens                                                                                                             stabilométriques normalisées APE 85
+                                         Cartographie statique                  Comparaison d’examens                             • nouvelles fonctionnalités issues de l’actualité      Visualisation de la cartographie de                   Fenêtres d’analyse fréquentielle (FFT)   Comparaison 4 mesures
+                                                                                                                                    scientifique (option : ondelettes, analyses          pression et du statokinésigramme
+                                                                                                                                    fractales et de diffusion…)
+                                                                                                                                  • possibilité de comparaison des examens
+
+Analyse dynamique                                                                                                                 • multiples visualisations du signal stabilométrique
+(avec piste de marche en option)                                                                                                  • édition de rapports et bilans personnalisables
+                                                                                                                                  • exportation directe des données
+• acquisition multi-pas                                                                                                             stabilométriques vers Excel
+• enregistrement jusqu’à                                                                                                          • éditeur de courrier
+  200 images par secondes
+                                                                                                                                  • publipostage
+• image globale dynamique,
+  calculs, courbes
+•	mosaïque des différentes phases
+   d’appui, analyse par zone             Analyse des phases d’appui plantaire   Acquisition multi-pas   Analyse 7 zones                                                                  Paramètres stabilométriques                           Stabilogrammes
+• caractérisations multiples du temps                                                                                                                                                    normalisés APE 85
+  d’appui et de la quantité de charge
+• vidéo
+• analyse médio-latérale
+
+
+
+
+                                                                                                                                                                                           WinTrainer NV software (en option)
+                                         Visualisation Impulse                  Vidéo
+                                                                                                                                                                                           La souplesse d’un logiciel
+                                                                                                                                                                                           de rééducation paramétrable
+                                                                                                                                                                                           • nouveau logiciel de rééducation et de contrôle
+                                                                                                                                                                                             thérapeutique par biofeedback visuo-postural
+
+Fonctions avancées                                                                                                                                                                         • exercices ludiques paramétrables par le praticien
+                                                                                                                                                                                             en fonction de l’évolution de la rééducation du patient
+•	rapport personnalisable : insertion                                                                                                                                                     • facilité d’utilisation grâce à des exercices
+   de photos, ajout de commentaires,                                                                                                                                                         avec création rapide de niveaux prédéfinis
+   création de modèles types,                                                                                                                                                              • ergonomie optimisée
+   impression à la file
+                                                                                                                                                                                           • publipostage
+•	possibilité de lier des documents
+   électroniques à un examen
+• exportation au format PDF
+• gestion d’un agenda multi-praticiens   Gestion d’un agenda multi-praticiens   Écran d’accueil         Rapport personnalisable
+

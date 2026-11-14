@@ -1,0 +1,58 @@
+Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/02/computer-requirements-v2.3-2019-uk.pdf
+Mis en ligne le : 2019-05-29
+------------------------------------------------------------
+                                                      Guration
+
+
+
+
+                                  Minimal Pc requirements
+                                         (Not for Fusyo or W-inshoe)
+Type                            All the computer with following processors :
+                                       - INTEL Core I3 (or higher) frequency 2 GHz minimum
+                                         Eviter les processeurs U (Ultra-Low Power)1
+
+                                        - Macs are not compatible
+                                        - The All-in-one / AIO to forbid
+                                        - tablets not compatible
+                                        - The micro-PC and Sticks are not advisable
+
+                                If you already have a PC or for any other configuration :
+                                Contact us
+                                Windows 7, 8.1, 10 (32 or 64 bits)2
+Operating System
+                                Windows 10 S not supported
+
+RAM Memory                      4 Go
+
+Hard Drive                      128 Go
+
+Display Resolution              1024 x768 pixels
+
+                                Minimum 2 USB ports on PC where 1 USB port is dedicated only to the
+USB Ports
+                                platform or to a Wifi dongle
+                                        - webcam running at 30 frames per second
+Webcam (if you have an
+option)
+                                        - 1 graphic board dedicated to the webcam
+                                        - 1 dedicated USB port
+
+Backup system                   1 external hard drive (USB)
+
+
+         An environment overloaded with wifi signals can alter or prevent the wireless connection of our products.
+
+This information sheet is indicative and does not guarantee the total compatibility of your PC with your platform.
+1
+With AMD Ryzen processor, maximum cable 3 m.
+2
+WinPod with external charging cable (old generation) work only on 32 bits.
+
+
+                                                    Version 2.3 May 2019
+
+
+       MEDICAPTEURS France S.A.S. – « Les Espaces de Balma » - 18, avenue Charles de Gaulle - Bât.33/34 - 31130 BALMA
+                        Tél. +33 (0) 562 571 571 / Fax +33 (0) 562 577 468 – www.medicapteurs.fr
+
