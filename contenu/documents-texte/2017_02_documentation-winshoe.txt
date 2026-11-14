@@ -1,5 +1,184 @@
 Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/02/documentation-winshoe.pdf
 Mis en ligne le : 2017-02-21
-(PDF sans texte extractible : document image)
+(PDF image : texte obtenu par reconnaissance de caractères (OCR), à relire)
 ------------------------------------------------------------
-
+Image du boitier taille réelle
+
+creme mMeoIcooteurs
+
+Poids d'un boîtier aur PODOLOGIE, POSTUROLOGIE ET REEDUCATION
+
+Technologie capteur Résistif HD calibré
+Nombre de capteurs 9 capteurs par boitier
+
+Surface active capteur 12 mm de ©
+
+medicapteurs
+
+Epaisseur du capteur 0,5 mm
+Pression mini/maxi par capteur 0,1 KgF à 8 KgF
+
+Nombre d'utilisations garanties > 1 000 000
+
+Fréquence d'acquisition 100 images/secondes
+interface PC/boitier Bluetooth®
+Autonomie en acquisition 5 heures
+Méthode de chargement Secteur/USB
+Systeme d’exploitation requis § Windows Vista, Seven, 8
+, Conditionnement Malette de transport à
+LLJ | 3 3 | 4 e: À
+— La malette complète comprend : J |
+
+e 2 boitiers
+
+nor capteurs de pression
+ft EP embarqués sans fil
+
+NN] CR 1 Se + Logiciel d'exploitation
+, , + Manuel
+La solution d'analyse de la pression
+
+4 dans la chaussure la plus performante
+‘im du marché au meilleur prix ! Medicapteurs, leader européen
+| | de la podométrie électronique
+
+|
+
+Ht eh plus de 30 ans d’expérience dans la conception
+|| Ii et la fabrication d’équipements pour la podologie,
+
+HHH) |) Plus de 3 ans de développement ont été nécessaires pour concevoir la posturologie et la biomécanique
+
+WH ce produit innovant, composé de 2 boitiers ultra-légers (50 gr) pilotant une gamme complète et évolutive d'appareils
+
+TI chacun 9 capteurs ultra-minces et calibrés. de mesure, de diagnostic et d’aide a la fabrication
+
+| | Il WINSHOE est la solution technologique idéale pour analyser qualité et fiabilité reconnues certification CE dispositifs
+
+nil Pe à médicaux selon la Directive 93/42 Classe 1m (DEKRA)
+HAL directement la pression sur des zones ciblées grace au
+
+HT placement libre des capteurs sur le pied ou la semelle. he partetialte ces FIDISSSONNSIS Ou pind,
+
+MA RAAANAN de la semelle et de la chaussure ey
+TTT, L objectivation de | incidence des semelles en conditions réelles une entreprise née de la filiation avec le monde de la
+BRA (en cabinet ou en extérieur) optimisera l'efficacité de vos ortheses. recherche et de la haute technologie (LAAS / CNRS)
+plus de 10000 clients équipés
+
+une notoriété et une implantation mondiales
+(Europe, Etats-Unis, Asie...) ) ie
+
+Gestion de la qualite
+
+Certifié conforme
+à la directive 93 / 42 / CEE
+relative aux dispositifs médicaux
+
+meoicapteurs
+
+PODOLOGIE, POSTUROLOGIE ET RÉÉDUCATION
+
+«Les Espaces de Balma» - 18 av. Charles de Gaulle - Bât. 33 & 34
+31130 BALMA - France
+
+tél. +33 (0) 562 571 571 - fax +33 (0) 562 577 468
+info@medicapteurs.fr - www.medicapteurs. fr
+
+incOnitC) WINSHOE / 03-2014 Crédits photos : Thinkstock.
+
+—
+
+rt ji à
+
+Acquisition 100 Hz
+
+Synchronisation automatique des 2 boitiers
+
+Rechargement rapide par USB (1h30)
+
+9 capteurs ultra-minces et calibrés
+Positionnement libre
+Garantis pour 1 million d’activations*
+
+*validé sur banc de tests
+
+Fixation simple par clip sur lacets ou bandeau
+
+medicopteurs
+
+Assistant de paramétrage
+
+Analyse détaillée
+
+Fiche patient
+
+’ ; \
+7 on | iG fi
+Ee es ñ Va | en | LE DIN D
+AS U « J 3 i 1 À 4
+
+: Bt | emt LD. ALT Ne
+
+Acquisition et visualisation 3D en temps réel
+
+» Téléchargement de données enregistrées
+en ambulatoire
+
+Mode enregistrement
+
+Comparaison de 2 acquisitions
+
+Reconnaissance des pas
+
+Fiche patient et base de données
+compatibles et partagées avec tous
+les logiciels Medicapteurs
+
+Création intuitive et enregistrement
+de modèles numériques de placement
+des capteurs
+
+Assistant de placement des
+capteurs par webcam
+
+Analyse détaillée d’une acquisition :
+affichage des pressions, des temps
+
+d'activation, impulse de chaque capteur
+
+Comparaison pied droit / pied gauche
+Barycentre des capteurs
+Assistant de détection des pas
+
+Comparaison des valeurs de capteurs
+entre plusieurs enregistrements
+
+Edition de rapports
+
+Winshoe peut être utilisé avec
+les plateformes Medicapteurs
+
+WINSHOE est adapté à l’étude des pressions
+du pied. II est le partenaire idéal pour faciliter les
+diagnostics, corriger et améliorer la marche de
+nombreux patients et optimiser les performances
+chez le sportif.
+
+Objectiver l'incidence d’ortheses
+ou chaussures orthopédiques
+
+Corriger des problemes de posture
+
+Prévenir le risque d’escarre
+chez les diabétiques
+
+Adapter les protheses et suivre
+la rééducation du patient appareillé
+
+Améliorer la performance des sportifs
+en adaptant les entraînements
+
+Évaluer les troubles locomoteurs
+
+Une grande liberté d'utilisation
+

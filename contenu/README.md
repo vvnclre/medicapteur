@@ -6,6 +6,8 @@ Ce dossier contient l'intégralité des informations récupérées le 13 et le 1
 |---|---|
 | `REFERENTIEL.md` | **À lire en premier.** Synthèse produit par produit : caractéristiques, fonctions, statut réglementaire, chiffres de l'entreprise, contacts. Chaque donnée a sa source. Les contradictions sont marquées « ⚠ À VALIDER ». |
 | `site-actuel/fr/`, `site-actuel/en/` | Texte verbatim des 107 pages du site (onglets cachés dépliés), avec les documents liés et les images. Classé en accueil, produits, applications, pages et actualités. |
+| `site-actuel/*/autres/` | Pages absentes du menu, trouvées via le plan du site : équipe (trombinoscope), livre d'or (16 messages clients, noms des particuliers anonymisés), boutique de test, pages de liste, mentions cookies. |
+| `images-texte/` | Texte lu par OCR dans les images du site qui contiennent du texte (affiches d'offres avec prix, captures du logiciel, schémas). À relire : la reconnaissance automatique fait des erreurs. |
 | `site-actuel/index.csv` | Index des pages : langue, type, titre, URL, date de modification. |
 | `documents-texte/` | Texte extrait des 162 PDF publics : brochures, fiches techniques, listes de publications, configurations PC. La source et la date figurent en tête de chaque fichier. |
 | `references/publications-2023-brut.csv` | Bibliographie extraite des listes de janvier 2023 (≈ 480 lignes). Le découpage est automatique et doit être relu. |

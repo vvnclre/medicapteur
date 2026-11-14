@@ -41,6 +41,26 @@ Le texte intégral de chaque source se trouve dans `site-actuel/`, `documents-te
 | Adhésion | Membre de l'APE (Association Posture et Équilibre, ex-AFP) | Win-Posturo FR/EN | à confirmer |
 | Projet de recherche | « Serious GaRS », programme européen Easynov 2016, réf. 16006940 / MP0007009 (jeux en réseau sur plateformes, silver economy) | page Projet EASYNOV | OK, ancien |
 
+### Équipe affichée (page « trombinoscope », hors menu)
+
+| Prénom | Fonction | Contact affiché |
+|---|---|---|
+| Olivier | Directeur | |
+| Eric | Directeur technique | |
+| Laura | Développeur | |
+| Laurent | Export | 05 62 577 460, export@medicapteurs.fr |
+| Tully | Commerciale | 05 62 577 460, commercial@medicapteurs.fr |
+
+Page créée en 2017, sans photos visibles : à mettre à jour.
+
+### Distributeurs et clients cités publiquement
+
+- Algeos (Royaume-Uni) : distributeur de la T-Plate.
+- Herbitas (Portugal) : distributeur.
+- Pleil GmbH (Allemagne) : client utilisant T-Plate et W-Inshoe en magasin.
+
+Source : livre d'or du site. Aucune liste officielle de distributeurs n'est publiée.
+
 ### Nombre de clients et de systèmes : évolution des chiffres publiés
 
 Les chiffres ne se contredisent pas vraiment. Ils ont été publiés à des dates différentes et jamais mis à jour au même endroit. Une fois remis dans l'ordre, ils racontent une croissance régulière.
@@ -388,7 +408,27 @@ Présentée lors d'une intervention « Minipod : des podomètres pour tous ! » 
 - Plateforme du pack (`physioplay_uk`) : 540 × 585 × 22 mm, 3 kg, 1 600 capteurs, 100 images/s, USB.
 - Site dédié cité : www.physioplay.fr (non vérifié).
 
-### 3.15 Produits cités sans fiche
+### 3.15 Prix publiés (affiches d'offres, lues par OCR et vérifiées à l'œil pour 2016, 2020 et 2024)
+
+Ces prix figurent uniquement dans des images. Ce sont des **prix catalogue TTC indiqués « au lieu de »** sur des promotions datées : ils ne doivent pas être repris sans validation.
+
+| Produit | 2016 | 2018-2020 | 2021 | 2023 | 2024 | 2026 |
+|---|---|---|---|---|---|---|
+| Win-Track (1,5 m) | | 9 950 € | 11 439 € | 12 166 € | 12 388 € | |
+| Win-Track Mini (1 m) | 7 950 € | 7 950 € | 9 273 € | | 9 925 € | |
+| Win-Pod Wifi | | 6 389 € (Pack Mobilité avec tablette) | 7 299 € | 8 158 € | 8 319 € | |
+| Win-Pod **Classic** (édition limitée, USB seulement, sans Wifi ni Podocapture) | | | | 4 990 € (10 ex.) | 4 990 € (5 ex.) | |
+| W-Inshoe | | 3 495 € | | | | |
+| W-Inshoe Easy | | 5 600 € | | | | |
+| Minipod | | | | | | 1 790 € (minipod.fr) |
+
+Le « Win-Pod Classic » n'a aucune fiche sur le site.
+
+### 3.16 Scanner
+
+Une photo intitulée « SCANNER » figure dans la grille de produits de l'actualité « Les offres salon 2020 ». La démo en ligne propose un « scanner 2D ». La fiche `scanner-fiche-uk.compressed.pdf` est un lien cassé (404). **⚠ Produit toujours commercialisé ? Caractéristiques ?**
+
+### 3.17 Produits cités sans fiche
 
 | Produit | Où il est cité | Fiche existante |
 |---|---|---|
@@ -423,11 +463,30 @@ Présentée lors d'une intervention « Minipod : des podomètres pour tous ! » 
   - webcam 30 images/s (Logitech C920 Pro conseillée) ;
   - Mac non compatibles ; tout-en-un, micro-PC et écrans de 13-14 pouces déconseillés ;
   - câble USB de 3 m maximum avec Ryzen ou un hub USB 3.2.
+- **Données patients hors ligne** : « Our softwares are offline only : there is no connection with cloud servers » (réponse de Medicapteurs dans le livre d'or, avril 2022, à un client britannique qui voulait installer le logiciel sur un serveur du NHS). C'est un argument fort pour les hôpitaux et la conformité RGPD, à confirmer et à mettre en avant.
+- **Manuels d'utilisation** : hébergés sur sav.medicapteurs.fr (dossier `Distrib/Manuals/`, par exemple « T-Plate - User Manual V2.2 UK »), protégés par mot de passe et non récupérés. Plusieurs messages du livre d'or demandent où trouver le manuel ou le logiciel : prévoir un espace client.
 - **Licences** : code de 25 caractères (menu « Aide > À propos ») ; versions V1 à V10.
 - **FAQ** :
   - sauvegarder le dossier `data` au moins 2 fois par semaine ;
   - nettoyer avec des lingettes sans alcool (type Phagolingettes) ;
   - mesures possibles patient chaussé, en vérifiant l'absence d'objets coupants et sans talons aiguilles.
+
+### Seuils et règles d'interprétation affichés par le logiciel
+
+Ces informations ont été lues dans les images (captures d'écran, rapports, schémas) ; voir `images-texte/images-ocr.md`.
+
+- **Ratio pied diabétique (indice « Armstrong »)** : « Diabetic Foot Ratio > 2 : High risk » ; « Diabetic Foot Ratio < 2 : Moderated risk ». Le ratio est calculé avant-pied / arrière-pied. Exemple de phrase de rapport : « The diabetic patient has an "Armstrong" index for the left foot of 1.11, with a moderate risk of ulceration ». Source : image `2024/05/risk-zones.jpg` (page diabète EN) et exemples de rapports. **⚠ Seuil à faire confirmer**, avec la référence exacte de la publication d'Armstrong.
+- **Foot Posture Index (© Anthony Redmond)** : normal de 0 à +5 ; pronation de +6 à +9 ; forte pronation ≥ 10 ; supination de -1 à -4 ; forte supination ≤ -5. Chaque critère est noté de -2 (supiné) à +2 (proné). Source : `fpi.pdf` (OCR) et capture `fpi-full.bmp`.
+- **CPEI** : le logiciel classe le pied en « PRONATION », « NORMAL », « SUPINATION » ou « OVERSUPINATION ». Les seuils numériques n'apparaissent pas.
+- **Rapport automatique** : il rédige des phrases d'interprétation. Exemples : répartition latérale G/D « dans la norme » ou « en dehors de la norme », ratios avant/arrière, pression max et moyenne (g/cm²), surface d'appui, durées de contact, phases du pas (talon, plantigrade, avant-pied), « ASYMÉTRIE ». Il existe en français et en anglais.
+- **Paramètres spatio-temporels affichés (Win-Track)** : durée de pas, de foulée, d'appui simple, de double appui, d'oscillation et de cycle (ms).
+
+### Garantie, services et intégrations (affiches d'offres)
+
+- Garantie : « Garantie 2 ans » (2016). Les offres de 2021 à 2024 ajoutent « OFFERT : 3e année de garantie matérielle + 3 ans de contrat d'assistance et de mise à jour logicielle, livraison sur site France métropolitaine, installation et formation online ». **⚠ Contenu de l'offre standard à confirmer.**
+- Reprise de l'ancienne plateforme Medicapteurs « quel que soit son état » (790 €, 2 360 € ou 3 000 € TTC selon l'offre).
+- Couplage avec les logiciels de gestion de cabinet **Podoevolution, Medi+4000 et Podia XP** (offre 2016). **⚠ Toujours valable ?**
+- « Pack Mobilité » Win-Pod (2018-2019) : plateforme Wifi, logiciel complet, tablette Samsung 10 pouces, appli Podocapture, housse.
 
 ---
 
@@ -502,4 +561,8 @@ Photos Minipod (février 2024) et photos de stand MEDICA 2024.
 2. **Installeurs logiciels publics** : `setup_520.zip`, `wpsetup900_mc.zip`, `sp_setup_901.zip`, `winpost_setup_210.zip`, `chinese.zip`… Vérifier qu'ils doivent rester téléchargeables sans compte.
 3. **minipod.fr** : bloc « Lorem ipsum dolor sit amet » visible sur l'accueil ; page « Test slider » (« fgdsgg ») publiée ; pages Shop et Contact remplies de texte générique ; pages CGV vides alors que le site vend en ligne.
 4. **Mentions légales incomplètes** : les deux sites n'indiquent ni le n° RCS/SIREN de Medicapteurs, ni le capital, ni le directeur de la publication. Seul l'hébergeur (Ikoula) est mentionné. Le texte cite encore la loi de 1978 et non le RGPD.
-5. **Exemple de rapport** (`report.pdf`, mars 2026) : l'en-tête utilise « Mayo Clinic » avec une adresse fictive. Il faut le remplacer par un cabinet fictif neutre.
+5. **Liens cassés vers des documents** : la fiche du scanner (`scanner-fiche-uk.compressed.pdf`) et la brochure PowerTrack US (`/Plaquettes et fiches informations produits/…/PowertrackUS3.pdf`) renvoient une erreur 404.
+6. **Boutique de test publiée** : produits « Cable 1 » (50 €, description « desc court »), « Réabonnement licence » (10 €) et « preoduit test champs personnalisés » visibles dans `/shop/`.
+7. **Livre d'or public** (`/comments-book/`) : 16 messages de 2018 à 2026, dont des demandes de support restées sans réponse (avril 2026) et une réponse « we don't know who you are ». Le livre d'or est à fermer et ses questions à transformer en FAQ.
+8. **Vidéo « Company overview »** : le fichier existe (`2021/02/medicapteurs_company_overview.mp4`, 21 Mo), mais le cadre de l'accueil reste vide.
+9. **Exemples de rapport** : `report.pdf` (mars 2026) et au moins 7 captures de rapports publiées sur le site (`report-statique`, `report-dyna-page-1/2`, `report-dyna-page-diabete`, `rapport-auto-statique`, `rapport-auto-dyna-fr-1/2`) ont un en-tête « Mayo Clinic » avec une adresse fictive. Il faut les refaire avec un cabinet fictif neutre.

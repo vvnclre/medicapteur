@@ -1,5 +1,35 @@
 Source : https://www.medicapteurs.com/wp-content/uploads/sites/1772/2017/02/fpi.pdf
 Mis en ligne le : 2019-10-18
-(PDF sans texte extractible : document image)
+(PDF image : texte obtenu par reconnaissance de caractères (OCR), à relire)
 ------------------------------------------------------------
-
+Diagram showing the position of the fingers when palpating of the
+head of the talus. The circles indicate the precise point of palpation
+on the medial and lateral side.
+
+‘
+
+() Foot Posture Index © Anthony Redmond
+
+ES
+
+Supinated (-2) Neutral (0) Pronated (+2)
+
+L
+
+Supinated (-2) Neutral (0) Pronated (+2)
+
+Supinated (-2) Neutral (0) Pronated (+2)
+
+AA
+
+Supinated foot (-2) Pronated foot (+2)
+
+\ sat
+
+Supinated (-2) Neutral(0)
+
+[CT Normal = À à +5
+
+En pronation = +6 à +9. Hautement en pronation >= 10
+En supination = -1 à -4. Hautement en supination =< -5
+
