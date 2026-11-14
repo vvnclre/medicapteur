@@ -696,3 +696,5 @@ a.mc-product:hover { color: var(--orange-text); }
 }
 /* Encadré « Vous hésitez » du menu Produits : à la hauteur de son contenu */
 .mega__help { align-self: start; }
+.mega__help { align-items: center; text-align: center; padding: 26px 22px; }
+.mega__help .mc-btn { justify-content: center; }
