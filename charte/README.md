@@ -71,7 +71,7 @@ Le chiffre clé mis en avant (`data-xl`) est en Sora, chiffres tabulaires : la p
 
 - Grille de 4 px : `space-1` (4) à `space-24` (96). Marge latérale minimale `space-4` sur mobile. Espacement entre sections `space-12` sur mobile, `space-16` sur ordinateur.
 - `radius-plate` (20 px) reprend les angles arrondis du symbole. Réservez-le aux objets « plateforme » : cartes produit, visuels, bloc de marque. Les boutons prennent `radius-md`, les champs et étiquettes `radius-sm`.
-- Pas de contours ni d'ombres sur les boutons et les cartes : le fond suffit à les détacher. `shadow-raised` est réservé aux éléments qui flottent au-dessus de la page (menu, fenêtre de démo).
+- Pas de contours ni d'ombres sur les cartes : le fond suffit à les détacher. Seul le bouton principal prend un halo orange discret au survol. `shadow-raised` est réservé aux éléments qui flottent au-dessus de la page (menu, fenêtre de démo).
 
 ## Images
 

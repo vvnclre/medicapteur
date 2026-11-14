@@ -46,6 +46,8 @@ body { background: var(--surface); color: var(--ink); font-family: var(--font-te
 
 /* Principal : plateforme orange */
 .mc-btn--primary { --mc-grid: var(--orange); background: var(--orange); color: var(--on-orange); }
+.mc-btn--primary { box-shadow: inset 0 -3px 0 rgba(22,24,27,.14); transition: transform 160ms ease-out, box-shadow 200ms ease-out; }
+.mc-btn--primary:hover { transform: translateY(-2px); box-shadow: inset 0 -3px 0 rgba(22,24,27,.14), 0 12px 26px -12px rgba(242,149,25,.85); }
 
 /* Secondaire : plateforme grise, même empreinte, plus discrète */
 .mc-btn--secondary { --mc-grid: var(--surface-sunken); background: var(--surface-sunken); color: var(--ink); }
@@ -69,8 +71,22 @@ body { background: var(--surface); color: var(--ink); font-family: var(--font-te
 .mc-btn[disabled] { opacity: .45; cursor: not-allowed; transform: none; }
 .mc-btn[disabled]::before { opacity: 0; }
 
+/* Grande taille pour les appels principaux d'une page */
+.mc-btn--lg { padding: 18px 28px; font-size: 17px; line-height: 24px; }
+
+/* Jauge de pression : trois barres croissantes qui s'allument au survol */
+.mc-cells { display: inline-flex; align-items: flex-end; gap: 2px; height: 12px; margin-left: 2px; }
+.mc-cells i { width: 4px; border-radius: 1px; background: currentColor; opacity: .25; transition: opacity 160ms ease-out, background-color 160ms ease-out; }
+.mc-cells i:nth-child(1) { height: 5px; }
+.mc-cells i:nth-child(2) { height: 8px; transition-delay: 60ms; }
+.mc-cells i:nth-child(3) { height: 12px; transition-delay: 120ms; }
+.mc-btn:hover .mc-cells i, .mc-btn:focus-visible .mc-cells i { opacity: 1; }
+.mc-btn--secondary:hover .mc-cells i:nth-child(1), .mc-on-inverse .mc-btn--secondary:hover .mc-cells i:nth-child(1) { background: var(--pressure-4); }
+.mc-btn--secondary:hover .mc-cells i:nth-child(2), .mc-on-inverse .mc-btn--secondary:hover .mc-cells i:nth-child(2) { background: var(--pressure-5); }
+.mc-btn--secondary:hover .mc-cells i:nth-child(3), .mc-on-inverse .mc-btn--secondary:hover .mc-cells i:nth-child(3) { background: var(--pressure-6); }
+
 @media (prefers-reduced-motion: reduce) {
-  .mc-btn, .mc-btn::before, .mc-btn .mc-sensor, .mc-btn--link { transition: none; }
+  .mc-btn, .mc-btn::before, .mc-btn .mc-sensor, .mc-btn--link, .mc-cells i { transition: none; }
 }
 
 /* ---------- Nom de produit : le capteur orange devant le nom ---------- */
