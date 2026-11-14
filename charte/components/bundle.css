@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@400;500&family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,700;1,400&family=Michroma&family=Sora:wght@500;600;700&display=swap");
+
+/* Medicapteurs — composants. Toutes les valeurs viennent de tokens.css. */
+
+body { background: var(--surface); color: var(--ink); font-family: var(--font-text); margin: 0; }
+
+/* Bouton */
+.mc-btn { display: inline-flex; align-items: center; gap: var(--space-2); font-family: var(--font-text); font-size: 16px; line-height: 24px; font-weight: 700; padding: var(--space-3) var(--space-6); border-radius: var(--radius-md); border: 2px solid transparent; cursor: pointer; text-decoration: none; }
+.mc-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.mc-btn--primary { background: var(--orange); color: var(--on-orange); }
+.mc-btn--primary:hover { box-shadow: inset 0 -3px 0 rgba(0,0,0,0.18); }
+.mc-btn--secondary { background: transparent; color: var(--ink); border-color: var(--line-strong); }
+.mc-btn--secondary:hover { border-color: var(--ink); }
+.mc-btn--link { background: none; padding: var(--space-3) 0; color: var(--orange-text); text-decoration: underline; text-underline-offset: 4px; }
+.mc-btn[disabled] { opacity: .45; cursor: not-allowed; }
+
+/* Nom de produit */
+.mc-product { display: inline-flex; align-items: center; gap: var(--space-2); font-family: var(--font-label); font-size: 15px; line-height: 20px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink); }
+.mc-product::before { content: ""; width: 12px; height: 12px; border-radius: 3px; background: var(--orange); flex: none; }
+.mc-product small { font-family: var(--font-text); font-size: 13px; letter-spacing: 0; text-transform: none; color: var(--ink-muted); }
+
+/* Surtitre */
+.mc-eyebrow { font-family: var(--font-label); font-size: 11px; line-height: 16px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-muted); }
+
+/* Mesure mise en avant */
+.mc-measure { display: grid; gap: var(--space-1); }
+.mc-measure b { font-family: var(--font-mono); font-size: 44px; line-height: 48px; font-weight: 500; letter-spacing: -.02em; font-variant-numeric: tabular-nums; color: var(--ink); }
+.mc-measure b span { font-size: 18px; letter-spacing: 0; color: var(--ink-muted); margin-left: var(--space-1); }
+.mc-measure em { font-style: normal; font-family: var(--font-text); font-size: 14px; line-height: 21px; color: var(--ink-muted); }
+
+/* Fiche technique */
+.mc-spec { width: 100%; border-collapse: collapse; font-family: var(--font-text); font-size: 15px; line-height: 22px; }
+.mc-spec caption { text-align: left; font-family: var(--font-label); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-muted); padding-bottom: var(--space-2); }
+.mc-spec th, .mc-spec td { text-align: left; padding: var(--space-3) 0; border-top: 1px solid var(--line); vertical-align: top; }
+.mc-spec th { font-weight: 400; color: var(--ink-muted); width: 45%; padding-right: var(--space-4); }
+.mc-spec td { font-family: var(--font-mono); font-weight: 500; font-variant-numeric: tabular-nums; color: var(--ink); }
+.mc-spec td .unit { color: var(--ink-muted); font-weight: 400; }
+.mc-spec tr.mc-spec__check td { color: var(--warning); }
+
+/* Légende de pression */
+.mc-pressure { display: grid; gap: var(--space-2); max-width: 360px; }
+.mc-pressure__bar { display: grid; grid-template-columns: repeat(6, 1fr); height: 12px; border-radius: var(--radius-sm); overflow: hidden; }
+.mc-pressure__bar i:nth-child(1) { background: var(--pressure-1); }
+.mc-pressure__bar i:nth-child(2) { background: var(--pressure-2); }
+.mc-pressure__bar i:nth-child(3) { background: var(--pressure-3); }
+.mc-pressure__bar i:nth-child(4) { background: var(--pressure-4); }
+.mc-pressure__bar i:nth-child(5) { background: var(--pressure-5); }
+.mc-pressure__bar i:nth-child(6) { background: var(--pressure-6); }
+.mc-pressure__scale { display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 12px; line-height: 16px; color: var(--ink-muted); font-variant-numeric: tabular-nums; }
