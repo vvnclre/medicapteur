@@ -5,7 +5,8 @@
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",
-    "clean": "rm -rf _site"
+    "clean": "rm -rf _site",
+    "wordpress": "eleventy && python3 wordpress/build-theme.py"
   },
   "license": "ISC",
   "devDependencies": {

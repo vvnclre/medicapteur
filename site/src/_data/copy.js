@@ -58,8 +58,8 @@ export default {
   range: {
     title: fr("La gamme : plateformes, pistes de marche et posturologie", "The range: pressure plates, walkways and posturology"),
     description: fr(
-      "Les 11 produits Medicapteurs comparés : Minipod, T-Plate, Win-Pod Wifi, Fusyo, Win-Posturo, Win-Track, PowerTrack, W-Inshoe. Trouvez la plateforme adaptée à votre pratique.",
-      "The 11 Medicapteurs products compared: Minipod, T-Plate, Win-Pod Wifi, Fusyo, Win-Posturo, Win-Track, PowerTrack, W-Inshoe. Find the platform that suits your practice."
+      "Les 13 produits Medicapteurs comparés : Minipod, T-Plate, Win-Pod Wifi, Fusyo, Win-Posturo, Win-Track, PowerTrack, W-Inshoe. Trouvez la plateforme adaptée à votre pratique.",
+      "The 13 Medicapteurs products compared: Minipod, T-Plate, Win-Pod Wifi, Fusyo, Win-Posturo, Win-Track, PowerTrack, W-Inshoe. Find the platform that suits your practice."
     ),
     eyebrow: fr("Produits", "Products"),
     h1: fr("Trouvez la plateforme faite pour votre pratique.", "Find the platform made for your practice."),

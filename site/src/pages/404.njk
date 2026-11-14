@@ -1,0 +1,18 @@
+---
+permalink: "/404.html"
+layout: layouts/base.njk
+lang: fr
+routeKey: home
+title: "Page introuvable · Page not found"
+description: "Cette page n'existe pas. This page does not exist."
+---
+<section class="wrap page-head" style="padding-bottom:64px">
+  <span class="mc-eyebrow">404</span>
+  <h1 class="h1 statement page-head__statement">Page introuvable.</h1>
+  <p class="lead">Cette adresse ne correspond à aucune page. Retrouvez la gamme, ou préparez votre demande en deux minutes.</p>
+  <p class="lead" lang="en">This page does not exist. <a href="{{ 'home' | url('en') }}">Go to the English site</a>.</p>
+  <div class="hero__actions">
+    <a class="mc-btn mc-btn--primary mc-btn--lg" href="{{ 'range' | url('fr') }}"><span class="mc-sensor"></span>Voir la gamme</a>
+    <a class="mc-btn mc-btn--secondary mc-btn--lg" href="{{ 'request' | url('fr') }}"><span class="mc-sensor"></span>Préparer ma demande</a>
+  </div>
+</section>
