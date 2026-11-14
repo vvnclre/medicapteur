@@ -4,6 +4,7 @@
   --on-orange: #16181b;
   --orange-text: #9c5200;
   --orange-soft: #fdebd2;
+  --orange-deep: #b9680a;
   --black-logo: #000000;
   --surface: #ffffff;
   --surface-alt: #f5f4f1;
@@ -32,6 +33,7 @@
   --on-orange: #16181b;
   --orange-text: #f6a843;
   --orange-soft: #3a2510;
+  --orange-deep: #b9680a;
   --black-logo: #000000;
   --surface: #121315;
   --surface-alt: #1b1c1f;
@@ -85,4 +87,4 @@
 .body-strong { font-family: var(--font-text); font-size: 17px; line-height: 27px; font-weight: 700; }}
 .small { font-family: var(--font-text); font-size: 14px; line-height: 21px; font-weight: 400; }}
 .data { font-family: var(--font-mono); font-size: 15px; line-height: 22px; font-weight: 500; }}
-.data-xl { font-family: var(--font-mono); font-size: 44px; line-height: 48px; font-weight: 500; letter-spacing: -0.02em; }}
+.data-xl { font-family: var(--font-display); font-size: 44px; line-height: 48px; font-weight: 500; letter-spacing: -0.02em; }}

@@ -1,14 +1,22 @@
-<!-- @dsCard group="Actions" height=96 subtitle="Principal, secondaire, lien" -->
+<!-- @dsCard group="Actions" height=210 subtitle="La dalle, le contour coupé, la ligne de capteurs" -->
 <!doctype html>
 <html lang="fr">
 <head><meta charset="utf-8"><title>Button</title>
-<style>.row{display:flex;flex-wrap:wrap;gap:var(--space-4);align-items:center;padding:var(--space-4)}</style></head>
+<style>
+.row{display:flex;flex-wrap:wrap;gap:var(--space-6);align-items:center;padding:var(--space-6) var(--space-4)}
+.inv{background:var(--surface-inverse)}
+</style></head>
 <body>
 <div class="row">
-  <button class="mc-btn mc-btn--primary" type="button">Demander une démo</button>
-  <button class="mc-btn mc-btn--secondary" type="button">Comparer les plateformes</button>
+  <button class="mc-btn mc-btn--primary" type="button"><span class="mc-sensor"></span>Demander une démo</button>
+  <button class="mc-btn mc-btn--primary is-pressed" type="button"><span class="mc-sensor"></span>Enfoncé</button>
+  <button class="mc-btn mc-btn--secondary" type="button"><span class="mc-sensor"></span>Comparer les plateformes</button>
   <a class="mc-btn mc-btn--link" href="#fiche">Télécharger la fiche technique</a>
-  <button class="mc-btn mc-btn--primary" type="button" disabled>Envoi en cours</button>
+</div>
+<div class="row inv mc-on-inverse">
+  <button class="mc-btn mc-btn--primary" type="button"><span class="mc-sensor"></span>Demander une démo</button>
+  <button class="mc-btn mc-btn--secondary" type="button"><span class="mc-sensor"></span>Voir la gamme</button>
+  <a class="mc-btn mc-btn--link" href="#etudes">Consulter les études</a>
 </div>
 </body>
 </html>

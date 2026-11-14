@@ -6,6 +6,21 @@ Medicapteurs conçoit et fabrique à Balma, depuis 1985, des plateformes de mesu
 - **Précis, pas froid.** Des chiffres exacts avec leurs unités, des phrases courtes, des personnes réelles (praticiens, atelier de Balma).
 - **L'orange est rare.** Une seule zone orange forte par écran : le bouton principal ou un bloc de marque. Le reste est blanc, gris chaud et encre.
 
+## L'ADN graphique : quatre motifs tirés du symbole
+
+Le symbole du logo est une plateforme vue en perspective, dessinée en trait épais, coupée en deux coins opposés, avec une barre inclinée en son centre. Tout élément de marque reprend au moins un de ces motifs, et jamais un motif générique à la place.
+
+| Motif | D'où il vient | Où il apparaît |
+|---|---|---|
+| **La dalle** | La plateforme : un objet plat et épais, aux angles `radius-plate` | Bouton principal (tranche `orange-deep`), carte produit (tranche `line-strong`, orange au survol). Cliquer enfonce la dalle, comme un pied qui appuie. |
+| **La coupe** | Les deux interruptions en biais du contour du symbole | Contour du bouton secondaire (haut droite, bas gauche), cassure de la tranche des dalles près du coin gauche. Toujours en biais, jamais droite. |
+| **Le capteur** | La barre inclinée au centre du symbole | Repère `mc-sensor` devant les noms de produits et dans les boutons ; il glisse de 3 px au survol. Il remplace flèches et puces. |
+| **La matrice** | Les capteurs carrés d'une plateforme (48 × 48 sur le Win-Pod) | Lignes de cellules : soulignement des liens, surtitres, séparateurs de fiche technique, échelle de pression, motif de la couverture. |
+
+- N'ajoutez ni flèche « → », ni chevron, ni puce ronde : le capteur et la matrice les remplacent.
+- Le mouvement imite la mesure : on appuie, ça s'enfonce ; on survole, ça se soulève ou s'allume. Pas d'autre animation décorative. Avec « moins d'animations » activé, tout est immobile.
+- Ne recopiez jamais le symbole entier comme motif décoratif : il reste réservé au logo.
+
 ## Ton et écriture
 
 - Vouvoiement. Phrases courtes, verbes d'action : « Demander une démo », « Comparer les plateformes », « Télécharger la fiche ».
@@ -26,6 +41,7 @@ Medicapteurs conçoit et fabrique à Balma, depuis 1985, des plateformes de mesu
 
 - `orange` est l'orange exact du logo (#F29519). Il sert aux aplats : bouton principal, symbole, bloc de marque. Il ne sert jamais de couleur de texte sur fond clair (contraste 2,3:1) : utilisez `orange-text` pour un lien ou un mot orange.
 - Sur un aplat `orange`, le texte est `on-orange` (encre, 7,7:1), jamais blanc.
+- `orange-deep` est la tranche de la dalle orange (bouton principal, carte au survol). Jamais pour du texte ni pour un fond.
 - Fond de page `surface`, sections alternées `surface-alt`, champs et zones en retrait `surface-sunken`, bandeau inversé `surface-inverse` avec du texte `ink-inverse`.
 - Texte : `ink` pour les titres et le texte courant, `ink-muted` pour les unités, légendes et textes secondaires.
 - Filets : `line` pour séparer, `line-strong` pour les bordures de champs et de boutons secondaires.
@@ -42,7 +58,9 @@ Quatre familles, chacune avec un seul rôle :
 | Sora | Titres | `display`, `h1`, `h2`, `h3` |
 | Michroma | Noms de produits et surtitres, en capitales. Sa forme large et carrée rappelle le mot « medicapteurs » du logo. | `product`, `eyebrow` |
 | Atkinson Hyperlegible Next | Texte. Conçue par le Braille Institute pour les lecteurs malvoyants : un choix cohérent pour une marque médicale lue aussi par des patients âgés. | `lead`, `body`, `body-strong`, `small` |
-| Atkinson Hyperlegible Mono | Valeurs techniques et unités, chiffres alignés | `data`, `data-xl` |
+| Atkinson Hyperlegible Mono | Valeurs techniques et unités dans les fiches et tableaux, chiffres alignés | `data` |
+
+Le chiffre clé mis en avant (`data-xl`) est en Sora, chiffres tabulaires : la police mono élargit trop les grands nombres.
 
 - Un seul `display` par page. Titres en casse de phrase (« Analyse du pied diabétique »), jamais tout en capitales.
 - Michroma ne sert qu'en capitales et à 11-15 px. Jamais pour une phrase ni un titre.
@@ -53,7 +71,7 @@ Quatre familles, chacune avec un seul rôle :
 
 - Grille de 4 px : `space-1` (4) à `space-24` (96). Marge latérale minimale `space-4` sur mobile. Espacement entre sections `space-12` sur mobile, `space-16` sur ordinateur.
 - `radius-plate` (20 px) reprend les angles arrondis du symbole. Réservez-le aux objets « plateforme » : cartes produit, visuels, bloc de marque. Les boutons prennent `radius-md`, les champs et étiquettes `radius-sm`.
-- Pas d'ombre sur les cartes : un filet `line` suffit. `shadow-raised` est réservé aux éléments flottants (menu, fenêtre de démo).
+- Le relief vient de la tranche des dalles (une ombre pleine, nette, sans flou), jamais d'une ombre portée floue. `shadow-raised` est réservé aux éléments qui flottent au-dessus de la page (menu, fenêtre de démo).
 
 ## Images
 
@@ -70,8 +88,9 @@ Quatre familles, chacune avec un seul rôle :
 
 ## Composants
 
-- `Button` : action principale `mc-btn--primary` (un par écran), secondaire `mc-btn--secondary`, lien `mc-btn--link`.
-- `ProductName` : nom de produit avec son repère orange.
-- `Measure` : un chiffre clé et son unité.
-- `SpecSheet` : fiche technique, libellé à gauche, valeur en `data` à droite.
-- `PressureLegend` : légende de l'échelle de pression avec ses bornes chiffrées.
+- `Button` : la dalle (`mc-btn--primary`, un par écran), le contour coupé (`mc-btn--secondary`), la ligne de capteurs (`mc-btn--link`).
+- `ProductName` : nom de produit précédé du capteur orange.
+- `ProductCard` : carte produit en dalle, tranche orange au survol.
+- `Measure` : un chiffre clé, sa ligne de cellules et son unité.
+- `SpecSheet` : fiche technique, libellé à gauche, valeur en `data` à droite, lignes en pointillé de cellules.
+- `PressureLegend` : l'échelle de pression en six cellules, avec ses bornes chiffrées.
