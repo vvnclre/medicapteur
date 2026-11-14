@@ -1,8 +1,7 @@
 # ProductCard
 
-Carte produit en forme de dalle : coins `radius-plate` du symbole, tranche `line-strong` cassée près du coin gauche, qui devient orange (`orange-deep`) au survol.
+Carte produit sans contour ni ombre : une surface `surface-alt` aux angles `radius-plate` du symbole. Au survol, le pointeur y laisse une large empreinte de pression pixelisée, comme sur les boutons.
 
 - Classe `mc-plate` sur un `<a>` qui mène à la fiche produit. Contenu : un `mc-product`, une phrase en `<p>` (à quoi sert le produit, pour qui), une ligne `mc-data` avec 2 ou 3 valeurs validées.
-- Grille de 2 à 4 cartes, écart `space-6` au moins pour laisser voir la tranche.
-- Sur un fond autre que `surface`, mettez `mc-on-alt` ou `mc-on-inverse` sur le conteneur pour la cassure de la tranche.
-- Pas d'ombre portée ni de bordure en plus : la tranche suffit.
+- Chargez `components/bundle.js` pour que l'empreinte suive le pointeur.
+- Grille de 2 à 4 cartes, écart `space-6`.

@@ -6,19 +6,20 @@ Medicapteurs conçoit et fabrique à Balma, depuis 1985, des plateformes de mesu
 - **Précis, pas froid.** Des chiffres exacts avec leurs unités, des phrases courtes, des personnes réelles (praticiens, atelier de Balma).
 - **L'orange est rare.** Une seule zone orange forte par écran : le bouton principal ou un bloc de marque. Le reste est blanc, gris chaud et encre.
 
-## L'ADN graphique : quatre motifs tirés du symbole
+## L'ADN graphique : trois motifs tirés du métier
 
-Le symbole du logo est une plateforme vue en perspective, dessinée en trait épais, coupée en deux coins opposés, avec une barre inclinée en son centre. Tout élément de marque reprend au moins un de ces motifs, et jamais un motif générique à la place.
+Une plateforme Medicapteurs est une matrice de capteurs qui transforme un appui en carte de pression colorée. Le site fonctionne de la même façon. Tout élément de marque reprend au moins un de ces motifs, jamais un motif générique à la place.
 
 | Motif | D'où il vient | Où il apparaît |
 |---|---|---|
-| **La dalle** | La plateforme : un objet plat et épais, aux angles `radius-plate` | Bouton principal (tranche `orange-deep`), carte produit (tranche `line-strong`, orange au survol). Cliquer enfonce la dalle, comme un pied qui appuie. |
-| **La coupe** | Les deux interruptions en biais du contour du symbole | Contour du bouton secondaire (haut droite, bas gauche), cassure de la tranche des dalles près du coin gauche. Toujours en biais, jamais droite. |
-| **Le capteur** | La barre inclinée au centre du symbole | Repère `mc-sensor` devant les noms de produits et dans les boutons ; il glisse de 3 px au survol. Il remplace flèches et puces. |
-| **La matrice** | Les capteurs carrés d'une plateforme (48 × 48 sur le Win-Pod) | Lignes de cellules : soulignement des liens, surtitres, séparateurs de fiche technique, échelle de pression, motif de la couverture. |
+| **L'empreinte** | La cartographie de pression du logiciel : rouge au centre de l'appui, puis jaune et orange | Sous le pointeur, sur les boutons et les cartes produit : une empreinte pixelisée apparaît au survol et s'élargit au clic. Au repos, les surfaces sont nettes. |
+| **La matrice** | Les capteurs carrés d'une plateforme (48 × 48 sur le Win-Pod) | Les cellules qui découpent l'empreinte, le soulignement des liens, les surtitres, les séparateurs de fiche technique, l'échelle de pression, la couverture. |
+| **Le capteur** | La barre inclinée au centre du symbole du logo | Repère `mc-sensor` devant les noms de produits et dans les boutons ; il glisse de 3 px au survol. Il remplace flèches et puces. |
 
+- Les surfaces n'ont ni contour, ni ombre, ni épaisseur : l'empreinte suffit à montrer qu'elles réagissent.
 - N'ajoutez ni flèche « → », ni chevron, ni puce ronde : le capteur et la matrice les remplacent.
-- Le mouvement imite la mesure : on appuie, ça s'enfonce ; on survole, ça se soulève ou s'allume. Pas d'autre animation décorative. Avec « moins d'animations » activé, tout est immobile.
+- Le mouvement imite la mesure : on survole, une pression apparaît ; on clique, elle s'intensifie. Pas d'autre animation décorative. Avec « moins d'animations » activé, rien ne bouge.
+- L'empreinte est la seule exception à la règle « échelle de pression réservée aux données » : c'est la signature interactive de la marque.
 - Ne recopiez jamais le symbole entier comme motif décoratif : il reste réservé au logo.
 
 ## Ton et écriture
@@ -41,12 +42,11 @@ Le symbole du logo est une plateforme vue en perspective, dessinée en trait ép
 
 - `orange` est l'orange exact du logo (#F29519). Il sert aux aplats : bouton principal, symbole, bloc de marque. Il ne sert jamais de couleur de texte sur fond clair (contraste 2,3:1) : utilisez `orange-text` pour un lien ou un mot orange.
 - Sur un aplat `orange`, le texte est `on-orange` (encre, 7,7:1), jamais blanc.
-- `orange-deep` est la tranche de la dalle orange (bouton principal, carte au survol). Jamais pour du texte ni pour un fond.
 - Fond de page `surface`, sections alternées `surface-alt`, champs et zones en retrait `surface-sunken`, bandeau inversé `surface-inverse` avec du texte `ink-inverse`.
 - Texte : `ink` pour les titres et le texte courant, `ink-muted` pour les unités, légendes et textes secondaires.
 - Filets : `line` pour séparer, `line-strong` pour les bordures de champs et de boutons secondaires.
 - États : `success`, `warning`, `danger`, `info`, toujours avec un mot ou une icône, jamais la couleur seule.
-- `pressure-1` à `pressure-6` forment l'échelle de pression du logiciel, du bleu (faible) au rouge (pic). Elle est réservée aux cartographies, graphiques et légendes de mesure, jamais aux boutons ou aux fonds. Son 5e niveau est l'orange du logo : c'est le lien visuel entre la marque et la mesure.
+- `pressure-1` à `pressure-6` forment l'échelle de pression du logiciel, du bleu (faible) au rouge (pic). Elle est réservée aux cartographies, graphiques et légendes de mesure, et à l'empreinte qui apparaît sous le pointeur. Jamais en fond ni en aplat. Son 5e niveau est l'orange du logo : c'est le lien visuel entre la marque et la mesure.
 - Le thème sombre reprend le même orange. Il convient aux écrans de logiciel, aux pages de démonstration et au pied de page.
 
 ## Typographie
@@ -71,7 +71,7 @@ Le chiffre clé mis en avant (`data-xl`) est en Sora, chiffres tabulaires : la p
 
 - Grille de 4 px : `space-1` (4) à `space-24` (96). Marge latérale minimale `space-4` sur mobile. Espacement entre sections `space-12` sur mobile, `space-16` sur ordinateur.
 - `radius-plate` (20 px) reprend les angles arrondis du symbole. Réservez-le aux objets « plateforme » : cartes produit, visuels, bloc de marque. Les boutons prennent `radius-md`, les champs et étiquettes `radius-sm`.
-- Le relief vient de la tranche des dalles (une ombre pleine, nette, sans flou), jamais d'une ombre portée floue. `shadow-raised` est réservé aux éléments qui flottent au-dessus de la page (menu, fenêtre de démo).
+- Pas de contours ni d'ombres sur les boutons et les cartes : le fond suffit à les détacher. `shadow-raised` est réservé aux éléments qui flottent au-dessus de la page (menu, fenêtre de démo).
 
 ## Images
 
@@ -88,9 +88,11 @@ Le chiffre clé mis en avant (`data-xl`) est en Sora, chiffres tabulaires : la p
 
 ## Composants
 
-- `Button` : la dalle (`mc-btn--primary`, un par écran), le contour coupé (`mc-btn--secondary`), la ligne de capteurs (`mc-btn--link`).
+- `Button` : plateforme orange (`mc-btn--primary`, une par écran), plateforme grise (`mc-btn--secondary`), ligne de cellules (`mc-btn--link`). Empreinte de pression au survol.
 - `ProductName` : nom de produit précédé du capteur orange.
-- `ProductCard` : carte produit en dalle, tranche orange au survol.
+- `ProductCard` : carte produit sans contour, empreinte de pression au survol.
 - `Measure` : un chiffre clé, sa ligne de cellules et son unité.
 - `SpecSheet` : fiche technique, libellé à gauche, valeur en `data` à droite, lignes en pointillé de cellules.
 - `PressureLegend` : l'échelle de pression en six cellules, avec ses bornes chiffrées.
+
+L'empreinte sous le pointeur demande `components/bundle.js` (une ligne à charger une fois par page). Sans lui, elle se pose sur le capteur, à gauche.

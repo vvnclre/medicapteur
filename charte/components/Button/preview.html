@@ -1,15 +1,16 @@
-<!-- @dsCard group="Actions" height=210 subtitle="La dalle, le contour coupé, la ligne de capteurs" -->
+<!-- @dsCard group="Actions" height=230 subtitle="Survolez : le pointeur laisse une empreinte de pression" -->
 <!doctype html>
 <html lang="fr">
 <head><meta charset="utf-8"><title>Button</title>
 <style>
 .row{display:flex;flex-wrap:wrap;gap:var(--space-6);align-items:center;padding:var(--space-6) var(--space-4)}
 .inv{background:var(--surface-inverse)}
+.note{font-size:13px;line-height:18px;color:var(--ink-muted);padding:0 var(--space-4)}
 </style></head>
 <body>
 <div class="row">
   <button class="mc-btn mc-btn--primary" type="button"><span class="mc-sensor"></span>Demander une démo</button>
-  <button class="mc-btn mc-btn--primary is-pressed" type="button"><span class="mc-sensor"></span>Enfoncé</button>
+  <button class="mc-btn mc-btn--primary is-hot" type="button" style="--mx:118px;--my:22px"><span class="mc-sensor"></span>Demander une démo</button>
   <button class="mc-btn mc-btn--secondary" type="button"><span class="mc-sensor"></span>Comparer les plateformes</button>
   <a class="mc-btn mc-btn--link" href="#fiche">Télécharger la fiche technique</a>
 </div>
@@ -18,5 +19,6 @@
   <button class="mc-btn mc-btn--secondary" type="button"><span class="mc-sensor"></span>Voir la gamme</button>
   <a class="mc-btn mc-btn--link" href="#etudes">Consulter les études</a>
 </div>
+<p class="note">Le deuxième bouton montre l'empreinte figée, telle qu'elle apparaît sous le pointeur.</p>
 </body>
 </html>
